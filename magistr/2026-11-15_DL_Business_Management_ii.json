@@ -1,0 +1,72 @@
+{
+  "kurs_id": 359,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Weeks 1–16: Corporate Governance, Lifecycle, Labor Law, Disputes",
+      "v_kurse": "Enterprise Management (общий раздел)",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "В курсе нет деления на темы по 16 неделям силлабуса; есть только один общий раздел Enterprise Management.",
+      "chto_sdelat": "Развернуть 16 тематических разделов по силлабусу."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Industry Case Studies (20 %)",
+      "v_kurse": "Tasks → Task 1 to 6 (Herman Miller, Nissan, Philips, Aquarius, Leya, SWOT)",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "6 кейс-стади в курсе покрывают анализ реальных компаний, но разбиты на отдельные задания.",
+      "chto_sdelat": "Объединить кейсы в категорию с весом 20 % в журнале."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Emerging technologies in business (20 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Задание по исследованию влияния новых технологий на бизнес отсутствует.",
+      "chto_sdelat": "Создать задание «Emerging Technologies in Business Management» (20 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Business Process Optimization (15 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Задание по оптимизации бизнес-процессов отсутствует.",
+      "chto_sdelat": "Создать задание «Business Process Optimization» (15 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Thought Leadership in Business and Technology (15 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Задание по анализу мнений отраслевых лидеров отсутствует.",
+      "chto_sdelat": "Создать задание «Thought Leadership in Business and Technology» (15 %)."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Examination: Comprehensive examination covering all course content (30 %)",
+      "v_kurse": "MANAGEMENT I TEST & TESTS UZŅĒMUMA VADĪBA",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "В разделах Tasks и MANAGEMENT I TEST есть тесты по управлению предприятием.",
+      "chto_sdelat": "Оформить единый тест Final Exam с весом 30 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Jones G.R. Organizational Theory, Design, and Change; Tricker, B. Corporate Governance",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список источников в материалах курса.",
+      "chto_sdelat": "Добавить страницу Reading в Welcome со списком литературы."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "В курсе отлично представлены практические кейсы по управлению предприятиями (6 кейсов) и контрольные тесты. Требуется структурировать темы по 16 неделям, добавить недостающие 3 задания из силлабуса и настроить итоговый экзамен."
+}

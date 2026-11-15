@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Business Management — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-info{border-left-color:var(--bar);background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k359"><div class="chead"><h2>DL - Business Management</h2><div><span class="st crit"><i>✗</i>Критично</span> <b style="font-size:20px;margin-left:6px">46 %</b></div></div>
+<p class="note">Проверка 15.11.2026 21:44 · <a href="https://moodle.rnu.lv/course/view.php?id=359" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 30 %"><div class="tr"><div class="fl crit" style="width:30%"></div></div><b>30 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 25 %"><div class="tr"><div class="fl crit" style="width:25%"></div></div><b>25 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. В курсе отлично представлены практические кейсы по управлению предприятиями (6 кейсов) и контрольные тесты. Требуется структурировать темы по 16 неделям, добавить недостающие 3 задания из силлабуса и настроить итоговый экзамен.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Студентам</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Weeks 1–16: Corporate Governance, Lifecycle, Labor Law, Disputes</td><td>Enterprise Management (общий раздел)</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td></td><td class="note">В курсе нет деления на темы по 16 неделям силлабуса; есть только один общий раздел Enterprise Management. Развернуть 16 тематических разделов по силлабусу.</td></tr>
+<tr><td>задание</td><td>Industry Case Studies (20 %)</td><td>Tasks → Task 1 to 6 (Herman Miller, Nissan, Philips, Aquarius, Leya, SWOT)</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td></td><td class="note">6 кейс-стади в курсе покрывают анализ реальных компаний, но разбиты на отдельные задания. Объединить кейсы в категорию с весом 20 % в журнале.</td></tr>
+<tr><td>задание</td><td>Emerging technologies in business (20 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td></td><td class="note">Задание по исследованию влияния новых технологий на бизнес отсутствует. Создать задание «Emerging Technologies in Business Management» (20 %).</td></tr>
+<tr><td>задание</td><td>Business Process Optimization (15 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td></td><td class="note">Задание по оптимизации бизнес-процессов отсутствует. Создать задание «Business Process Optimization» (15 %).</td></tr>
+<tr><td>задание</td><td>Thought Leadership in Business and Technology (15 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td></td><td class="note">Задание по анализу мнений отраслевых лидеров отсутствует. Создать задание «Thought Leadership in Business and Technology» (15 %).</td></tr>
+<tr><td>экзамен</td><td>Examination: Comprehensive examination covering all course content (30 %)</td><td>MANAGEMENT I TEST &amp; TESTS UZŅĒMUMA VADĪBA</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td></td><td class="note">В разделах Tasks и MANAGEMENT I TEST есть тесты по управлению предприятием. Оформить единый тест Final Exam с весом 30 %.</td></tr>
+<tr><td>литература</td><td>Jones G.R. Organizational Theory, Design, and Change; Tricker, B. Corporate Governance</td><td>—</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">низкая</span></td><td></td><td class="note">Проверить список источников в материалах курса. Добавить страницу Reading в Welcome со списком литературы.</td></tr>
+</tbody></table></div>
+<h3>Видимость для студентов</h3><div class="prob a-info">
+<div class="pt">Студенты видят 44 из 44 элементов курса</div>
+<div class="note">Скрытое не считается ошибкой: преподаватель может ещё готовить раздел. Готовность выше считается по всему курсу; для студентов курс готов, когда всё нужное по силлабусу ещё и открыто.</div></div>
+<h3>Что исправить — по порядку (8)</h3>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Нет в курсе (по смыслу) · 4</div>
+<div class="pd">Weeks 1–16: Corporate Governance, Lifecycle, Labor Law, Disputes ≈ «Enterprise Management (общий раздел)» — Развернуть 16 тематических разделов по силлабусу.</div>
+<div class="pd">Emerging technologies in business (20 %) ≈ «—» — Создать задание «Emerging Technologies in Business Management» (20 %).</div>
+<div class="pd">Business Process Optimization (15 %) ≈ «—» — Создать задание «Business Process Optimization» (15 %).</div>
+<div class="pd">Thought Leadership in Business and Technology (15 %) ≈ «—» — Создать задание «Thought Leadership in Business and Technology» (15 %).</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Этого пункта силлабуса в курсе нет даже под другим названием. Добавьте его: тема — раздел с лекцией и тестом самопроверки; задание — <b>Assignment</b> с описанием и рубрикой; экзамен — <b>Quiz</b>.</li><li>Или, если курс ведётся по другой (новой) версии силлабуса, обновите силлабус в Welcome.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет экзамена</div>
+<div class="pd">Экзамена (Quiz «Final Exam») в курсе нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Создайте итоговый тест: <b>Add an activity or resource → Quiz</b>, название «Final Exam», вопросы — из банка вопросов курса.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 6</div>
+<div class="pd">«Task 1. Herman Miller case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 2. Nissan Case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 3. Philips NV»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 4. Aquarius Advertising Agency»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 5. Leya Case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 6. External Analysis and SWOT»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 3</div>
+<div class="pd">Industry Case Studies (20 %) ≈ «Tasks → Task 1 to 6 (Herman Miller, Nissan, Philips, Aquarius, Leya, SWOT)» — Объединить кейсы в категорию с весом 20 % в журнале.</div>
+<div class="pd">Examination: Comprehensive examination covering all course content (30 %) ≈ «MANAGEMENT I TEST &amp; TESTS UZŅĒMUMA VADĪBA» — Оформить единый тест Final Exam с весом 30 %.</div>
+<div class="pd">Jones G.R. Organizational Theory, Design, and Change; Tricker, B. Corporate Governance ≈ «—» — Добавить страницу Reading в Welcome со списком литературы.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 6</div>
+<div class="pd">«Task 1. Herman Miller case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 2. Nissan Case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 3. Philips NV»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 4. Aquarius Advertising Agency»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 5. Leya Case»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Task 6. External Analysis and SWOT»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 2</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="pd">Структура RNU — Экзамен (тест) и правила экзамена: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<details><summary>В порядке (8)</summary><ul class="plain"><li>✓ Темы силлабуса в курсе: 0 из 0</li><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ Ссылки: внешних 11, YouTube 7, нерабочих 0</li><li>✓ Следы и оформление: чисто</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Структура RNU — Welcome / описание курса: есть</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл silabusy\Business Management\Business Management.pdf (папка силлабусов); CP 9, PLO 0, тем 0, заданий 0, экзамен None %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>Welcome to the Study Course!: label ×2, resource ×2</li><li>Enterprise Management: label ×4, page ×7, resource ×17</li><li>Tasks: assign ×6, bigbluebuttonbn ×1, quiz ×2, resource ×1</li><li>MANAGEMENT I TEST: quiz ×2</li><li>Файлы: 20</li><li>Видно студентам: 44 из 44 элементов</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 4, заданий 6, курс 9 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«study course description for students of the Computer Systems programme» — 21_Business_Management.pdf, 166 КБ; автор: Irenas Macbook; создан: 07.04.2026; изменён: 07.04.2026</li><li>«study course description for students of the Information Systems programme» — 04_Business_Management.pdf, 78 КБ; автор: Irenas Macbook; создан: 24.03.2026; изменён: 24.03.2026</li><li>«1 Enterprise Governance 2025» — 1%20Enterprise%20Governance%202025.pptx, 1880 КБ</li><li>«2 Enterprise Governance Adizes 2025» — 2%20Enterprise%20Governance%20Adizes%202025.pptx, 466 КБ</li><li>«3 Enterprise Governance. Decline and Death 2025» — 3%20Enterprise%20Governance.%20Decline%20and%20Death%202025.pptx, 216 КБ</li><li>«4 Enterprise Governance Beraucrasy 2025» — 4%20Enterprise%20Governance%20Beraucrasy%202025.pptx, 314 КБ</li><li>«5 Enterprise Governance Environment 2025» — 5%20Enterprise%20Governance%20Environment%202025.pptx, 626 КБ</li><li>«6 Enterprise Governance Theories Org - Env 2025» — 6%20Enterprise%20Governance%20Theories%20Org%20-%20Env%202025.pptx, 162 КБ</li><li>«7 Enterprise Governance Org design 2025» — 7%20Enterprise%20Governance%20Org%20design%202025.pptx, 2057 КБ</li><li>«8 Enterprise Governance Org design 2 2025» — 8%20Enterprise%20Governance%20Org%20design%202_2025.pptx, 1126 КБ</li><li>«9 Enterprise Governance Int an 2025» — 9%20Enterprise%20Governance%20Int%20an%202025.pptx, 367 КБ</li><li>«10 Enterprise Governance int an VRIO 2025» — 10%20Enterprise%20Governance%20int%20an%20VRIO%202025.pptx, 144 КБ</li><li>«11 Enterprise Governance capitals 2025» — 11%20Enterprise%20Governance%20capitals%202025.pptx, 916 КБ</li><li>«12 Enterprise Governance Innovations 2025» — 12%20Enterprise%20Governance%20Innovations%202025.pptx, 617 КБ</li><li>«13 Enterprise Governance Org changes 2025» — 13%20Enterprise%20Governance%20Org%20changes%202025.pptx, 2087 КБ</li><li>«14 Enterprise Governance Dec mak proc 2025» — 14%20Enterprise%20Governance%20Dec%20mak%20proc%202025.pptx, 196 КБ</li><li>«15 Enterprise Governance Performance 2025» — 15%20Enterprise%20Governance%20Performance%202025.pptx, 1235 КБ</li><li>«16 Enterprise Governance CSR 2025» — 16%20Enterprise%20Governance%20CSR%202025.pptx, 1384 КБ</li><li>«Enterprsie Management Literaturre» — Enterprsie%20Management%20Literaturre.docx, 23 КБ</li><li>«Self Test Enterprise Management» — Self%20Test%20enterprise%20management%202020.docx, 49 КБ</li></ul></details>
+</section></main></body></html>

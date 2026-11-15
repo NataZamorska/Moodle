@@ -1,0 +1,54 @@
+{
+  "kurs_id": 360,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–6: Civil Defence Legislation, Emergency Planning, Labour Protection, Fire Safety, Ergonomics, Chemical/Radiation Protection",
+      "v_kurse": "Environmental Safety Management (разделы курса)",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Все ключевые темы присутствуют в материалах курса, но сгруппированы в двух разделах с одинаковым названием.",
+      "chto_sdelat": "Разделить материалы по конкретным темам силлабуса (ГО, охрана труда, пожарная безопасность)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "PowerPoint Presentation: Environment protection in country of choice (30 %)",
+      "v_kurse": "assign: Task: “Environment protection in the country of your choice”",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Название и формат задания полностью соответствуют презентации из силлабуса.",
+      "chto_sdelat": "Задать вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Practical task on labour and civil protection risk assessment (30 %)",
+      "v_kurse": "assign: Practical task in [Environmental Safety Management]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Практическое задание покрывает оценку рисков на рабочем месте и меры защиты.",
+      "chto_sdelat": "Задать вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Tests on Civil Protection & Labor Protection (40 %)",
+      "v_kurse": "quiz: Test A – Civil protection & Test B - Labor protection",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Оба экзаменационных теста (Тест А по гражданской обороне и Тест Б по охране труда) присутствуют в курсе.",
+      "chto_sdelat": "Настроить суммарный вес тестов 40 % в журнале (по 20 % каждый)."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Civil Protection and Disaster Management Law; Labour Protection Law of LR",
+      "v_kurse": "Environmental Safety Management → законодательные акты",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Законодательные акты и нормативная база доступны в материалах курса.",
+      "chto_sdelat": ""
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс полностью обеспечен всеми элементами оценивания: есть презентация по экологии, практическое задание и специализированные тесты по ГО и охране труда. Рекомендуется разделить контент по тематическим разделам и настроить веса в журнале оценок."
+}

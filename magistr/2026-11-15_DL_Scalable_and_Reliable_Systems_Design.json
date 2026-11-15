@@ -1,0 +1,383 @@
+{
+ "kurs": "DL - Scalable and Reliable Systems Design",
+ "id": 355,
+ "url": "https://moodle.rnu.lv/course/view.php?id=355",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Scalable and Reliable Systems Design” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Samir Hamroun, Romans Djakons Preliminary knowledge, Related study courses Advanced Software Development Aim To provide students with the knowledge and skills needed to design, build, and maintain systems that are scalable, reliable, and secure, and can handle high volumes of traffic, data, and processing demands. Students will master a range of topics related to system architecture, data storage and management, performance testing and tuning, security and compliance, and cloud computing for scalable and reliable systems design. The purpose of the course is to equip students with the knowledge and skills necessary to design, implement, and manage systems that can handle growth and maintain high availability and performance under varying conditions. Planned Learning Outcomes (PLO) 1. Understanding of principles and best practices for designing and implementing scalable and reliable systems 2. Knowledge of the techniques and technologies for building highly available, fault-tolerant systems 3. Comprehensive understanding of the principles, techniques, and best practices necessary to design and manage systems 4. Skills in designing and implementing scalable and reliable systems architectures 5. Proficiency in performance testing and tuning for highly scalable and reliable systems 6. Skills in system design, performance optimization, and data management 7. Ability to analyze complex system requirements and design scalable and reliable solutions 8. Competencies in problem-solving skills for diagnosing and troubleshooting issues in highly scalable and reliable systems 9. Skills to optimize system performance and ensure efficient resource utilization through techniques like load balancing and caching, and ability to conduct performance analysis and identify potential bottlenecks in system design Literature and other sources of information: 1. Compulsory reading - Abbott, M.L., Fisher, M.T. (2021). \"The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise\" - Raje, G. (2021). \"Security and Microservice Architecture on AWS: Architecting and Implementing a Secured, Scalable Solution\" (1st Edition) - Kleppmann, M. (2017). \"Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems\" - Abbott, M.L., Fisher, M.T. (2016). \"Scalability Rules: Principles for Scaling Web Sites\" - Adkins, H., Beyer, B., Blankinship, P., Lewandowski, P., Oprea, A., Stubblefield, A., Hölzle, U. (2020). \"Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems\" 2. Recommended - Djakons, R., Kazina, I., Kopitov, R. (2021). \"Self- Adapting Algorithms of the Control System\". 2020 IEEE International Conference on Problems of Infocommunications Science and Technology Pic S and T 2020 Proceedings, pp. 855–859, 9467988 - Djakons, R., Kelsina, D., Kopitov, R. (2021). \"Methodological Peculiarities of Well-Organized Systems' Maintenance\". 2020 IEEE International Conference on Problems of Infocommunications Science and Technology Pic S and T 2020 Proceedings, pp. 860–864, 9467942 - Limoncelli, T.A., Chalup, S.R., Hogan, C.J. (2020). \"The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems\" - Beyer, B., Jones, C., Petoff, J., Murphy, N.R. (Eds.). (2016). \"Site Reliability Engineering: How Google Runs Production Systems\" Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction to Scalable and Reliable Systems 2 Design for Scalability: Principles and Patterns 2 Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture 2 3 Scaling Data Storage: Relational and Non-Relational Databases 2 4 Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability 2 5 Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing 2 6 Scalable and Reliable Security: Principles and Best Practices 2 7 Scalable and Reliable DevOps: Automation, CI/CD, and Release Management 2 8 Cloud Computing for Scalable and Reliable Systems Design 2 9 Designing for Resilience: Disaster Recovery and Business Continuity Planning 2 10 Building Scalable and Reliable Microservices Architectures 2 11 Real-Time Data Processing and Streaming Systems for Scalability 2 12 Ethical Considerations in Scalable and Reliable Systems Design 2 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Introduction to Scalable and Reliable Systems Introduction to the concepts of scalability and reliability, and their importance in modern systems. Develops understanding of principles and best practices for scalable and reliable systems (PLO 1, 3), and comprehensive knowledge of system design fundamentals (PLO 3). 10% System Design Principles Fundamentals of system design, including Develops understanding of system design principles (PLO 1, 3), skills in designing system 10% architectural patterns, modularity, and separation of concerns. architectures (PLO 4, 6), and ability to analyze complex system requirements (PLO 7). Scalability Techniques Techniques for achieving scalability, including vertical and horizontal scaling, load balancing, and caching. Develops knowledge of scalability techniques (PLO 1, 2), skills in performance optimization (PLO 5, 6), and ability to optimize resource utilization (PLO 9). 10% Reliability and Fault Tolerance Strategies for ensuring system reliability, including redundancy, failover mechanisms, and backup systems. Develops knowledge of fault- tolerant systems and reliability techniques (PLO 2, 3), skills in designing reliable architectures (PLO 4), and competencies in problem-solving for system issues (PLO 8). 10% Data Management and Storage Techniques for managing and storing data in scalable systems, including data partitioning, replication, and consistency models. Develops understanding of data storage and management principles (PLO 1, 3), skills in data management (PLO 6), and ability to design scalable data solutions (PLO 7). 10% Security and Compliance Best practices for securing scalable systems, including data encryption, access control, and compliance with regulations. Develops understanding of security principles for scalable systems (PLO 1, 3), skills in implementing secure architectures (PLO 4), and ability to ensure compliance (PLO 7). 10% Cloud Computing and Virtualization Introduction to cloud computing platforms and services, and how to leverage them for scalable and reliable system design. Develops knowledge of cloud technologies for scalable systems (PLO 2, 3), skills in designing cloud-based architectures (PLO 4, 6), and proficiency in cloud performance tuning (PLO 5). 10% Exploration of the Develops comprehensive 10% Emerging Technologies and Trends latest trends and technologies in the field of scalable and reliable systems design. understanding of emerging technologies (PLO 3), ability to analyze new system requirements (PLO 7), and skills in adapting to new design patterns (PLO 4, 6). Final Test Comprehensive examination covering scalability principles, reliability techniques, system design patterns, data management, performance optimization, security, cloud computing, and emerging technologies. Evaluates comprehensive achievement of all course learning outcomes including understanding of scalable and reliable system principles (PLO 1, 2, 3), practical skills in system design and optimization (PLO 4, 5, 6), and competencies in analysis, problem-solving, and performance optimization (PLO 7, 8, 9). 20% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [
+   [
+    1,
+    "Introduction to Scalable and Reliable Systems 2 Design for Scalability"
+   ],
+   [
+    2,
+    "Design for Reliability"
+   ],
+   [
+    3,
+    "Scaling Data Storage"
+   ],
+   [
+    4,
+    "Data-Intensive Applications"
+   ],
+   [
+    5,
+    "Scaling Compute"
+   ],
+   [
+    6,
+    "Scalable and Reliable Security"
+   ],
+   [
+    7,
+    "Scalable and Reliable DevOps"
+   ],
+   [
+    9,
+    "Designing for Resilience"
+   ]
+  ],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+   "Security and Microservice Architecture on AWS: Architecting and Implementing a Secured, Scalable Solution",
+   "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+   "Scalability Rules: Principles for Scaling Web Sites",
+   "Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Scalable and Reliable Systems Design Course- Study course content &amp; Assessment Structure",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture2-Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture2-Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise2-Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture3-Scaling Data Storage: Relational and Non-Relational Databases",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture3-Scaling Data Storage: Relational and Non-Relational Databases",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise3-Scaling Data Storage: Relational and Non-Relational Databases",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture4-Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture4-Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise4-Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture5-Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture5-Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise5-Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture6-Scalable and Reliable Security: Principles and Best Practices",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture6-Scalable and Reliable Security: Principles and Best Practices",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise6-Scalable and Reliable Security: Principles and Best Practices",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture7-Scalable and Reliable DevOps: Automation, CI/CD, and Release Management",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture7-Scalable and Reliable DevOps: Automation, CI/CD, and Release Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise7-Scalable and Reliable DevOps: Automation, CI/CD, and Release Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture8-Cloud Computing for Scalable and Reliable Systems Design",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture8-Cloud Computing for Scalable and Reliable Systems Design",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise8-Cloud Computing for Scalable and Reliable Systems Design",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture9-Designing for Resilience: Disaster Recovery and Business Continuity Planning",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture9-Designing for Resilience: Disaster Recovery and Business Continuity Planning",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise9-Designing for Resilience: Disaster Recovery and Business Continuity Planning",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture10-Building Scalable and Reliable Microservices Architectures",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture10-Building Scalable and Reliable Microservices Architectures",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise10-Building Scalable and Reliable Microservices Architectures",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture11-Real-Time Data Processing and Streaming Systems for Scalability",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture11-Real-Time Data Processing and Streaming Systems for Scalability",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise11-Real-Time Data Processing and Streaming Systems for Scalability",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture12-Ethical Considerations in Scalable and Reliable Systems Design",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture12-Ethical Considerations in Scalable and Reliable Systems Design",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise12-Ethical Considerations in Scalable and Reliable Systems Design",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction to Scalable and Reliable Systems Design for Scalability: Principles and Patterns",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction to Scalable and Reliable Systems Design for Scalability: Principles and Patterns",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise1-Introduction to Scalable and Reliable Systems Design for Scalability: Principles and Patterns",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "WorkSheet",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Scalable and Reliable Systems DesignSheetWorksheet",
+     "vidno_studentam": false
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise2-Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture",
+   "razdel": "Lecture2-Design for Reliability: Principles and Patterns Scalable and Reliable Web Architecture",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise3-Scaling Data Storage: Relational and Non-Relational Databases",
+   "razdel": "Lecture3-Scaling Data Storage: Relational and Non-Relational Databases",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise4-Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability",
+   "razdel": "Lecture4-Data-Intensive Applications: Principles and Practice Messaging and Event-Driven Architecture for Scalability",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise5-Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing",
+   "razdel": "Lecture5-Scaling Compute: Vertical and Horizontal Scaling Scalability Testing: Performance, Load, and Stress Testing",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise6-Scalable and Reliable Security: Principles and Best Practices",
+   "razdel": "Lecture6-Scalable and Reliable Security: Principles and Best Practices",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise7-Scalable and Reliable DevOps: Automation, CI/CD, and Release Management",
+   "razdel": "Lecture7-Scalable and Reliable DevOps: Automation, CI/CD, and Release Management",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise8-Cloud Computing for Scalable and Reliable Systems Design",
+   "razdel": "Lecture8-Cloud Computing for Scalable and Reliable Systems Design",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise9-Designing for Resilience: Disaster Recovery and Business Continuity Planning",
+   "razdel": "Lecture9-Designing for Resilience: Disaster Recovery and Business Continuity Planning",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise10-Building Scalable and Reliable Microservices Architectures",
+   "razdel": "Lecture10-Building Scalable and Reliable Microservices Architectures",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise11-Real-Time Data Processing and Streaming Systems for Scalability",
+   "razdel": "Lecture11-Real-Time Data Processing and Streaming Systems for Scalability",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise12-Ethical Considerations in Scalable and Reliable Systems Design",
+   "razdel": "Lecture12-Ethical Considerations in Scalable and Reliable Systems Design",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise1-Introduction to Scalable and Reliable Systems Design for Scalability: Principles and Patterns",
+   "razdel": "Lecture1-Introduction to Scalable and Reliable Systems Design for Scalability: Principles and Patterns",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups: All participants Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

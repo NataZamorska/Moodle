@@ -1,0 +1,312 @@
+{
+ "kurs": "DL - Software Risk Analysis",
+ "id": 357,
+ "url": "https://moodle.rnu.lv/course/view.php?id=357",
+ "silabus_gde": null,
+ "silabus_tekst": null,
+ "silabus_razobrano": null,
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information (copy)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Study course Software Risk Analysis",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Software Risk Analysis",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "SOFTWARE RISK ANALYSIS_Project_Assignment_Latvia_FinTech / Presentation",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "SOFTWARE RISK ANALYSIS_Project_Assignment_Latvia_FinTech",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 10 Case Studies in Software Risk Analysis",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 10 Case Studies in Software Risk Analysis",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 10 Case Studies in Software Risk Analysis_Ex10",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 9 Tools and Software for Risk Management",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 9 Tools and Software for Risk Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 9 Tools and Software for Risk Management_Ex9",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 8 Software Risk Monitoring and Control",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 8 Software Risk Monitoring and Control",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 8 Software Risk Monitoring and Control_Ex8",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 7 Risk Mitigation and Response Planning",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 7 Risk Mitigation and Response Planning",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 7 Risk Mitigation and Response Planning_Ex7",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-6-Quantitative Risk Analysis",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "lecture-6-Quantitative Risk Analysis",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise-6-Quantitative Risk Analysis",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "lecture-5-software-risk-monitoring-and-control",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "lecture-5-Software Risk Monitoring and Control",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise-5-Software Risk Monitoring and Control",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "lecture-4-risk-mitigation-and-management-strategies",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "lecture-4-risk-mitigation-and-management-strategies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise4-risk-mitigation-and-management-strategies_Ex4",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "lecture-3-risk-assessment-in-software-projects",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "lecture-3-risk-assessment-in-software-projects",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise3-risk-assessment-in-software-projects_Ex3",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "lecture-2 Risk Identification In Software Projects",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "lecture-2 Risk Identification In Software Projects",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise2-Risk Identification In Software Projects",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction To Software Risk Analysis",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction To Software Risk Analysis",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise1-Introduction To Software Risk Analysis",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "SOFTWARE RISK ANALYSIS_Project_Assignment_Latvia_FinTech",
+   "razdel": "SOFTWARE RISK ANALYSIS_Project_Assignment_Latvia_FinTech / Presentation",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 10 Case Studies in Software Risk Analysis_Ex10",
+   "razdel": "Lecture 10 Case Studies in Software Risk Analysis",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining 3 days 23 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. t"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 9 Tools and Software for Risk Management_Ex9",
+   "razdel": "Lecture 9 Tools and Software for Risk Management",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining 3 days 23 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. t"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 8 Software Risk Monitoring and Control_Ex8",
+   "razdel": "Lecture 8 Software Risk Monitoring and Control",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 7 Risk Mitigation and Response Planning_Ex7",
+   "razdel": "Lecture 7 Risk Mitigation and Response Planning",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise-6-Quantitative Risk Analysis",
+   "razdel": "Lecture-6-Quantitative Risk Analysis",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise-5-Software Risk Monitoring and Control",
+   "razdel": "lecture-5-software-risk-monitoring-and-control",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise4-risk-mitigation-and-management-strategies_Ex4",
+   "razdel": "lecture-4-risk-mitigation-and-management-strategies",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise3-risk-assessment-in-software-projects_Ex3",
+   "razdel": "lecture-3-risk-assessment-in-software-projects",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise2-Risk Identification In Software Projects",
+   "razdel": "lecture-2 Risk Identification In Software Projects",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise1-Introduction To Software Risk Analysis",
+   "razdel": "Lecture1-Introduction To Software Risk Analysis",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

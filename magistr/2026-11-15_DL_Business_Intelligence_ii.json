@@ -1,0 +1,54 @@
+{
+  "kurs_id": 349,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Lectures 1–12: Introduction to BI, AI in Decision Making, Big Data Analytics, Data Warehousing, Data Mining, Text Mining, Deep Learning, Prescriptive Analytics, BI Tools, Emerging Tech, Ethics",
+      "v_kurse": "Sections: Lecture1 to 12 (каждая с Exercise/Quiz)",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все 12 лекций силлабуса оформлены отдельными разделами с соответствующими практическими заданиями и квизами.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Hands-on exercises and quizzes across lectures 1–12 (40 %)",
+      "v_kurse": "Exercise 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12 in lecture sections",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Серия практических упражнений и тестов в каждом разделе закрывает текущую практическую работу.",
+      "chto_sdelat": "Сгруппировать в категорию журнала с суммарным весом 40 %."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Capstone BI Project Application (30 %)",
+      "v_kurse": "assign: Project Application in [Project Application]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Курсовой проект по внедрению BI выделен в отдельный раздел Project Application.",
+      "chto_sdelat": "Задать вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Comprehensive Examination on Business Intelligence (30 %)",
+      "v_kurse": "Knowledge Base & Practical Application (тесты и материалы)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Контрольные материалы есть в разделе Knowledge Base, но отдельный тест Final Exam не оформлен.",
+      "chto_sdelat": "Создать тест Final Exam в разделе Exam с весом 30 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Zwingmann, T. (2022) AI-Powered Business Intelligence; Knaflic, C.N. Storytelling with Data",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы на вводной странице курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome и добавить обязательную литературу."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс образцово следует силлабусу: созданы разделы по всем 12 лекциям с практическими упражнениями и выделен раздел курсового проекта Project Application. Необходимо оформить итоговый экзамен тестом и настроить веса в журнале оценок."
+}

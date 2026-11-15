@@ -1,0 +1,54 @@
+{
+  "kurs_id": 346,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Lectures 1–16: Supervised Learning, Regression, Decision Trees, Random Forests, SVM, Neural Networks, Deep Learning, Clustering, PCA, Reinforcement Learning, MLOps",
+      "v_kurse": "Sections: Lecture 1 to Lecture 16, Quizzes, Labs",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все темы силлабуса по машинному обучению систематически представлены 22 разделами курса.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Laboratory programming assignments in Python (Scikit-Learn, PyTorch) (40 %)",
+      "v_kurse": "assign: Lab works в профильных разделах",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Серия лабораторных заданий закрывает практическую разработку и обучение моделей ML.",
+      "chto_sdelat": "Настроить суммарный вес 40 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Theoretical quizzes on ML algorithms and math foundations (20 %)",
+      "v_kurse": "quiz: Module quizzes в разделах курса",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Тематические квизы проверяют теоретическое понимание алгоритмов.",
+      "chto_sdelat": "Настроить вес 20 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Exam / Capstone ML Project (40 %)",
+      "v_kurse": "Final Exam section → Exam test & project",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Экзаменационный раздел содержит тест и практическую часть.",
+      "chto_sdelat": "Настроить вес 40 % в журнале оценок."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Murphy, K. P. Probabilistic Machine Learning; Bishop, C. M. Pattern Recognition",
+      "v_kurse": "Welcome → Study materials",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Фундаментальные учебники по ML приведены в материалах курса.",
+      "chto_sdelat": ""
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс высочайшего качества: 22 раздела, 24 оцениваемых элемента, исчерпывающий лабораторный практикум по алгоритмам машинного обучения и полноценный финальный экзамен. Для завершения настройки необходимо проставить точные веса в журнале оценок."
+}

@@ -1,0 +1,54 @@
+{
+  "kurs_id": 352,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–6: Web Technologies Intro, Web Architecture, Web Functionality, HTTP Protocol, Encoding Schemes, Authentication & Sessions",
+      "v_kurse": "WEB Application Security Fundamentals (общий раздел)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Все материалы собраны в одном разделе, деление по 6 темам силлабуса отсутствует.",
+      "chto_sdelat": "Создать 6 разделов по темам силлабуса и разместить лекции."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Web Application Reconnaissance & Source Code Analysis (25 %)",
+      "v_kurse": "assign: Practice Time report template (шаблон отчета)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Шаблон отчета по практикам заложен в курсе, но задание на сдачу анализа исходного кода не оформлено.",
+      "chto_sdelat": "Создать задание «Web Application Reconnaissance & Analysis» (25 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Web Vulnerability Assessment & Pen-testing Practice (25 %)",
+      "v_kurse": "assign: Practice Time report template",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Практика по тестированию на проникновение предусмотрена шаблоном отчета.",
+      "chto_sdelat": "Создать задание «Vulnerability Assessment & Pen-testing Report» (25 %)."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Exam on Web Application Security (50 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Итоговый экзамен в курсе не создан.",
+      "chto_sdelat": "Создать тест Final Exam в разделе Exam с весом 50 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "PCI Security Standards Council: Penetration Testing Guidance; OWASP Top 10",
+      "v_kurse": "WEB Application Security Fundamentals → ссылки",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Методические руководства упомянуты в материалах курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "В курсе заложен шаблон отчета по практическим работам по безопасности веб-приложений, однако разделы по 6 темам силлабуса, отдельные интерактивные задания и итоговый экзамен ещё не оформлены. Необходимо структурировать курс и настроить оценивание по силлабусу."
+}

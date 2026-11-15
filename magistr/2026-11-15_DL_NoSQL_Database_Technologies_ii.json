@@ -1,0 +1,63 @@
+{
+  "kurs_id": 351,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Weeks 1–15: NoSQL Intro, Query-driven modeling, Redis (I–III), MongoDB (I–III), Cassandra (I–II), Neo4j (I–II), Distributed Systems, Polyglot Persistence, Project Defense",
+      "v_kurse": "Lessons, Labs, Practice exercises, Quizes, Reading",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все парадигмы NoSQL (Redis, MongoDB, Cassandra, Neo4j) подробно представлены в материалах и практикумах.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Lab assignments on Redis, MongoDB, Cassandra, Neo4j (10 labs, 40 %)",
+      "v_kurse": "assign: 22 лабораторные работы в [Labs] (Redis, MongoDB, Cassandra, Neo4j)",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Банк из 22 лабораторных заданий исчерпывающе покрывает требования силлабуса по 4 типам СУБД.",
+      "chto_sdelat": "Сгруппировать в категорию журнала с весом 40 %."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Practical seminar exercises and short written quizzes (15 %)",
+      "v_kurse": "assign & quiz: Practice exercises, Quizes (Practical Quiz, Graded Quiz)",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Серия практических квизов и упражнений точно закрывает пункт силлабуса.",
+      "chto_sdelat": "Задать вес 15 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Final Project: Designing a polyglot-persistence architecture and defense (30 %)",
+      "v_kurse": "assign: Final project in [FINAL EXAM 2025/2026 ]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Финальный проект по разработке полиглот-архитектуры вынесен в отдельный экзаменационный раздел.",
+      "chto_sdelat": "Задать вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Written Exam: Theory of CAP/BASE, data models, consistency (15 %)",
+      "v_kurse": "quiz: General Quiz parts 1-12 & Practical quizzes in [Quizes]",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Итоговая проверка теории распределенных систем проводится через квизы раздела Quizes.",
+      "chto_sdelat": "Выделить единый тест Written Exam с весом 15 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Kleppmann, M. Designing Data-Intensive Applications; Sadalage, P., Fowler, M. NoSQL Distilled",
+      "v_kurse": "Reading 📖 (раздел) → учебные пособия",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "В курсе оформлен специальный раздел Reading с базовой литературой.",
+      "chto_sdelat": ""
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Один из лучших курсов магистерской программы: 34 оцениваемых элемента, исчерпывающий лабораторный практикум по всем 4 типам NoSQL баз данных (Redis, MongoDB, Cassandra, Neo4j) и финальный проект полиглот-архитектуры. Осталось настроить веса в журнале оценок."
+}

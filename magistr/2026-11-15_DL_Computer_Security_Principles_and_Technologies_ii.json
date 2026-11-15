@@ -1,0 +1,63 @@
+{
+  "kurs_id": 348,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–8: InfoSec Introduction, Threats, Vulnerabilities, Wireless Security, Incident Management, Risk Management, Business Continuity",
+      "v_kurse": "Sections: Topic 1 to Topic 8, Final Exam",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Разделы Topic 1–8 и Final Exam соответствуют силлабусу, но контент в них оформлен текстовыми метками.",
+      "chto_sdelat": "Перенести учебные материалы из меток в интерактивные элементы Page или Book."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Security concepts and controls analysis (25 %)",
+      "v_kurse": "Individual Assignments/Practice Time (описание текстом)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Задание по анализу механизмов безопасности описано в материалах, но элемент Assignment не создан.",
+      "chto_sdelat": "Создать элемент Assignment «Security Concepts and Controls Analysis» (25 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Security Risk Management Assessment Report (25 %)",
+      "v_kurse": "Individual Assignments/Practice Time (описание текстом)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Задание на оценку рисков описано, но нет области для загрузки студенческих отчетов.",
+      "chto_sdelat": "Создать элемент Assignment «Security Risk Management Report» (25 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Security Incident Management & Business Continuity Plan (20 %)",
+      "v_kurse": "Individual Assignments/Practice Time (описание текстом)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Задание по планам непрерывности бизнеса описано текстом, но элемент Assignment не создан.",
+      "chto_sdelat": "Создать элемент Assignment «Incident Management & Continuity Plan» (20 %)."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Exam on Computer Security Principles (30 %)",
+      "v_kurse": "Section: Final Exam (текстовое описание)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Раздел Final Exam существует, но в нём нет теста Quiz для прохождения студентами.",
+      "chto_sdelat": "Создать тест Quiz «Final Exam» с вопросами из банка (30 %)."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Stewart, J. M. CompTIA Security+ Review Guide (SY0-601)",
+      "v_kurse": "Additional Study Materials",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Справочные материалы выложены в разделе Additional Study Materials.",
+      "chto_sdelat": "Оформить страницу Reading в Welcome."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Структура тем силлабуса полностью заложена разделами Topic 1–8 и Final Exam. Главная доработка — перевести описания заданий и экзамена из текстовых меток в реальные элементы Assignment и Quiz для приема работ студентов."
+}

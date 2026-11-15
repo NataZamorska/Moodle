@@ -1,0 +1,54 @@
+{
+  "kurs_id": 343,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–4: Network Security Intro, TCP/IP Vulnerabilities, Types of Network Attacks, Network Application Attacks",
+      "v_kurse": "Datortīklu drošība (общий раздел)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Материалы по безопасности сетей представлены на латышском языке в одном общем разделе.",
+      "chto_sdelat": "Перевести материалы на английский язык и разделить по 4 темам силлабуса."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Network Security Risk Management & Threat Analysis (25 %)",
+      "v_kurse": "assign: Prakses laiks 1.lekcija in [Datortīklu drošība]",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Практическая работа 1 закрывает анализ угроз и классификацию мер защиты.",
+      "chto_sdelat": "Перевести название на английский язык: «Network Security Threat & Risk Analysis» (25 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Network Vulnerability Assessment & Countermeasures (25 %)",
+      "v_kurse": "assign: Prakses laiks 2.lekcija in [Datortīklu drošība]",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Практическая работа 2 закрывает анализ уязвимостей CVE и защитные меры.",
+      "chto_sdelat": "Переименовать в «Network Vulnerability Assessment & Countermeasures» (25 %)."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Exam on Computer Network Security (50 %)",
+      "v_kurse": "assign: Gala eksāmens in [Datortīklu drošība]",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Финальный экзамен представлен заданием на сдачу работы.",
+      "chto_sdelat": "Переименовать в «Final Exam» и оформить тестом в разделе Exam (50 %)."
+    },
+    {
+      "vid": "литература",
+      "silabus": "CCNA Network Security; Kaufman, C. Network Security: Private Communication in a Public World",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить наличие литературы в вводной лекции курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome с обязательной литературой."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс содержит ключевые практические работы и экзамен, но оформлен на латышском языке в едином разделе. Главные задачи: перевести элементы на английский язык по стандартам RNU, разделить курс на темы силлабуса и оформить экзамен тестом."
+}

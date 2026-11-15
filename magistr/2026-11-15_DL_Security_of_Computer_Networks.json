@@ -1,0 +1,277 @@
+{
+ "kurs": "DL - Security of Computer Networks",
+ "id": 343,
+ "url": "https://moodle.rnu.lv/course/view.php?id=343",
+ "silabus_gde": "файл в курсе «Study Course Description!»",
+ "silabus_tekst": "RNU study course “Security of Computer Networks” description Study program Computer Systems ECTS 3 CP = 75 ac.h. Author (s) Aleksandrs Berežnojs Preliminary knowledge, Related study courses Computer Security Principles and Technologies, Web technology fundamentals, Computer Networks Fundamentals Aim To teach main concepts related to computer network vulnerabilities, threats and network protection. To ensure understanding of security testing standards, methodologies and tools. To get an insight into network protocols and its weaknesses. To acquire skills in security testing of computer networks. Planned Learning Outcomes 1. Fundamental concepts of computer networks technologies 2. Fundamental concepts of computer networks architectures 3. Understanding of computer networks related threats and protection controls 4. Ability to understand type of architecture and technologies used 5. Ability to perform reconnaissance and collect information about network infrastructure 6. Ability to select the required tests based on standards and best practices 7. Ability to apply the theoretical and practical knowledge and skills for the basic network security assessment 8. Ability to work individually and in a team, applying their knowledge, being able to take responsibility for the results of their performance 9. Ability to set up security requirements in relation to network functionality, wired and wireless technologies, network protocols, type of network attacks and protection techniques Literature and other sources of information: Compulsory reading CCNA: Introduction to Networks (Cisco Networking Academy) CCNA: Switching, Routing, and Wireless Essentials (Cisco Networking Academy) Kaufman, C., Perlman, R., Speciner, M., & Perlner, R. (2022). Network Security: Private Communication in a Public World (3rd Edition). Addison-Wesley Professional. Stallings, W. (2016). Network Security Essentials: Applications and Standards (6th Edition). Pearson. Harris, S., & Maymi, F. (2018). CISSP All-in-One Exam Guide (8th Edition). McGraw Hill Education. Chapple, M., Stewart, J. M., & Gibson, D. (2024). ISC2 CISSP Official Study Guide (10th Edition). Wiley. Chapple, M., & Seidl, D. (2024). ISC2 CISSP Official Practice Tests (4th Edition). Wiley. Recommended Stallings, W. (2024). Cryptography and Network Security: Principles and Practice (9th Edition). Pearson. NIST (2024). Cybersecurity Framework (CSF) 2.0. National Institute of Standards and Technology. NIST. Security and Privacy Controls for Information Systems and Organizations (SP 800-53, Revision 5). NIST (2020). Zero Trust Architecture (SP 800-207). OWASP. OWASP Top 10: Web Application Security Risks. MITRE. MITRE ATT&CK Framework. Gopejenko, V., Bobrovskis, S. (2014). \"Robust security network association adjusted hybrid authentication schema\". 8th IEEE International Conference on Application of Information and Communication Technologies AICT 2014 Conference Proceedings Study course content and schedule of contact hours Week Topic Academic hours Full-time intramural 1 Introduction to Network Security 4 2 TCP/IP Protocol Stack Vulnerabilities 4 3-5 Types of network attacks 10 5-7 Types of Network Application Attacks 6 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned learning outcomes % of final evaluation Security Risk Management Study countermeasure classification. Identify threat: Distributed Denial of Service (DDoS) attack. Describe vulnerabilities. Describe countermeasures. Classify countermeasures. Study CVE public databases. Describe what information about vulnerability could be retrieved from public Develops understanding of network threats and protection controls (PLO 3), ability to perform reconnaissance and collect information (PLO 5), and competence in setting up security requirements (PLO 9). 15% databases. Compare search results in different databases. Technical Vulnerability Assessment Calculate CVSS score using CVSS calculator for CVE- XXXX-XXXX Develops ability to select required tests based on standards (PLO 6), apply theoretical and practical knowledge for security assessment (PLO 7), and set up security requirements (PLO 9). 15% TCP/IP Protocol Stack Vulnerabilities Observe network configuration. Observe routing table. Identify port numbers and service name. Indicate port numbers and Transport Layer protocol for the well known services. Observe network connections. Check port status. Using telnet command line tool verify web server port status for www.wikipedia.org. Develops fundamental concepts of network technologies and architectures (PLO 1, 2), understanding of network threats (PLO 3), and ability to perform reconnaissance (PLO 5). 15% Types of Attacks Study network security testing tools. Study reconnaissance attacks - using reconnaissance tools and public sources gather available information about www.wikipedia.org. Explore Develops ability to perform reconnaissance and collect network infrastructure information (PLO 5), select required tests (PLO 6), and apply knowledge for security assessment 15% reconnaissance browser extensions. Study attacks mitigation controls - identify which safeguards could be used to mitigate attacks. (PLO 7). Network Application Attacks Study password attacks - search Internet resources for Rainbow tables and online password hashing services. Study DNS reconnaissance. Study web-based attacks. Study email header analysis - using MXToolbox toolset (Email Header Analyzer) conduct analysis of email headers. Develops understanding of network application threats (PLO 3), ability to apply knowledge for security assessment (PLO 7), and competence in setting security requirements for network protocols and attack types (PLO 9). 15% Final test Comprehensive examination covering network security concepts, TCP/IP vulnerabilities, network attack types, application attacks, security testing methodologies, and protection techniques. Evaluates comprehensive achievement of all course learning outcomes including knowledge of network technologies and architectures (PLO 1, 2, 3), practical skills in reconnaissance and testing (PLO 4, 5, 6), and competencies in security assessment and requirements (PLO 7, 8, 9). 25% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description!",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online Lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Course Description EN",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Course Description LV",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "lesson",
+     "nazvanie": "Introduction",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Security of Computer Networks 2021",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Security of Computer Networks 2020",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Video",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 1 - Introduction to Network Security. Attack targets",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 2 - IP | ICMP | TCP | UDP and Traffic Inspection",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 3 - Attack Surface Vectors and Security threats",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 4 - DHCP attack | Spoofing attack | Wireless security | Network Application Attacks",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 5 - DNS attack | WEB based attack | Security Risk Management | CVSS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Readings (copy)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 1 - Security Risk Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 1 - Security Risk Management presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time 1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 2 - Technical Vulnerability Assessment",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 2 - Technical Vulnerability Assessment presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time 2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 3 - TCP/IP Protocol Stack Vulnerabilities",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 3 - TCP/IP Protocol Stack Vulnerabilities presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time 3",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4 - Types of Attacks",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4 - Types of Attacks presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time 4",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 5 - Network Application Attacks",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 5 - Network Application Attacks presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time 5",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practice Time Report Template",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Main exam=========Exam will take place on Sat, ...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Final exam instructions",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Datortīklu drošība",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Cienījamie studenti! Laipni lūdzam datortīklu droš...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "RNU studiju kurss Datortīklu drošība",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Prasības studiju kursa apguvei 1. Apmeklēt tiešsai...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lekcija 1 - Drošības risku vadība",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lekcija 2 - Tehniskās ievainojamības novērtējums",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lekcija 3 - TCP/IP protokolu grēda",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lekcija 4 - Uzbrukuma virsma un uzbrukuma vektori",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Prakses laiks 1.lekcija",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Prakses laiks 2.lekcija",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Gala eksāmens",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "lesson",
+   "nazvanie": "Introduction",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Prakses laiks 1.lekcija",
+   "razdel": "Datortīklu drošība",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Prakses laiks 2.lekcija",
+   "razdel": "Datortīklu drošība",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Gala eksāmens",
+   "razdel": "Datortīklu drošība",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

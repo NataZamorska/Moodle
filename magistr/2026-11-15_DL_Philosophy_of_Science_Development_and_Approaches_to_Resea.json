@@ -1,0 +1,125 @@
+{
+ "kurs": "DL - Philosophy of Science Development and Approaches to Research",
+ "id": 358,
+ "url": "https://moodle.rnu.lv/course/view.php?id=358",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Philosophy of Science Development and Approaches to Research” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Oksana Pozdnyakova Preliminary knowledge, Related study courses Philosophy, World Culture and Ethics Aim The purpose of the course is to introduce students to the main philosophical concepts of the development of science and the scientific method, as well as the trends in the historical development of science; to teach to analyze the processes and phenomena occurring in science; to form skills for assessing the social consequences of the results of scientific activity; to provide understanding and skills to use the acquired knowledge in professional activities. Planned Learning Outcomes (PLO) 1. Know the central problems in philosophy of science, as well as the content of the main philosophical concepts that describe the development of science and the scientific method 2. Know the methods of critical analysis and evaluation of modern scientific achievements 3. Be able to apply the conceptual apparatus of the philosophy of science in professional activities 4. Be able to analyze the processes and phenomena occurring in science 5. Be able to interpret scientific and philosophical texts 6. Possess the skills of philosophical thinking to develop a systematic and holistic view of the problems of science 7. Evaluate one's activity based on the knowledge gained 8. Work individually with philosophical questions and problems, discuss the value of science to society Literature and other sources of information: 1. Compulsory reading - Godfrey-Smith, P. (2021). Theory and Reality: An Introduction to the Philosophy of Science, Second Edition - DeWitt, R. (2018). Worldviews. An introduction to the history and philosophy of science. Wiley Blackwell. 362 pp. - Steinmann, M. (2022). \"Alienation in a World of Data. Toward a Materialist Interpretation of Digital Information Technologies\". Philosophy and Technology, 35, Article number: 99 - Viberg, O., Mutimukwe, C., Grönlund, Å. (2022). \"Privacy in LA Research: Understanding the Field to Improve the Practice\". Journal of Learning Analytics. DOI: 10.18608/jla.2022.7751, pp. 1-14 2. Recommended - Pozdnyakova, O., Pozdnyakov, A. (2020). \"Distance Learning as an Option to Overcome the Learning Barriers of Adult Female Students\". Lecture Notes in Networks and Systems, 117, pp. 705-713 - Pozdnyakova, O., Pozdnyakov, A. (2019). \"Conflict management in the educational process at the university\". Lecture Notes in Networks and Systems, 68, pp. 798-807 - Okasha, S. (2016). Philosophy of Science: Very Short Introduction. Oxford University Press - Kuhn, T. S. (1996). The Structure of Scientific Revolutions (3rd ed.). University of Chicago Press - Popper, K. (2002). The Logic of Scientific Discovery. Abingdon-on-Thames: Routledge - Feyerabend, P. (2010). Against Method (4th ed.). New York, NY: Verso Books Study course content and schedule of contact hours Week Topic Academic hours 1 The historical background to contemporary philosophy of science 6 2 The Problem of Induction 2 3 Karl Popper and Falsificationism 2 4 Thomas Kuhn and the idea of scientific revolutions 2 5 Recent theories of the scientific method 2 6 Scientific realism and antirealism 4 7 The problem of underdetermination 4 8 Ethical problems in modern philosophy of science 2 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Evolution of Approaches in Modern Philosophy of Science Analysis and understanding of the main approaches in philosophy of science and their historical evolution. Study of key philosophical movements, paradigm shifts, and methodological developments that have shaped contemporary scientific thinking. Develops knowledge of central problems and philosophical concepts in science (PLO 1, 2), skills in analyzing scientific processes (PLO 4), and philosophical thinking abilities (PLO 6). 30% Ethical problems of scientific inquiry Critical analysis of ethical problems in scientific research and inquiry. Examination of moral responsibilities of scientists, ethical implications of scientific discoveries, and social consequences of scientific activity. Assesses ability to evaluate scientific achievements critically (PLO 2), interpret philosophical texts (PLO 5), assess one's activity based on knowledge (PLO 7), and discuss science's value to society (PLO 8). 30% Final test Comprehensive examination covering philosophy of science concepts, historical development trends, scientific methods, critical analysis techniques, and ethical considerations in scientific research. Evaluates comprehensive achievement of all course learning outcomes including knowledge of philosophy of science (PLO 1, 2), practical application skills (PLO 3, 4, 5), and competencies in philosophical thinking and 40% evaluation (PLO 6, 7, 8). Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, evaluation) 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "Alienation in a World of Data. Toward a Materialist Interpretation of Digital Information Technologies",
+   "Privacy in LA Research: Understanding the Field to Improve the Practice"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Philosophy of Science Development",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Exam+questions+Philisophy+of+science",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "1. The subject of philosophy of sciency",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "2. Philosophy of science (history)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "3. The ethics and science",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "4. Epistemology",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Task 1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Task 2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exam",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Philosophy of Science Development",
+     "vidno_studentam": false
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Task 1",
+   "razdel": "Philosophy of Science Development",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Task 2",
+   "razdel": "Philosophy of Science Development",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exam",
+   "razdel": "Philosophy of Science Development",
+   "vidno_studentam": true,
+   "opisanie": ""
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

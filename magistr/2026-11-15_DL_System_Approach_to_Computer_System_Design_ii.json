@@ -1,0 +1,72 @@
+{
+  "kurs_id": 344,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–8: Methodology, Vision Model, Data Collection, Efficiency Assessment, Design Procedure, Dynamic Methods, Emergence in Systems",
+      "v_kurse": "Welcome to the Study Course! (учебные материалы и задания)",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Концепции системного подхода и эмерджентности подробно представлены в курсе, но все собраны в разделе Welcome.",
+      "chto_sdelat": "Создать разделы по темам силлабуса и перенести туда материалы."
+    },
+    {
+      "vid": "задание",
+      "silabus": "System Design Algorithm Development: Dynamic Emergence Property (25 %)",
+      "v_kurse": "assign: Part No 2. Task No 1. Description of the Dynamic Emergence Property",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание на динамическое свойство эмерджентности полностью совпадает с силлабусом.",
+      "chto_sdelat": "Задать вес 25 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Restoring the Emergence Property in Information Systems (25 %)",
+      "v_kurse": "assign: Part No 2. Task No 1. Restoring the Emergence Property",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание на восстановление эмерджентности полностью совпадает с силлабусом.",
+      "chto_sdelat": "Задать вес 25 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Individual Presentation & System Assessment (20 %)",
+      "v_kurse": "assign: Task No 2. Presentation. Individual Assignment.",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание на индивидуальную презентацию полностью совпадает с силлабусом.",
+      "chto_sdelat": "Задать вес 20 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Exam Task on System Design (30 %)",
+      "v_kurse": "assign: Exam Task in [Exam Task]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Экзаменационное задание вынесено в отдельный раздел Exam Task.",
+      "chto_sdelat": "Задать вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Collins, C. AI in information systems research; Jackson, M. C. Critical Systems Thinking",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы в вводных материалах.",
+      "chto_sdelat": "Создать страницу Reading в Welcome."
+    }
+  ],
+  "lishnee": [
+    {
+      "v_kurse": "Task No 1. Questionnaire in [Welcome]",
+      "kommentarij": "Вводная анкета-опросник, не входит в итоговую шкалу силлабуса."
+    },
+    {
+      "v_kurse": "Task No 1. Assessment System in [Welcome]",
+      "kommentarij": "Вводное задание по шкале оценивания."
+    }
+  ],
+  "vyvod": "Курс отлично укомплектован практическими работами: есть специализированные задания по эмерджентности систем, индивидуальная презентация и экзаменационный таск в отдельном разделе. Рекомендуется вынести темы из Welcome в отдельные тематические разделы и настроить веса в журнале оценок."
+}

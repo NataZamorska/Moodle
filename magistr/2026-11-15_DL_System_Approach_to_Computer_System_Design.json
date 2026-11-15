@@ -1,0 +1,204 @@
+{
+ "kurs": "DL - System Approach to Computer System Design",
+ "id": 344,
+ "url": "https://moodle.rnu.lv/course/view.php?id=344",
+ "silabus_gde": "файл в курсе «Study Course Description!»",
+ "silabus_tekst": "RNU study course “System Approach to Computer System Design” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Rostislavs Kopitovs Preliminary knowledge, Related study courses Mathematics for System Analytics, Programming for Data Science and System Analytics, Computer Experiments and Modelling Technologies Aim Develop knowledge in order to determines measures of efficiency for development of skills in design of management systems. Summarize the knowledge to demonstrate effective decision making logic at any level of the organization and obtain insight into a system that provides hazard identification, analyse complex situations and develop activities for effective management actions, which are necessary for grow and producing. Planned Learning Outcomes (PLO) 1. Understand the similarities and differences in management system design methodology 2. Familiarity with high-level solutions and capabilities in the modern technologies to design management systems 3. Be able to conduct a comprehensive functional- structural assessment of system's organisation 4. To use the main approaches and recommend suitable solutions, connecting the possibilities and needs of the problem area with available solutions 5. To be able to analyse processes in the environment and make decisions according to the changes in the situation 6. Understand the role of strategic and development plans for efficient management of the company 7. To be able to summarise and critically assess the results of designing and implementing management systems, in turn being able to identify and formulate actual problems Literature and other sources of information: 1. Compulsory reading - Collins, C., Dennehy, D., Conboy, K., Mikalef, P. (2021). \"Artificial intelligence in information systems research: A systematic literature review and research agenda\". International Journal of Information Management, Volume 60, October 2021, 102383. https://doi.org/10.1016/j.ijinfomgt.2021.102383 - Kossiakoff, A., Swee, N., Seymor, S., Bier, S. (2011). \"Systems Engineering Principles and Practice\". John Wiley Sons. 2. Recommended - Djakons, R., Kelsina, D., Kopitov, R. (2021). \"Methodological Peculiarities of Well-Organized Systems' Maintenance\". 2020 IEEE International Conference on Problems of Infocommunications Science and Technology Pic S and T 2020 Proceedings, pp. 860-864, 9467942. - Albright, S. C., Winston, W. L. (2020). \"Business Analytics: Data Analysis and Decision Making\" (7th Ed.). - Trompenaars, F., Coebergh, P. H. (2014). \"100+ Management Models. How to understand and apply the world's most powerful business tool\". Oxford: Infinite Ideas Limited. Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction to efficient management methodology. 3 2 Applying the Vision Model to System Design 3 3 Business data collection 3 4 Assessment of management system efficiency. 3 5 System design procedure. 3 6 Dynamic methods for assessment of system efficiency. 3 7 System stability upon uncertainties. 3 8 Creating systemic thinking during design of systems. 3 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. System Design Algorithm Develop understanding of general rules for designing high quality systems through comprehensive algorithm development. Demonstrates understanding of management system design methodology (PLO 1, 2) and ability to conduct functional- structural assessment (PLO 3). 40% System Design products Create a system tool demonstrating practical application of design principles. Applies main approaches and suitable solutions (PLO 4, 5) while demonstrating strategic planning understanding (PLO 6, 7). 40% Final test Comprehensive examination covering management system design methodology, efficiency assessment, and systemic thinking. Evaluates all course learning outcomes including knowledge of design methodologies, skills in system assessment, and competencies in strategic planning. 20% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "Artificial intelligence in information systems research: A systematic literature review and research agenda",
+   "Systems Engineering Principles and Practice"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description!",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Getting to know",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Topic No 1. Introduction to the course",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Introductory Instructions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Task No 1. Questionnaire",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Presentation. Introductory Design Peculiarity",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Work on Mistakes",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Topic No 2. Measuring System Efficiency (copy)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "1. Introductory Instructions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Task No 1.  Assessment System",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Task No 2. Presentation. Individual Assignment.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Presentation. The Importance of Working with a Real Object",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Work on Mistakes",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Topic No 3. System Maintenance: Monitoring the Emergence Property",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 1. Introducrory Instructions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Part No 2. Task No 1. Restoring the Emergence Property",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 3. Beyond the usual cycle Reacting to new circumstances.pptx",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 4. Work on Mistakes",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Topic No4. The Threat of Supporting Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 1. Introductory Instructions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Part No 2. Task No 1. Description of the Dynamic Emergence Property",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 3. Presentation. How to Get Rid of System-destroying Proposals",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Part No 4. Work on Mistakes",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Exam Task",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Exam Task",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Task No 1. Questionnaire",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Task No 1.  Assessment System",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Task No 2. Presentation. Individual Assignment.",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Part No 2. Task No 1. Restoring the Emergence Property",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Part No 2. Task No 1. Description of the Dynamic Emergence Property",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exam Task",
+   "razdel": "Exam Task",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

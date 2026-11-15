@@ -1,0 +1,287 @@
+{
+ "kurs": "DL - High-level analytics and knowledge technologies",
+ "id": 353,
+ "url": "https://moodle.rnu.lv/course/view.php?id=353",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “High-level Analytics and Knowledge Technologies” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Viktors Gopejenko, Samir Hamroun Preliminary knowledge, Related study courses Mathematics for System Analytics, System Approach to Computer System Design, Programming for Data Science and System Analytics, NoSQL Database Technologies Aim The purpose of the course is to acquaint students with the basics of knowledge management and the features of processing various types of data. To provide understanding and skills in the use of appropriate analytical methods and tools to effectively create, extract, maintain, recover and disseminate data and knowledge that is useful for business. The purpose of a course on \"High-level Analytics and Knowledge Technologies\" is to equip students with the advanced skills and knowledge necessary to analyze complex data sets, derive meaningful insights, and leverage cutting-edge technologies for knowledge management. Planned Learning Outcomes (PLO) 1. Understand the similarities and differences in natural and artificial knowledge 2. Familiarity with high-level analytical solutions and capabilities in various areas 3. Understanding of statistical analysis, predictive modeling, and data mining techniques 4. Knowledge of machine learning algorithms, neural networks, and artificial intelligence applications 5. Understanding of how to structure and manage knowledge for effective retrieval and application 6. Knowledge of how analytics can be applied to enhance business processes and decision-making 7. Ability to describe the main analytical approaches and recommend suitable solutions, connecting the possibilities and needs of the problem area with available analytical solutions 8. Ability to use software tools for data analysis and knowledge representation, and select methods appropriate to data characteristics and business needs 9. Ability to perform various types of assignments while respecting the principles of academic integrity and ethics in the research and business environment 10. Ability to use analytics tools to process and analyze data, and skills in handling, storing, and retrieving data efficiently using database management systems 11. Capability to approach complex problems analytically and derive actionable insights from data, and proficiency in using software and tools for data visualization, such as Tableau or Power BI 12. Skills in developing predictive models and evaluating their performance using appropriate metrics 13. Understanding the benefits and challenges of big, open and interconnected data 14. Ability to integrate classical knowledge management methods and knowledge of modern technologies 15. Competency in aligning analytics initiatives with organizational goals and strategies, and ability to leverage analytics and knowledge technologies to drive innovation within an organization 16. Competency in managing analytics projects, including planning, execution, and monitoring 17. Competency in identifying business challenges and addressing them through data-driven solutions Literature and other sources of information: 1. Compulsory reading - Albright, S.C., Winston, W.L. (2020). \"Business Analytics: Data Analysis and Decision Making\" (7th Edition) - Gordon, M.E. (2023). \"Business Analytics: Combining data, analysis and judgement to inform decisions\" (1st Edition) - Grossmann, W., Rinderle-Ma, S. (2015). \"Fundamentals of Business Intelligence\" - Witten, I.H., Frank, E., Hall, M.A., Pal, C. (2016). \"Data Mining\" (4th Edition) 2. Recommended - Trusina, I., Jermolajeva, E., Abramov, V., Gopejenko, V. (2024). \"World development assessment in an invariant coordinate system of energy units: The newly industrialized economies perspectives\". Journal of Infrastructure, Policy and Development, 8(3), 3110 (https://doi.org/10.24294/jipd.v8i3.3110) - Trusina, I., Jermolajeva, E., Gopejenko, V. (2024). \"System-dynamic approach to assessing sustainable development: the example of the USA\". ECONOMIC SCIENCE FOR RURAL DEVELOPMENT 2024, 259 (DOI: 10.22616/ESRD.2024.58.026) - Mukhamediev, R., Kuchin, Y., Yunicheva, N., Kalpeyeva, Z., Muhamedijeva, E., Gopejenko, V. (2024). \"Classification of Logging Data Using Machine Learning Algorithms\". Applied Sciences, 14(17), 7779 (https://doi.org/10.3390/app14177779) - Nevliudov, I., Novoselov, S., Sychova, O., Gopejenko, V., Kosenko, N. (2024). \"Decentralized information systems in intelligent manufacturing management tasks\". Advanced Information Systems, 8(3), 100-110 (https://doi.org/10.20998/2522- 9052.2024.3.12) - Scott, J. (2013). \"Social network analysis\" (3rd Edition). SAGE - Marklund, J. (2019). \"Business process modeling, simulation and design\" (3rd Edition). CRC Press, Taylor Francis Group - Zaki, M.J., Meira, W., Jr. (2020). \"Data Mining and Machine Learning: Fundamental Concepts and Algorithms\" (2nd Edition) (https://dataminingbook.info/book_html/) - Shmueli, G., Bruce, P.C., Gedeck, P., Patel, N.R. (2019). \"Data Mining for Business Analytics: Concepts, Techniques and Applications in Python\" Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction to High-level Analytics 3 2 Data Management and Processing 3 3 Statistical Analysis and Data Mining 3 4 Machine Learning Fundamentals 3 5 Advanced Machine Learning Techniques 3 6 Big Data Technologies 3 7 Data Visualization and Communication Knowledge Representation and Management 3 8 Ethics and Privacy in Data Analytics 3 Business Intelligence and Strategic Decision Making Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Introduction to High- level Analytics Overview of analytics and its importance in decision-making, introduction to knowledge technologies and their applications. Develops understanding of natural vs artificial knowledge (PLO 1), familiarity with high- level analytical solutions (PLO 2), and knowledge of how analytics enhances business processes (PLO 6). 10% Data Management and Processing Data collection, storage, and management techniques, introduction to SQL and NoSQL databases. Develops skills in data handling, storing, and retrieving using database management systems (PLO 10), understanding of knowledge structuring and management (PLO 5), and ability to use software tools for data analysis (PLO 8). 10% Statistical Analysis and Data Mining Advanced statistical methods for data analysis, techniques for data mining and exploration. Develops understanding of statistical analysis and data mining techniques (PLO 3), ability to use analytics tools for data processing (PLO 10), and skills in selecting appropriate analytical methods (PLO 8). 10% Machine Learning Fundamentals Introduction to machine learning algorithms and models, supervised vs unsupervised Develops knowledge of machine learning algorithms and AI applications (PLO 4), ability to recommend suitable analytical solutions (PLO 7), 10% learning. and skills in developing predictive models (PLO 12). Advanced Machine Learning Techniques Deep learning and neural networks, Natural Language Processing (NLP) and its applications. Develops advanced knowledge of neural networks and AI applications (PLO 4), ability to integrate classical and modern technology knowledge (PLO 14), and capability to approach complex problems analytically (PLO 11). 10% Big Data Technologies Overview of big data platforms like Hadoop and Spark, cloud-based analytics and data processing. Develops understanding of benefits and challenges of big, open and interconnected data (PLO 13), familiarity with high-level analytical solutions in various areas (PLO 2), and knowledge of modern analytics technologies (PLO 14). 5% Data Visualization and Communication Principles of effective data visualization, tools and techniques for visualizing data (e.g., Tableau, Power BI). Develops proficiency in using data visualization software and tools like Tableau or Power BI (PLO 11), ability to derive actionable insights from data (PLO 11), and skills in communicating analytical results (PLO 7). 5% Business Intelligence and Strategic Decision Making Integration of analytics in business processes, case studies on strategic decision-making using analytics. Develops competency in aligning analytics with organizational goals and driving innovation (PLO 15), competency in managing analytics projects (PLO 16), and competency in identifying business challenges and addressing them with data- driven solutions (PLO 17). 20% Final Test Comprehensive examination covering high-level analytics, data management, statistical analysis, data mining, machine learning Evaluates comprehensive achievement of all course learning outcomes including understanding of analytical approaches and knowledge technologies (PLO 1, 2, 3, 4, 5, 6), practical skills in data 20% fundamentals and advanced techniques, big data technologies, data visualization, knowledge management, ethics in analytics, business intelligence, and strategic decision- making with analytics. analysis, visualization, and predictive modeling (PLO 7, 8, 9, 10, 11, 12), and competencies in managing analytics projects, integrating technologies, and applying data-driven solutions to business challenges (PLO 13, 14, 15, 16, 17). Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and 5 – satisfactory 4 –almost satisfactory) inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "Business Analytics: Data Analysis and Decision Making",
+   "Business Analytics: Combining data, analysis and judgement to inform decisions",
+   "Fundamentals of Business Intelligence",
+   "Data Mining"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Dear Students,Welcome to the High-Level Analytics ...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction to High-level Analytics &amp; Knowledge Technologies",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction to High-level Analytics &amp; Knowledge Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise1-Introduction to High-level Analytics &amp; Knowledge Technologies",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture2-Data Management and Processing",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture2-Data_Management_and_Processing",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise2-Data Management and Processing",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture3-Statistical Analysis and Data Mining",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture3-Statistical Analysis and Data Mining",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Exercise3Descriptive Statistics",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise3-Statistical Analysis and Data Mining",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture4-Machine Learning Fundamentals",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture4-Machine Learning Fundamentals",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise4-Machine Learning Fundamentals",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture5-Advanced Machine Learning Techniques",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture5-Advanced Machine Learning Techniques",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise5-Advanced Machine Learning Techniques",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture6-Big Data Technologies",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture6-Big Data Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise6-Big Data Technologies",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture7-Data Visualization and Communication",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture7-Data Visualization and Communication",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise7-Data Visualization and Communication",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture8-Knowledge Representation and Management",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture8-Knowledge Representation and Management.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise8-Knowledge Representation and Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture9-Ethics and Privacy in Data Analytics",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture9-Ethics and Privacy in Data Analytics",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise9-Ethics and Privacy in Data Analytics",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture10-Business Intelligence and Strategic Decision Making",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture10-Business Intelligence and Strategic Decision Making",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise10-Business Intelligence and Strategic Decision Making",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise1-Introduction to High-level Analytics &amp; Knowledge Technologies",
+   "razdel": "Lecture1-Introduction to High-level Analytics &amp; Knowledge Technologies",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise2-Data Management and Processing",
+   "razdel": "Lecture2-Data Management and Processing",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise3-Statistical Analysis and Data Mining",
+   "razdel": "Lecture3-Statistical Analysis and Data Mining",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise4-Machine Learning Fundamentals",
+   "razdel": "Lecture4-Machine Learning Fundamentals",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise5-Advanced Machine Learning Techniques",
+   "razdel": "Lecture5-Advanced Machine Learning Techniques",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise6-Big Data Technologies",
+   "razdel": "Lecture6-Big Data Technologies",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise7-Data Visualization and Communication",
+   "razdel": "Lecture7-Data Visualization and Communication",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise8-Knowledge Representation and Management",
+   "razdel": "Lecture8-Knowledge Representation and Management",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise9-Ethics and Privacy in Data Analytics",
+   "razdel": "Lecture9-Ethics and Privacy in Data Analytics",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining 4 days 22 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise10-Business Intelligence and Strategic Decision Making",
+   "razdel": "Lecture10-Business Intelligence and Strategic Decision Making",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining 4 days 22 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access "
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

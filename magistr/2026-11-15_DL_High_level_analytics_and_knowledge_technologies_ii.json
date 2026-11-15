@@ -1,0 +1,54 @@
+{
+  "kurs_id": 353,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Lectures 1–10: High-level Analytics Intro, Data Mgmt, Statistical Analysis, ML Fundamentals, Advanced ML, Big Data, Visualization, Knowledge Representation, Ethics & Privacy, BI & Decisions",
+      "v_kurse": "Sections: Lecture1 to Lecture10",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все 10 лекций силлабуса представлены индивидуальными разделами курса с учебными материалами.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Practical exercises and quizzes across lectures 1–10 (50 %)",
+      "v_kurse": "assign & quiz: Exercise1 to Exercise10 в разделах лекций",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "В каждом из 10 разделов есть соответствующее практическое задание или проверочный квиз.",
+      "chto_sdelat": "Сгруппировать в категорию журнала с суммарным весом 50 %."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Analytical Case Study & Knowledge Engineering Project (25 %)",
+      "v_kurse": "assign: Exercise10-Business Intelligence and Strategic Decision Making",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Итоговое задание 10 закрывает практический проект по аналитике и принятию решений.",
+      "chto_sdelat": "Выделить проект в отдельный раздел с весом 25 %."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Examination on Analytics and Knowledge Technologies (25 %)",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Текущий контроль осуществляется тестами лекций 1 и 2, отдельный тест Final Exam не настроен.",
+      "chto_sdelat": "Создать тест Final Exam в разделе Exam с весом 25 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Albright, S.C., Winston, W.L. Business Analytics; Gordon, M.E. Business Analytics",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы на вводной странице курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome и добавить учебники."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс отлично структурирован: все 10 тем оформлены отдельными разделами с практическими заданиями Exercise 1–10. Для завершения подготовки требуется оформить итоговый экзаменационный тест и настроить веса в журнале оценок."
+}

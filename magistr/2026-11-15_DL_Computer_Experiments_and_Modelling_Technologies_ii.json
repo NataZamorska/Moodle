@@ -1,0 +1,54 @@
+{
+  "kurs_id": 356,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Units 1–8: System Dynamics, Generic Structures, Feedback Loops, Delays, Non-linear Relations, Validation, Policy Design, Agent-based Modelling",
+      "v_kurse": "Sections: System Dynamics, Generic Structures, Building a Model, Policy Design",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Разделы курса охватывают системную динамику и агентное моделирование, но требуют согласования с силлабусом.",
+      "chto_sdelat": "Упорядочить разделы в соответствии с 8 темами силлабуса."
+    },
+    {
+      "vid": "задание",
+      "silabus": "System Dynamics Model Development (30 %)",
+      "v_kurse": "Задания на разработку моделей динамики систем в разделах курса",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Практические задания по построению потоковых диаграмм и обратных связей полностью соответствуют силлабусу.",
+      "chto_sdelat": "Настроить вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Simulation Experiments, Sensitivity Analysis and Model Validation (30 %)",
+      "v_kurse": "Задания на симуляционные эксперименты и калибровку моделей",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "В курсе есть практические работы по проведению экспериментов и анализу чувствительности.",
+      "chto_sdelat": "Настроить вес 30 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Project & Model Defense (40 %)",
+      "v_kurse": "Итоговая сдача модели и отчет в разделе Policy Design",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Защита итоговой модели присутствует в практическом блоке.",
+      "chto_sdelat": "Оформить как отдельный элемент Final Project Defense с весом 40 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Sterman, J. Business Dynamics: Systems Thinking and Modeling; Gilbert, N. Agent-Based Models",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы на вводной странице курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс обладает сильной практической направленностью в области компьютерного моделирования и системной динамики. Необходимо упорядочить разделы по темам силлабуса и задать веса заданий и защиты итогового проекта в журнале оценок."
+}

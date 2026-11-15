@@ -1,0 +1,369 @@
+{
+ "kurs": "DL - Computer Experiments and Modelling Technologies",
+ "id": 356,
+ "url": "https://moodle.rnu.lv/course/view.php?id=356",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Computer Experiments and Modelling Technologies” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Viktors Gopejenko Preliminary knowledge, Related study courses Mathematics for System Analysts Aim To prepare students to act as a member and leader of the team to contribute positively to manage projects efficiently in the field of ICT and decision making business processes. To give students the opportunity to get practice in solving real ICT and business problems. To work with them to enable students to conduct and visualize the results of a computer experiment. To give students an opportunity to obtain practice in the solution of the real world tasks. To teach to create models of systems and to work with them. To provide students with an opportunity to obtain practical skill in construction of the System Dynamics models in the tasks of the processes study in economics, business, life, physics, and electronics. Planned Learning Outcomes (PLO) 1. Fundamental concepts of complicate systems, ways to present its based on System Dynamics 2. Main concepts of Computer Simulation based on Vensim software 3. Understanding the processes of modelling computer systems, while studying processes in the field of business, management, social sphere, physics, electronics, economics and life 4. Study of the basic concepts of the behavior of complex systems 5. The ability to identify key elements/factors of the system under study 6. The ability to identify the limiting elements of this system 7. Understand whether this system is stable or unstable 8. The ability to determine how many goals this system has, one goal or several 9. Show the ability to, within the technical area, make judgments with regards to relevant scientific, social, and ethical aspects and show awareness about ethical aspects in research and development work 10. Show insight about technology's possibilities and limitations, its role in society and humans' responsibility for how it is used 11. Show the ability to identify his/her need for further knowledge and take responsibility for developing his/her knowledge 12. The ability to work individually and in a team, applying their knowledge, being able to take responsibility for the results of their performance 13. Create models of data to introduce progressive solutions and methods in the main functional spheres of the enterprise's or institution's activities to analyze, systematize, synthesize and integrate obtained information Literature and other sources of information: 1. Compulsory reading - García, J. M. (2023). Theory and Practical Exercises of System Dynamics (Modeling and Simulation) - Special Issue \"System Dynamics: Insights and Policy Innovation Systems\" (2021). MDPI. EISSN 2079-8954. https://www.mdpi.com/journal/systems/special_issues/sy stem_dynamics - Purnawan, C., Kusnandar, H. (2021). \"System Dynamics Model for Congestion Level Analysis in Yogyakarta City\". Journal Of System Dynamics, Volume 2, Number 1, pp. 1-9 2. Recommended - Kalniņš, J. R., Hiļķeviča, G., Vītola, E. (2008). Matemātiskā modelēšana. Rīga: SIA \"Drukātava\", 192 lpp - Trusina, I., Jermolajeva, E., Abramov, V., Gopejenko, V. (2024). \"World development assessment in an invariant coordinate system of energy units: The newly industrialized economies perspectives\". Journal of Infrastructure, Policy and Development, 8(3), 3110. DOI: 10.24294/jipd.v8i3.3110 - Trusina, I., Jermolajeva, E., Gopejenko, V. (2024). \"System-dynamic approach to assessing sustainable development: the example of the USA\". Economic Science for Rural Development, 2024, 259. DOI: 10.22616/ESRD.2024.58.026 - Mukhamediev, R., Kuchin, Y., Yunicheva, N., Kalpeyeva, Z., Muhamedijeva, E., Gopejenko, V. (2024). \"Classification of Logging Data Using Machine Learning Algorithms\". Applied Sciences, 14(17), 7779. DOI: 10.3390/app14177779 - Nevliudov, S., Novoselov, O., Sychova, V., Gopejenko, N., Kosenko. (2024). \"Decentralized information systems in intelligent manufacturing management tasks\". Advanced Information Systems, 8(3), 100-110. DOI: 10.20998/2522-9052.2024.3.12 - García, J. M. (2006). Theory and Practical Exercises of System Dynamics. Barcelona: Juan Martin Garcia, p.294 - Vensim Ventana Simulation Environment, DSS, Professional, PLE Plus, PLE. With Causal Tracing - Gopejenko, V. (2020). System Dynamics and Computer Experiments and Modelling Technologies, Research works. Riga, ISMA, e-public, pp.33 - Gopejenko, V., Kozmina, Y. (2014). \"Simulation Model the Dynamics of the System Arising from Interaction of Tourism with the Local Environment\". International Scientific Conference: Informatics in the Scientific Knowledge. June 27-29, 2014, Varna, Bulgaria, pp.53-62 - Gopejenko, V., Kozmina, Y. (2012). \"Computer Simulation and System Dynamics in Educational Process\". International Scientific Conference: Informatics in the Scientific Knowledge. June 27-29, 2012, Varna Free University, Varna, Bulgaria, pp.305- 320 - Gopejenko, V. (2020). Mathematical Modeling, Study works. Riga, ISMA, e-public, pp.33 - Gopejenko, V. (2020). Mathematical Modeling, Practical exercises based on Vensim. Riga, ISMA, e- public, pp.51 Study course content and schedule of contact hours Week Topic Academic hours 1 System Dynamics: System Dynamics, Identifying the Problem, Defining the System, The Boundaries of a System, The Causal Diagram, Feedback, The Limiting Factor, The Key Factors 3 2 Classification of Systems. Generic Structures Building a Model Flow 3 Diagrams, Computer Simulation, Behaviour of the Model, Analysis of the System, Weaknesses of Models 3 Stock Flow Diagram System Dynamics Model Development with Vensim Software Selected Examples of System Dynamics Applications 3 4 Computer Experiments Involvement of business processes in enterprise / business architecture Workforce, Inventory and Oscillation 3 5 Computer Experiments Business process modeling frameworks (for value chain, supply chain, quality management, etc.) The Growth of a Field 3 6 Computer Experiments Business process imitation, monitoring, analysis and management. Capacity and Market Growth 3 7 Computer Experiments Business process optimization, gradual improvement and rebuilding. Financial Modeling and Risk 3 8 Consolidation of course knowledge. Defining information flow requirements for business processes using a business process model 3 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. System Dynamics Model Development with Vensim Software Development of System Dynamics models using Vensim software to describe processes such as Workforce, Inventory and Oscillation. Practical application of system dynamics concepts to real- world scenarios. Hands-on experience with modeling tools and techniques. Develops understanding of System Dynamics concepts and Vensim software (PLO 1, 2), ability to model complex systems (PLO 3, 4), and practical skills in creating functional models (PLO 13). 20% Selected Examples of System Dynamics Applications Analysis and implementation of System Dynamics applications using Vensim PLE for computer modeling of dynamic processes. Study of Project Dynamics and practical application of modeling techniques to various domains. Demonstrates competency in applying Vensim as an effective tool (PLO 2), understanding complex system behavior (PLO 4), and ability to analyze and synthesize information (PLO 13). 20% Simulation models - Economy and Society Creation of System Dynamics models for business decision-making, focusing on economic and societal processes. Understanding field growth patterns and applying computer simulation techniques to support strategic decisions. Assesses ability to create SD models for business decisions (PLO 3, 5, 6, 7, 8, 12, 13), make judgments on scientific and ethical aspects (PLO 9, 10), and take responsibility for knowledge development (PLO 11). 30% Exam Comprehensive examination covering System Dynamics fundamentals, Vensim software, computer modeling processes, complex systems behavior, system analysis techniques, and practical applications in business and technology domains. Evaluates comprehensive achievement of all course learning outcomes including theoretical knowledge (PLO 1-4), analytical skills (PLO 5-8), and professional competencies (PLO 9- 13). 30% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [
+   [
+    1,
+    "System Dynamics"
+   ]
+  ],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "System Dynamics: Insights and Policy Innovation Systems",
+   "System Dynamics Model for Congestion Level Analysis in Yogyakarta City"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "forum",
+     "nazvanie": "News forum",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Dear students, who need to pass their academic deb...",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Computer Experiments and Modelling Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Vensim_7.3_PLE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "url",
+     "nazvanie": "Introduction to System Dynamics with Vensim",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Computer Experiments and Modelling Technologies",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "RNU study course “Computer Experiments and Modelling Technologies” description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "RZA studiju kursa “Datoru eksperimenti un modelēšanas tehnoloģijas” apraksts",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Final Exam 2026",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Computer Experiments and Modelling Technologies",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "    ",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4. Capacity and Market Growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4. Short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4. Very short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 1.  Capacity and Market Growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 1. Capacity and market growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 2.  Capacity and Market Growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 2.  Capacity and market growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 3.  Capacity and Market Growth",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 3. Capacity and market growth",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "   ",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 3.The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 3. Short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 3. Very short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 1. The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 1. The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 2. The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 2. The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Practical Assignment 3  The Growth of a Field",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 3. The Growth of a Field",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "  ",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 2. Workforce Inventory and Oscillation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 2 Short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 2. Very short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Practical Assignment 1 Workforce Inventory &amp; Oscillation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 1. Workforce Inventory and Oscillation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Practical Assignment 2. Workforce Inventory and Oscillation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment 2. Workforce Inventory and Oscillation",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": " ",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1. Introduction to  Business Processes Modelling",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 1. Short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 1. Very short version.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Practical Assignment Intro",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical Assignment Introduction",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Video Tutorial: Using Vensim to Run Simulations and Present Simulation Results",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "folder",
+     "nazvanie": "Video Tutorial: Using Vensim to Run Simulations and Present Simulation Results",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "quiz",
+   "nazvanie": "Final Exam 2026",
+   "razdel": "Computer Experiments and Modelling Technologies",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 1. Capacity and market growth",
+   "razdel": "    ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 2.  Capacity and market growth",
+   "razdel": "    ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 3. Capacity and market growth",
+   "razdel": "    ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 1. The Growth of a Field",
+   "razdel": "   ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 2. The Growth of a Field",
+   "razdel": "   ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 3. The Growth of a Field",
+   "razdel": "   ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 1. Workforce Inventory and Oscillation",
+   "razdel": "  ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment 2. Workforce Inventory and Oscillation",
+   "razdel": "  ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical Assignment Introduction",
+   "razdel": " ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for ev"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

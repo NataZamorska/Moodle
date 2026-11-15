@@ -1,0 +1,54 @@
+{
+  "kurs_id": 358,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Weeks 1–7: Historical Background, Problem of Induction, Popper & Falsificationism, Kuhn & Scientific Revolutions, Recent Theories, Scientific Realism",
+      "v_kurse": "Philosophy of Science Development (раздел с учебными материалами)",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Материалы по всем ключевым концепциям выложены в курсе, но в рамках одного раздела.",
+      "chto_sdelat": "Разделить раздел на темы силлабуса (Поппер, Кун, индукция, реализм)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Task 1: Evolution of Approaches in Modern Methodology (25 %)",
+      "v_kurse": "assign: Task 1 in [Philosophy of Science Development]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание Task 1 соответствует первому исследовательскому эссе силлабуса.",
+      "chto_sdelat": "Задать вес 25 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Task 2: Critical Evaluation of Scientific Methods and Research Framework (25 %)",
+      "v_kurse": "assign: Task 2 in [Philosophy of Science Development]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание Task 2 соответствует второму критическому анализу силлабуса.",
+      "chto_sdelat": "Задать вес 25 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Examination on Philosophy of Science (50 %)",
+      "v_kurse": "quiz: Exam in [Philosophy of Science Development]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Экзаменационный тест создан и готов к проведению контроля.",
+      "chto_sdelat": "Задать вес 50 % в журнале оценок."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Godfrey-Smith, P. Theory and Reality; DeWitt, R. Worldviews",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы на вводной странице курса.",
+      "chto_sdelat": "Создать страницу Reading в Welcome и добавить книги."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс полностью закрывает план оценивания силлабуса: есть 2 исследовательских задания и итоговый экзаменационный тест. Рекомендуется разбить материалы на разделы по именам философов и концепциям (Поппер, Кун, реализм) и настроить веса в журнале оценок."
+}

@@ -1,0 +1,676 @@
+{
+ "kurs": "DL - Machine Learning Algorithms",
+ "id": 346,
+ "url": "https://moodle.rnu.lv/course/view.php?id=346",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Machine Learning Algorithms” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Andrejs Bondarenko Preliminary knowledge, Related study courses Algorithms and Data Structures Aim To provide students with a deep understanding of artificial neural networks and their applications. Students will learn how to implement and evaluate neural network models using appropriate software and tools such as Keras and PyTorch. They will also gain knowledge of other machine learning algorithms and learn when to choose these algorithms over neural networks. Upon completion of this course, students will be able to develop and apply artificial neural networks to solve real-world problems and choose the appropriate algorithm for a given task. Planned Learning Outcomes (PLO) 1. Understanding of the theoretical foundations of feedforward neural networks, convolutional neural networks, and their applications 2. Knowledge of other machine learning algorithms, such as linear regression, logistic regression, and decision trees 3. Knowledge of backpropagation, regularization, optimization techniques, and transfer learning 4. Ability to design and implement neural network models using appropriate software and tools, such as TensorFlow and Keras 5. Ability to critically evaluate the results of machine learning models, including neural networks, and make informed decisions about model selection and deployment 6. Ability to make informed decisions about machine learning algorithms and technologies to support data- driven decision-making within an organization 7. Ability to communicate machine learning concepts and results to stakeholders with varying levels of technical knowledge Literature and other sources of information: 1. Compulsory reading - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, Aurélien Géron, O'Reilly Media, 2019 - Mastering Machine Learning Algorithms: Expert techniques for implementing popular machine learning algorithms, fine-tuning your models, and understanding how they work, 2nd Edition, Giuseppe Bonaccorso, 2020 - Deep Learning, Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016 - Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD, Jeremy Howard and Sylvain Gugger, 2020 - The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd ed., 12th printing), Trevor Hastie, Robert Tibshirani, Jerome Friedman, 2017 2. Recommended - Nelli Tolmacha, Konstanins Pudovskis, Janis Vandans, Andrey Bondarenko (2022) \"Brain Electrical Bioactivity Informational Specifics in Relation to Behavioural and Cognitive Functions in Children with Learning Difficulties\", biorxiv.org, Dec 31, 2022. https://doi.org/10.1101/2022.12.30.522305 - Hamann, T., Wiest, M., Mislevics, A., Bondarenko, A., Zweifel, S. (2022) \"At the Pulse of Time: Machine Vision in Retinal Videos\". In: Staartjes, V.E., Regli, L., Serra, C. (eds) Machine Learning in Clinical Neuroscience. Acta Neurochirurgica Supplement, vol 134. Springer, Cham. https://doi.org/10.1007/978-3- 030-85292-4_34 (Published: 04 December 2021) - D.Bliznuks, Y. Chizhov, A.Bondarenko, et al. (2020) \"Identification of the most informative wavelengths for non-invasive melanoma diagnostics in spectral region from 450 to 950 nm\", Progress in Biomedical Optics and Imaging - Proceedings of SPIE - The Hundred-Page Machine Learning Book, Andriy Burkov, 2019 - Designing Machine Learning Systems, Chip Huyen, O'Reilly Media, 2022 - Neural Networks and Deep Learning: A Textbook, Charu C. Aggarwal, 2018 Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction to Machine Learning and Neural Networks • Overview of machine learning and its applications • Introduction to neural networks and their history • Types of neural networks Linear Regression • Introduction to linear regression • Understanding the assumptions of linear regression • Optimization techniques for linear regression 3 2 Logistic Regression • Introduction to logistic regression • Understanding the assumptions of logistic regression • Optimization techniques for logistic regression Fundamentals of Feedforward Neural Networks • Basic architecture of a feedforward neural network • Activation functions and their properties • Forward propagation and output computation 3 3 Backpropagation and Gradient Descent • The concept of error and loss function • Backpropagation algorithm for weight updates • Gradient descent optimization and its variants Overfitting, Regularization and Early Stopping • Understanding overfitting and its causes 3 • Regularization techniques such as L1, L2, and dropout • Early stopping as a way to prevent overfitting 4 Decision Trees • Introduction to decision trees • Recursive partitioning algorithm • Criteria for selecting optimal splits Random Forests • Introduction to random forests • Advantages and disadvantages of random forests • Random forests for feature selection 3 5 Convolutional Neural Networks (CNNs) • Introduction to convolutional neural networks • Architecture and components of CNNs • Applications of CNNs in computer vision tasks Recurrent Neural Networks (RNNs) • Introduction to recurrent neural networks • Architecture and components of RNNs • Applications of RNNs in natural language processing and time series analysis 3 6 Long Short-Term Memory (LSTM) Networks • The limitations of classical RNNs • Introduction to LSTM networks • Applications of LSTM in sequence modeling and prediction Autoencoders and Unsupervised Learning • Introduction to autoencoders • Unsupervised learning using autoencoders • Applications of autoencoders in dimensionality reduction and data compression 3 7 Transfer Learning and Fine-Tuning • Introduction to transfer learning • Fine-tuning pre-trained models for new tasks • Applications of transfer learning in various domains Keras and PyTorch • Introduction to PyTorch and Keras • Building neural network models using PyTorch and Keras • Visualization and interpretation of neural network models using Tensorboard 3 8 Interpretability and Explainability in ML and Neural Networks • Interpretability and explainability in ML algorithms (non-ANN) • Methods for interpreting neural network models Case Studies and Applications 3 • Case studies of neural networks in various domains such as healthcare, finance, and entertainment • Discussion of ethical considerations in the use of neural networks • Future directions and challenges in the field of neural networks Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Familiarization with supervised learning techniques Demonstrate knowledge of supervised learning and algorithms implementing classification and regression problems. Applies knowledge of linear/logistic regression and decision trees (PLO 2) and develops implementation skills (PLO 4) for supervised learning scenarios. 20% Familiarization with unsupervised learning techniques, model selection, and ensemble methods Demonstrate knowledge of unsupervised algorithms, model selection, result interpretation, and ensemble models. Integrates theoretical understanding (PLO 1, 2, 3) with critical evaluation capabilities (PLO 5) for unsupervised learning and ensemble approaches. 20% Practical Exercises Set up machine learning projects, prepare data, train models, assess their performance, and present the results. Synthesizes implementation skills (PLO 4), evaluation capabilities (PLO 5), decision- making (PLO 6), and communication skills (PLO 7) in real-world applications. 20% Final test Comprehensive examination covering Evaluates comprehensive understanding of all course 40% all theoretical and practical aspects of machine learning algorithms and neural networks. learning outcomes including theoretical foundations, implementation skills, and practical application abilities. Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Online lecture link",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Machine Learning Algorithms",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 1",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 1",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 1 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 2",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 02 — Linear Regression: Fit, Assumptions, and Optimization",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 2 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 3",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 03 — Logistic Regression and Linear Decision Boundaries",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 3 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 4",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 04 — Feedforward Neural Networks: Hidden Layers, Output Design, and Task Types",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 4 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 5",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 05 — Training Neural Networks: Gradients, Backpropagation, and AutoGrad",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 5 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 6",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 06 — Generalization, Model Selection, Bias-Variance Tradeoff, and Regularization",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 6 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 7",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 07 — Decision Trees and Recursive Partitioning",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 7 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 8",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 08 — Random Forests and Ensemble Reasoning",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 8 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 9",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 09 — Convolutional Neural Networks (CNNs): Convolution, Pooling, Feature Maps, and Spatial Inductive Bias",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 9 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 10",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 10 — Recurrent Neural Networks and Sequential Dependence",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 10 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 11",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 11 — LSTMs and Long-Range Dependencies",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 11 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 12",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 12 - Autoencoders and Unsupervised Representations",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 12 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 13",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 13 - Transfer Learning and Fine-Tuning",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 13 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 14",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 14 - Keras and PyTorch Workflow for Model Building",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 14 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 15",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 15 — Interpretability and Explainability",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 15 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 16",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 16 — Case Studies, Ethics, and Model Selection Synthesis",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Lecture 16 quiz",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Assignments &amp; Final Exam",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Assignment #1",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Assignment #2",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Assignment #3",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Final Exam",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "PDF reading materials &amp; Qizz",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Reading_Artificial Neural Networks Overview MLP - Classifier MLP - Regressor",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Reading Material _Clustering Analysis Kohonen (SOM) Neural Network",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Reading Material_Radial Basis Function Neural Networks Bayes Classifier (Naive)",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Reading Material_Dimensionality Reduction techniques 1",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Qizz_Dim.Reduction techniques",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Qizz_Radial Basis Function Neural Networks Bayes Classifier (Naive)",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Quizz_Clustering and Self-Organizing Maps",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "2026-Autmn Course Materials",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "L1-2: Machine Learning Overview, Linear Regression",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L3-4: Linear Regression II; KNN",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L3-4: QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L5-6: LReg; DecisionTree; SVM",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L5-6: QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "HW#1: Search",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "HW#2: Classification, Regression, Clustering",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L7-8: Multilayered Perceptron &amp; Quizz &amp; HandsOnTask",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L7-8: QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L7-8: HandsOnTask instructions",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L9-10: Clustering / SOM",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L9-10: Clustering / SOM - QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L11-12: RBF Neural Network, Naive Bayes Classfier",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L11-12: RBF Neural Network, Naive Bayes Classifier QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L13-14: Dimensionality Reduction",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "L13-14: Dimensionality Reduction QUIZZ",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exam(v2021)_Dec24Jan25 __OLD",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exam ML2021 - May25Jan26 __OLD",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "url",
+     "nazvanie": "HW#2 Tutorial/Instructions Part 1 of 2",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "url",
+     "nazvanie": "HW#2 Tutorial/Instructions Part 2 of 2",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": []
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 1 quiz",
+   "razdel": "Lecture 1",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 2 quiz",
+   "razdel": "Lecture 2",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 3 quiz",
+   "razdel": "Lecture 3",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 4 quiz",
+   "razdel": "Lecture 4",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 5 quiz",
+   "razdel": "Lecture 5",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 6 quiz",
+   "razdel": "Lecture 6",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 7 quiz",
+   "razdel": "Lecture 7",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 8 quiz",
+   "razdel": "Lecture 8",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 9 quiz",
+   "razdel": "Lecture 9",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 10 quiz",
+   "razdel": "Lecture 10",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 11 quiz",
+   "razdel": "Lecture 11",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 12 quiz",
+   "razdel": "Lecture 12",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 13 quiz",
+   "razdel": "Lecture 13",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 14 quiz",
+   "razdel": "Lecture 14",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 15 quiz",
+   "razdel": "Lecture 15",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Lecture 16 quiz",
+   "razdel": "Lecture 16",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Assignment #1",
+   "razdel": "Assignments &amp; Final Exam",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Assignment #2",
+   "razdel": "Assignments &amp; Final Exam",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Assignment #3",
+   "razdel": "Assignments &amp; Final Exam",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Final Exam",
+   "razdel": "Assignments &amp; Final Exam",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "HW#1: Search",
+   "razdel": "2026-Autmn Course Materials",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "HW#2: Classification, Regression, Clustering",
+   "razdel": "2026-Autmn Course Materials",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exam(v2021)_Dec24Jan25 __OLD",
+   "razdel": "2026-Autmn Course Materials",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal s"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exam ML2021 - May25Jan26 __OLD",
+   "razdel": "2026-Autmn Course Materials",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

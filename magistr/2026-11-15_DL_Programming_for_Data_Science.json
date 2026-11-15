@@ -1,0 +1,129 @@
+{
+ "kurs": "DL - Programming for Data Science",
+ "id": 345,
+ "url": "https://moodle.rnu.lv/course/view.php?id=345",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Programming for Data Science” description Study program Computer Systems Amount 9 CP = 225 ac.h. Author (s) Jelena Caiko Preliminary knowledge, Related study courses Python programming, Mathematics (differential and integral calculus) Aim This course will cover the main principles of computer programming with a focus on data science applications by following the entire pathway from raw data to databases, data wrangling and visualisation, machine learning frameworks up to software development. Planned Learning Outcomes (PLO) 1. Understand the main principles of programming in the data science context and develop the ability to handle and visualise data 2. Programming in the Python programming language 3. Be able to computational thinking in various applications domains and learn to communicate data analysis results to stakeholders 4. Account for and discuss the application of i) technologies to convert data to an appropriate format for data analysis ii) algorithms to analyse data through supervised and unsupervised machine learning as well as iii) technologies and performance metrics for evaluation of data analysis results 5. Understand the benefits and challenges of data 6. To be able to integrate the steps in a data science process to real life data Literature and other sources of information: 1. Compulsory reading - VanderPlas, J. (2023). \"Python Data Science Handbook: Essential Tools for Working with Data\". English edition. - Agarwal, B., Baka, B. (2018). \"Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7\" (2nd Edition). ISBN 978-1788995573. - Guttag, J. V. (2016). \"Introduction to Computation and Programming Using Python: With Application to Understanding Data\". MIT Press. - Spronck, P. (2017). \"The Coder's Apprentice: Learning Programming with Python 3\". http://www.spronck.net/pythonbook/ 2. Recommended - Shaltykova, D., Kadyrzhan, K., Caiko, J., Vitulyova, Y., Suleimenov, I. (2025). \"Trigger-Based Systems as a Promising Foundation for the Development of Computing Architectures Based on Neuromorphic Materials\". Technologies, 13(8), 326. - Zhao, B., Zheng, D., Yang, C., Caiko, J., Grants, R. (2025). \"Design and Optimization of an Internet of Things-Based Cloud Platform for Autonomous Agricultural Machinery Using Narrowband Internet of Things and 5G Dual-Channel Communication\". Electronics Switzerland, 14(8), 1672. - Solochshenko, A., Baikenov, A., Tikhvinskiy, V., Caiko, J. (2021). \"Research of Self-Organizing Networks (SON) Algorithms Efficiency Applying on Fourth-Generation Mobile Networks\". Transport and Telecommunication, 22(4), pp. 444-452. - Python website: https://www.python.org/ - Free textbook: A Byte of Python https://python.swaroopch.com/ Study course content and schedule of contact hours Week Topic Academic hours 1-2 Raw data, relational databases models, structured query languages (SQL), data extraction, processing of various human- readable data formats (e.g. JSON, XML, CSV), importing to Python and R, data types and data structures. 9 3-4 Relevant programming concepts, such as IDEs, control flow structures, variables, functions, loops, errors and exception handling, and data input-output operations. 9 5-6 Data science problem, going through manipulation and visualisation of data, and, finally, creating actionable insights. 9 7-8 Data cleaning and transformation, representation of data using tabular data structures and their manipulation. Programming and handling data types in R and Python such as scalars, factors, vectors, matrices, arrays, lists and data frames. Introduction to NumPy and Pandas in Python, and the data wrangling utilities in base R and the tidyverse collection of R packages. 9 9-10 Methods for explanatory data analysis, using various statistical plots such as histograms and boxplots, data visualisation plots for time series data, multivariate data, dimensionality reduction methods for visualisation of high-dimensional data, graph data visualisation methods. 9 11-12 Hands on experience with Python (matplotlib and seaborn) and R (base R graphics, ggplot2). 9 13-14 Introduction to Machine Learning via standard frameworks in Python (SciPy, Scikit Learn) and R (glm methods, mlr, caret). 9 15-16 Use of version control via git to share work and collaborate with others in the Data Science industry. Software testing methods and test-driven development (using unit testing). Developing an R package. 9 Total: 72 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Describe the whole data science process Demonstrate comprehensive understanding of the complete data science workflow from raw data to actionable insights. Demonstrates understanding of data science principles (PLO 1, 2) and ability to integrate process steps in real-world applications (PLO 5, 6). 40% Accurately use procedural statements Apply programming concepts including control flow, functions, loops, and error handling correctly in data science applications. Applies computational thinking (PLO 3) and technologies for data transformation and analysis (PLO 4) through proper use of procedural programming. 40% Comprehensive Evaluates all course learning 20% Final test examination covering programming principles, data manipulation, visualization, machine learning frameworks, and software development practices. outcomes including programming skills, data handling capabilities, and ability to communicate analysis results. Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "Python Data Science Handbook: Essential Tools for Working with Data",
+   " (2nd Edition). ISBN 978-1788995573. - Guttag, J. V. (2016). ",
+   ". MIT Press. - Spronck, P. (2017). "
+  ],
+  "cp": "9"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Class activities",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Task",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Notification",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Unit 1 introduction",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Unit 2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "P DS Unit3",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "P DS Unit 4",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "P DS Unit 5",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Certificate presentation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "mini project",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Final Exam",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practical exam",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Certificate presentation",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone else Block Unblock Remov"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "mini project",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Final Exam",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone else Block Unblock Remov"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practical exam",
+   "razdel": "Welcome to the Study Course!",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for everyone else Block Unblock Remov"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

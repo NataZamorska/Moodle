@@ -1,0 +1,661 @@
+{
+ "kurs": "DL - NoSQL Database Technologies",
+ "id": 351,
+ "url": "https://moodle.rnu.lv/course/view.php?id=351",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "NoSQL Database Technologies page 1 of 3 COURSE SYLLABUS NOSQL DATABASE TECHNOLOGIES Course syllabus for master's students specializing in Information Technology Level: Master's · 15 weeks · lectures, practical sessions, lab work NoSQL Database Technologies page 2 of 3 1. Course Overview This course gives a systematic understanding of non-relational (NoSQL) database management systems: the principles behind their design, the theoretical foundations of distributed data stores (the CAP theorem, the ACID/BASE consistency models), the four core data paradigms (key-value, document, wide-column, graph), and hands-on skills with the industrial-grade systems Redis, MongoDB, Apache Cassandra and Neo4j. The program follows the structure and content of courses taught at leading universities: CMU 15-445/645 “Database Systems” (data models, storage, transactions, distributed DBMS), MIT 6.830/6.5830 “Database Systems” (the NoSQL lecture, consistency/availability trade-offs), the University of Cambridge Part II “Databases” course (document and graph models, ACID/BASE/eventual consistency), and the IBM/edX “NoSQL Database Basics” program (hands-on work with MongoDB, Cassandra, Cloudant). The course runs for 15 weeks and combines lectures, practical (seminar) sessions and lab work in which every student completes assignments individually on real database systems. 2. Course Goals • build an understanding of the limits of the relational model when dealing with big data and high-load systems; • provide the theoretical foundation: the CAP theorem, the PACELC theorem, consistency models (strong, eventual, causal), ACID and BASE; • teach students to make an informed choice of NoSQL database type (key-value, document, wide- column, graph) for a given domain; • develop practical skills in schema design, querying and administering Redis, MongoDB, Cassandra and Neo4j; • develop the ability to design distributed storage: replication, sharding/partitioning, failure handling; • prepare students to independently design a polyglot-persistence architecture for a real project. 3. Learning Outcomes By the end of the course, students will be able to: • explains the CAP/PACELC theorems and justifies the choice of consistency model for a given scenario; • designs a denormalized document-database schema for given access patterns (query-driven design); • writes CRUD queries and aggregation pipelines in MongoDB, commands and data structures in Redis, CQL queries in Cassandra, and Cypher queries in Neo4j; • configures replication and evaluates read/write consistency levels in Cassandra; • designs and justifies a polyglot-persistence architecture for a course/capstone project. 4. Weekly Course Structure No. Topic Lecture, hrs Practice, hrs Lab, hrs 1 Introduction to NoSQL: from the relational model to distributed data stores 2 2 - 2 Data modeling for NoSQL (query-driven data modeling) 2 2 - 3 Redis I. The key-value model, data structures 2 - 2 NoSQL Database Technologies page 3 of 3 No. Topic Lecture, hrs Practice, hrs Lab, hrs 4 Redis II. Persistence, replication, Pub/Sub 2 - 2 5 Redis III. Usage patterns: caching, queues, rate limiting 2 2 2 6 MongoDB I. The document model, BSON, CRUD 2 - 2 7 MongoDB II. The Aggregation Framework, indexing 2 - 2 8 MongoDB III. Replication (replica set) and sharding 2 2 2 9 Cassandra I. The wide-column model, CQL, primary keys 2 - 2 10 Cassandra II. Replication, tunable consistency, anti-patterns 2 2 2 11 Neo4j I. The property graph model, the Cypher language 2 - 2 12 Neo4j II. Graph algorithms and applied use cases 2 2 2 13 Distributed systems: sharding, consensus (Raft/Paxos), fault tolerance 2 2 - 14 Polyglot persistence, NewSQL, search engines (Elasticsearch), choosing a technology 2 2 - 15 Final project defense, course review, exam preparation 1 3 - 5. Grading • Lab assignments (10 labs, submitted individually with a live demo) — 40% • Practical/seminar assignments and short written quizzes — 15% • Final project (designing a polyglot-persistence architecture + defense) — 30% • Written exam (theory: CAP/BASE, data models, consistency) — 15% 6. General Course References • Kleppmann M. Designing Data-Intensive Applications. — O'Reilly, 2017. • Sadalage P., Fowler M. NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. — Addison-Wesley, 2012. • Redmond E., Wilson J. R. Seven Databases in Seven Weeks. — Pragmatic Bookshelf, 2018. • CMU 15-445/645 Intro to Database Systems — course materials and lecture recordings (Andy Pavlo), cmu-db.github.io / 15445.courses.cs.cmu.edu. • MIT 6.5830/6.830 Database Systems — OCW, ocw.mit.edu (the “NoSQL” lecture). • University of Cambridge, Computer Science Tripos Part II, “Databases” — cl.cam.ac.uk/teaching (sections Documents & Semi-Structured Data, Graph Databases). • IBM: NoSQL Database Basics (edX) — the four categories of NoSQL, hands-on practice with MongoDB, Cassandra, Cloudant. • Official documentation: redis.io/docs, mongodb.com/docs, cassandra.apache.org/doc, neo4j.com/docs.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": null
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Sillabus",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lessons",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 1 Introduction",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson  Redis",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson  Redis Continue",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Redis presentation TTL",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 2 MongoDB reading materials",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 3 Mongo DB Introduction",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 4 Mongo DB",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Presentation Cassandra",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 5.0 Presentation slides Cassandra",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 5 Installing Cassandra_Wide Column",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 5.1 Column Database Cassandra",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 6 Cassandra",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 7 Cassandra Query Language",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 8 Graph Database",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 8.1 Neo4j",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson 6 Graph based database",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Lesson parts 1-8",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lessons 9-12",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 13",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 14",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 15",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson16",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 17",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 18",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "lesson 25",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Examples of Final Theoretical questions",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Labs",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lab 1 Redis",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 1 Redis Assessment",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 2 Mongo DB",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 5 Cassandra for training",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab Cassandra Playground",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Neo4j Homework",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 5 Cassandra",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 4 Redis",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 1",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 2 Mongo DB",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 3 Accessing MongoDB from Python",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 6 Graph Based Database",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 6 Neo4j",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "MongoDB Lab 1",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "MongoDB Lab2",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 3 MongoDB indexes",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 4 Redis",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 2 CRUDE for lesson 14",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 3 Indexing",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 4",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 5",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab  6",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lab 7",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "folder",
+     "nazvanie": "Cassandra ticher",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "FINAL EXAM 2025/2026 ",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Final project",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Practice exercises",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Practice 1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Neo4j",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practice exercises",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Quizes",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Neo4j questions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Practical Quiz for parts 1-12",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "General Quiz parts 1-12",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Practice Quiz lesson 13",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Graded Quiz lessons 13-15",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Practical quiz lessons 16-18",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Practice Quiz 19_23",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Reading 📖 ",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Reading cassandra",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "NoSQL Database Technologies",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "Interactive course MongoDB (Task to do)",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Example of Interactive MongoDB",
+     "vidno_studentam": false
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 1 Redis Assessment",
+   "razdel": "Labs",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining 32 days 2 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 2 Mongo DB",
+   "razdel": "Labs",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 5 Cassandra for training",
+   "razdel": "Labs",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab Cassandra Playground",
+   "razdel": "Labs",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact r"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Neo4j Homework",
+   "razdel": "Labs",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 5 Cassandra",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 4 Redis",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 1",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 2 Mongo DB",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 3 Accessing MongoDB from Python",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 6 Graph Based Database",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 6 Neo4j",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "MongoDB Lab 1",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "MongoDB Lab2",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 3 MongoDB indexes",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 4 Redis",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 2 CRUDE for lesson 14",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 3 Indexing",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 4",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 5",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab  6",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lab 7",
+   "razdel": "Labs",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Final project",
+   "razdel": "FINAL EXAM 2025/2026 ",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining 2 hours 10 mins Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. t"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practice 1",
+   "razdel": "Practice exercises",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining 31 days 2 hours Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Neo4j",
+   "razdel": "Practice exercises",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Practice exercises",
+   "razdel": "Practice exercises",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me "
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Neo4j questions",
+   "razdel": "Quizes",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Practical Quiz for parts 1-12",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "General Quiz parts 1-12",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Practice Quiz lesson 13",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Graded Quiz lessons 13-15",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Practical quiz lessons 16-18",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Practice Quiz 19_23",
+   "razdel": "Quizes",
+   "vidno_studentam": false,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Example of Interactive MongoDB",
+   "razdel": "Interactive course MongoDB (Task to do)",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Late submissions Only allowed for participants who have been granted an extension Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests "
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

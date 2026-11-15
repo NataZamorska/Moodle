@@ -1,0 +1,312 @@
+{
+ "kurs": "DL - Project Quality Management",
+ "id": 361,
+ "url": "https://moodle.rnu.lv/course/view.php?id=361",
+ "silabus_gde": null,
+ "silabus_tekst": null,
+ "silabus_razobrano": null,
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information (copy)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Study course Project Quality Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Project Quality Management",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "PQM_Project_Assignment_Latvia_WoodTech / Presentation",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "PQM_Project_Assignment_Latvia_WoodTech / Presentation",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-10-Quality-in-Agile-and-Digital-Projects",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 10 Quality in Agile &amp; Digital Projects",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 10 Quality in Agile and DigitalProjects_Ex10",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-9-Quality-Management-Systems-and-Certification",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 9 Quality Management Systems and Certification",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 9 Quality-Management Systems and Certification_Ex9",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-8-Regulatory-and-Compliance-Requirements",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 8 Regulatory and Compliance Requirement",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 8 Regulatory and Compliance Requirements _Ex8",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-7-Stakeholder-Management-and-Quality",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 7 Stakeholder Management and Quality",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 7 Stakeholder Management_Ex7",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-6-Risk-Management-and-Quality",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture-6-Risk-Management-and-Quality",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture 6 Risk Management and Quality_Ex6",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-5-Continuous-Improvement",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture-5-Continuous Improvement",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture5-Continuous Improvement_Ex5",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-4-Quality-Control",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture4-Quality_Control",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture4-Quality_Control_EX4",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture-3-Quality-Assurance",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture3-Quality_Assurance",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture3-Quality_Assurance_Ex3",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture2-Quality Planning",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture2-Quality Planning",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Lecture2-Quality Planning_EX2",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction to Project Quality Management",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction to Project Quality Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise1-Introduction to Project Quality Management",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "PQM_Project_Assignment_Latvia_WoodTech / Presentation",
+   "razdel": "PQM_Project_Assignment_Latvia_WoodTech / Presentation",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 10 Quality in Agile and DigitalProjects_Ex10",
+   "razdel": "Lecture-10-Quality-in-Agile-and-Digital-Projects",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 9 Quality-Management Systems and Certification_Ex9",
+   "razdel": "Lecture-9-Quality-Management-Systems-and-Certification",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 8 Regulatory and Compliance Requirements _Ex8",
+   "razdel": "Lecture-8-Regulatory-and-Compliance-Requirements",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 7 Stakeholder Management_Ex7",
+   "razdel": "Lecture-7-Stakeholder-Management-and-Quality",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture 6 Risk Management and Quality_Ex6",
+   "razdel": "Lecture-6-Risk-Management-and-Quality",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture5-Continuous Improvement_Ex5",
+   "razdel": "Lecture-5-Continuous-Improvement",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture4-Quality_Control_EX4",
+   "razdel": "Lecture-4-Quality-Control",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture3-Quality_Assurance_Ex3",
+   "razdel": "Lecture-3-Quality-Assurance",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Lecture2-Quality Planning_EX2",
+   "razdel": "Lecture2-Quality Planning",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc."
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise1-Introduction to Project Quality Management",
+   "razdel": "Lecture1-Introduction to Project Quality Management",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

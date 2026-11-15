@@ -1,0 +1,261 @@
+{
+ "kurs": "DL - WEB Application Security Fundamentals",
+ "id": 352,
+ "url": "https://moodle.rnu.lv/course/view.php?id=352",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Web Application Security Fundamentals” description Study program Computer Systems ECTS 3 CP = 75 ac.h. Author (s) Aleksandrs Berežnojs Preliminary knowledge, Related study courses Computer Security Principles and Technologies, Web technology fundamentals Aim To build the knowledge of web application architecture and understanding of its core security layers. To help understanding security testing standards, methodologies and tools. To provide an insight into web application protocols. To teach the approaches to penetration testing. To make sure that skills in security testing of web applications are acquired. Planned Learning Outcomes 1. Fundamental concepts of web application technologies 2. Fundamental concepts of web application architectures 3. Understanding of web application related threats and protection controls 4. Ability to understand type of architecture and technologies used 5. Ability to perform reconnaissance and collect information about testing targets 6. Ability to select the required tests based on standards and best practices 7. Ability to apply the theoretical and practical knowledge and skills for the basic web application security assessment 8. Ability to work individually and in a team, applying their knowledge, being able to take responsibility for the results of their performance 9. Ability to set up security requirements in relation to web functionality, web protocols, type of encoding, authentication and authorization mechanism Literature and other sources of information: Compulsory reading PCI Security Standards Council (2017). Penetration Testing Guidance (Version 1.1). Available from: https://listings.pcisecuritystandards.org/documents/Penet ration-Testing-Guidance-v1_1.pdf Penetration Testing Execution Standard (PTES). PTES Technical Guidelines. Available from: http://www.pentest- standard.org/index.php/PTES_Technical_Guidelines Hoffman, A. (2024). Web Application Security: Exploitation and Countermeasures for Modern Web Applications (2nd Edition). O'Reilly Media. OWASP (2020). Web Security Testing Guide (Version 4.2). Available from: https://owasp.org/www-project- web-security-testing-guide/ Recommended Stuttard, D., & Pinto, M. (2011). The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws (2nd Edition). John Wiley & Sons, Inc., 912 p. West, J. (2025). CompTIA Network+ Guide to Networks (10th Edition). Cengage Learning. Gopejenko, V., & Bobrovskis, S. (2014). \"Robust Security Network Association Adjusted Hybrid Authentication Schema.\" 8th IEEE International Conference on Application of Information and Communication Technologies (AICT 2014). DOI: https://doi.org/10.1109/ICAICT.2014.7035907 OWASP. Application Security Verification Standard (ASVS). Available from: https://owasp.org/www- project-application-security-verification-standard/ NIST (2008). Technical Guide to Information Security Testing and Assessment (SP 800-115). Available from: https://csrc.nist.gov/pubs/sp/800/115/final PCI Security Standards Council (2024). Payment Card Industry Data Security Standard (PCI DSS), Version 4.0.1. Available from: https://www.pcisecuritystandards.org/ Study course content and schedule of contact hours Week Topic Academic hours Full-time intramural 1 Introduction to Web Technologies 4 2 Web Architecture 4 3 Web Functionality 4 4 HTTP protocol 4 5 Encoding Schemes 4 6 Authentication, Cookies and Sessions 4 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned learning outcomes % of final evaluation Evolution of Web Application Security, Alternative way of viewing page source code, Find sensitive Hyperlinks, Find JavaScript in source Study how to view page source code, how to identify Content Management System that is used, find sensitive hyperlinks, and distinguish client-side Develops understanding of web application technologies (PLO 1), ability to perform reconnaissance (PLO 5), and skills in selecting required 15% code, Client-side technologies technologies. tests (PLO 6). Server-side technologies, HTTP Protocol, Observe network connections, Show Client-Server Flow History, Verify HTTP Request Methods Study how to find sensitive external hyperlinks, how to find JavaScript in source code, to distinguish between client-side technologies and server-side technologies, review HTTP protocol activities, and observe network connections. Develops understanding of web application architectures (PLO 2), ability to perform reconnaissance and collect test environment information (PLO 5), and apply knowledge for security assessment (PLO 7). 15% Examine URL, HTTP Response Status Codes, HTTP Headers, Security HTTP Headers Study how to examine URL addresses, what HTTP Response Status Codes mean, how to study HTTP Headers – Requests and Responses, investigate Security HTTP Headers. Develops understanding of web protocols and threats (PLO 3), ability to select required tests based on standards (PLO 6), and competence in setting security requirements for web protocols (PLO 9). 15% Subdomains and HTTPS, TLS Certificates, TLS Certificate formats, TLS Multi domain Certificates, Cipher Suites Study how DNS system operates, how to observe TLS Certificates contents, how to select secure protocols in Cipher Suites, how HTTPS protocol works, TLS certificate formats, and multi-domain certificates. Develops understanding of web application protection controls (PLO 3), ability to apply knowledge for security assessment (PLO 7), and competence in setting security requirements for encryption and authentication (PLO 9). 15% Encoding, HTTP Cookies, Sessions, Authentication Study how to perform simple types of encoding, how to decode the encoded message, how to identify session parameter manipulation, how to ensure proper authentication type selection. Develops understanding of encoding and authentication threats (PLO 3), ability to select tests based on best practices (PLO 6), and competence in setting requirements for encoding, authentication and authorization (PLO 9). 15% Final test Comprehensive examination covering web technologies, web architecture, HTTP protocol, encoding schemes, authentication mechanisms, cookies, sessions, and web application security testing methodologies. Evaluates comprehensive achievement of all course learning outcomes including knowledge of web technologies and architectures (PLO 1, 2, 3), practical skills in reconnaissance and testing (PLO 4, 5, 6), and competencies in security assessment and requirements (PLO 7, 8, 9). 25% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 8 (very good) – The requirements of the study course are fully met, however, there is 7 - good) insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "WEB Application Security Fundamentals",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Course description EN",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Course description LV",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Описание курса",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "label",
+     "nazvanie": "VIDEOS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecture 01",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 01-1. Introduction.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 01-2. Web Architecture.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 01-3. Web Functionality Client-side.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecture 02",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 02-1. Server-Side Functionality.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 02-2. HTTP protocol",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 02-3. HTTP Communication",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 02-4. Client-Server dialog.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecture 03",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 03-1. Domains and URL",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 03-2. HTTP Responses.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 03-3. HTTP Security Headers",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 03-4. HTTPS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecture 04",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 04-1. Digital Certificates",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 04-2. Cryptography",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 04-3. Certificate Lifecycle",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecture 05",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 05-1. Encoding I",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 05-2. Encoding II",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Lecture 05-3. Cookies and Sessions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "FILES",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals Lecture1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals L1 PracticeTime",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals Lecture2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals L2 PracticeTime",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals Lecture3",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals L3 PracticeTime",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals Lecture4",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals L4 PracticeTime",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals Lecture5",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Web Application Security Fundamentals L5 PracticeTime",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Practice Time report template",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "For the remote access to the Web Application Secur...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Final Test instructions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Main exam=========Exam will take place on Sat, ....",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Practice Time report template",
+   "razdel": "WEB Application Security Fundamentals",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

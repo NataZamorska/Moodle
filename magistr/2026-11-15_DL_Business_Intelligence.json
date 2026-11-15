@@ -1,0 +1,385 @@
+{
+ "kurs": "DL - Business Intelligence",
+ "id": 349,
+ "url": "https://moodle.rnu.lv/course/view.php?id=349",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "RNU study course “Business Intelligence” description Study program Computer Systems Amount 3 CP = 75 ac.h. Author (s) Viktors Gopejenko, Samir Hamroun Preliminary knowledge, Related study courses Relational DBMS Foundations or other SQL DB related course Aim The purpose of the course is to equip students with the knowledge and skills necessary to effectively use data and technology to support business decision-making. To provide students with the knowledge and skills necessary to effectively analyze and visualize data, develop dashboards and reports to communicate data insights to decision-makers, and develop data strategies to support the overall goals of an organization. Planned Learning Outcomes (PLO) 1. Understanding of data visualization principles and techniques, including best practices for creating effective charts, graphs, and dashboards 2. Knowledge of statistical methods for data analysis, including hypothesis testing, correlation, regression analysis, and data mining techniques 3. Knowledge of Business Intelligence (BI) areas including Data Warehousing, Database Management, Data Analysis, Data Mining, Business Analytics, Data Visualization, Business Performance Management, Big Data Technologies, and Project Management 4. Proficiency in using data visualization tools and frameworks, including Python libraries such as Matplotlib, Seaborn, and Plotly, and dashboard development tools such as Tableau, Power BI, and Excel 5. Ability to analyze and interpret data to identify trends and insights, and to communicate these findings effectively through dashboards, reports, and other visualizations 6. Skills in Business Performance Management, Business Analytics, and Predictive Analytics Data Analysis 7. Development of a data-driven mindset, with a focus on leveraging data to inform strategic decision-making within an organization 8. Ability to develop and implement a data strategy for an organization, including data management, governance, and security, and alignment of BI initiatives with overall business goals 9. Competencies in Data Analysis and Interpretation, Technical Proficiency in BI Tools, Data Management, Strategic Thinking, Problem-Solving, Project Management, Collaboration and Teamwork, Innovation and Creativity Literature and other sources of information: 1. Compulsory reading - Zwingmann, T. (2022). \"AI-Powered Business Intelligence: Improving Forecasts and Decision Making with Machine Learning\" (1st Edition) - Knaflic, C.N. (2015). \"Storytelling with Data: A Data Visualization Guide for Business Professionals\" - Wexler, S., Shaffer, J., Cotgreave, A. (2017). \"The Big Book of Dashboards: Visualizing Your Data Using Real- World Business Scenarios\" - Maheshwari, A. (2019). \"Data Analytics Made Accessible\" - Watson, R., Mckeown, M. (2018). \"Data Management: Databases and Organizations\" 2. Recommended - Trusina, I., Jermolajeva, E., Abramov, V., Gopejenko, V. (2024). \"World development assessment in an invariant coordinate system of energy units: The newly industrialized economies perspectives\". Journal of Infrastructure, Policy and Development, 8(3), 3110. DOI: https://doi.org/10.24294/jipd.v8i3.3110 - Trusina, I., Jermolajeva, E., Gopejenko, V. (2024). \"System-dynamic approach to assessing sustainable development: the example of the USA\". ECONOMIC SCIENCE FOR RURAL DEVELOPMENT 2024, 259. DOI: 10.22616/ESRD.2024.58.026 - Mukhamediev, R., Kuchin, Y., Yunicheva, N., Kalpeyeva, Z., Muhamedijeva, E., Gopejenko, V. (2024). \"Classification of Logging Data Using Machine Learning Algorithms\". Applied Sciences, 14(17), 7779. https://doi.org/10.3390/app14177779 - Nevliudov, S., Novoselov, O., Sychova, V., Gopejenko, N., Kosenko, N. (2024). \"Decentralized information systems in intelligent manufacturing management tasks\". Advanced Information Systems, 8(3), 100-110. https://doi.org/10.20998/2522- 9052.2024.3.12 - Mason, H., Patil, D.J. (2018). \"Data-Driven: Creating a Data Culture\" - Kelleher, J., Tierney, B. (2021). \"Data Science for Business Professionals: What You Need to Know About Machine Learning and AI\" - Dykes, B. (2020). \"Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals\" Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction and orientation Introduction to Business Intelligence: Overview of the course and the importance of Business Intelligence for decision-making Principles of Data Visualization: Introduction to data visualization principles, including visual perception, graphical excellence, and storytelling with data 2 2 Artificial Intelligence 2 3 Data and Big Data Analytics 2 4 Data Warehousing 2 5 Data Mining 2 6 Text Mining and Sentiment Analysis 2 7 Deep Learning 2 8 Prescriptive Analytics and Decision Modeling 2 9 Analytics and Data Science Tools 2 10 Emerging Technologies and Applications 2 11 Implementation and Ethical Issues 2 12 Final Project Presentations: Students present their final projects, which may involve the development of a dashboard or data visualization project for a real-world business problem 2 Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Introduction to Business Intelligence and Decision Making Understand the basic concepts of Business Intelligence and its role in decision-making. Familiarize with the key components and architecture of BI systems. Develops understanding of Business Intelligence fundamentals and data visualization principles (PLO 1, 3), and fosters a data-driven mindset for strategic decision-making (PLO 7). 10% Artificial Intelligence Data and Big Data Analytics Learn the fundamentals of AI, its applications in business, and how AI can enhance business intelligence. Gain knowledge of big data technologies and analytics techniques. Understand how to process and analyze large datasets. Develops knowledge of Business Intelligence areas including Big Data Technologies (PLO 3), analytical skills (PLO 5, 6), and competencies in data analysis and interpretation (PLO 9). 10% Data Warehousing Data Mining Learn various data mining techniques and their applications in extracting useful information from large datasets. Develops knowledge of statistical methods and data mining techniques (PLO 2), Business Intelligence areas including Data Warehousing and Data Mining (PLO 3), and analytical skills (PLO 5, 6). 10% Deep Learning Gain an understanding of deep learning techniques and their applications in business intelligence. Develops advanced analytical skills using deep learning (PLO 2, 5, 6), technical proficiency in BI tools (PLO 4), and competencies in 20% innovation and problem- solving (PLO 9). Prescriptive Analytics and Decision Modeling Analytics and Data Science Tools Understand prescriptive analytics and decision modeling, and how they can be used to make data- driven decisions. Develops proficiency in data visualization and analytics tools (PLO 4), skills in Business Performance Management and Predictive Analytics (PLO 6), ability to implement data strategies (PLO 8), and competencies in strategic thinking and problem- solving (PLO 9). 20% Emerging Technologies and Applications Implementation and Ethical Issues Stay updated with the latest trends and emerging technologies in business intelligence and their potential impact. Understand the challenges in implementing BI systems. Develops understanding of emerging BI areas (PLO 3), ability to develop and implement data strategies including governance and security (PLO 8), and competencies in project management and strategic thinking (PLO 9). 10% Final Test Comprehensive examination covering Business Intelligence concepts, data visualization, analytics techniques, big data technologies, decision modeling, and implementation strategies. Evaluates comprehensive achievement of all course learning outcomes including understanding of BI principles and visualization (PLO 1, 2, 3), proficiency in BI tools and techniques (PLO 4, 5, 6), and competencies in strategic thinking and data-driven decision- making (PLO 7, 8, 9). 20% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [
+   [
+    1,
+    "Introduction and orientation Introduction to Business Intelligence"
+   ],
+   [
+    11,
+    "Implementation and Ethical Issues 2 12 Final Project Presentations"
+   ]
+  ],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "AI-Powered Business Intelligence: Improving Forecasts and Decision Making with Machine Learning",
+   "Storytelling with Data: A Data Visualization Guide for Business Professionals",
+   "The Big Book of Dashboards: Visualizing Your Data Using Real- World Business Scenarios",
+   "Data Analytics Made Accessible",
+   "Data Management: Databases and Organizations"
+  ],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Dear Students, Welcome to this study course. In th...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction_to_Business_Intelligence&amp;Decision_Making",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction_to_Business_Intelligence&amp;Decision_Making",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise1_validate understanding of the basic concepts of Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture2-Artificial Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture2-Artificial Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise2_Artificial Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "3- Real Business Application- Example",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Canvas IA- Example of real Application",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "4 - Data and Big Data Analytics in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 4-Data and Big Data Analytics in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise4_validate understanding_Data and Big Data Analytics in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "5 - Data Warehousing in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture5-Data Warehousing in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise5_validate understanding_Data Warehousing in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "6 - Data Mining in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 6-Data Mining in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise6_validate understanding_Data Mining in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "7 - Text Mining and Sentiment Analysis in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 7-Text Mining and Sentiment Analysis in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise7_validate understanding_Text Mining and Sentiment Analysis in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "8 - Deep Learning in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 8-Deep Learning in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise8_validate understanding_Deep Learning in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "9 - Prescriptive Analytics and Decision Modeling",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 9-Prescriptive Analytics and Decision Modeling in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise9_validate understanding Prescriptive Analytics and Decision Modeling in BI",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "10-Analytics and Data Science Tools in Business Intelligence",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "10-Analytics and Data Science Tools in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise10_validate understanding Analytics and Data Science Tools in BI",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "11 - Emerging Technologies and Applications",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 11-Emerging Technologies and Applications in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise11_validate understanding Emerging Technologies and Applications in Business Intelligence",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "12 - Implementation and Ethical Issues",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture 12-Implementation and Ethical Issues in Business Intelligence",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "Exercise12_validate understanding Implementation and Ethical Issues  in BI_",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Project Application",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Project Application",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Knowledge Base &amp; Practical Application",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Business Intelligence Data Mining Predictive Insights",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Data Mining Exercise Using File Join in Orange",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Data Mining Exercise Orange_Application",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Business Intelligence Data Mining Predictive Insights_Application",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Business Intelligence Attendance Sheet &amp; Worksheet Score",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": []
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise1_validate understanding of the basic concepts of Business Intelligence",
+   "razdel": "Lecture1-Introduction_to_Business_Intelligence&amp;Decision_Making",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise2_Artificial Intelligence",
+   "razdel": "Lecture2-Artificial Intelligence",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise4_validate understanding_Data and Big Data Analytics in Business Intelligence",
+   "razdel": "4 - Data and Big Data Analytics in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise5_validate understanding_Data Warehousing in Business Intelligence",
+   "razdel": "5 - Data Warehousing in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise6_validate understanding_Data Mining in Business Intelligence",
+   "razdel": "6 - Data Mining in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise7_validate understanding_Text Mining and Sentiment Analysis in Business Intelligence",
+   "razdel": "7 - Text Mining and Sentiment Analysis in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise8_validate understanding_Deep Learning in Business Intelligence",
+   "razdel": "8 - Deep Learning in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise9_validate understanding Prescriptive Analytics and Decision Modeling in BI",
+   "razdel": "9 - Prescriptive Analytics and Decision Modeling",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise10_validate understanding Analytics and Data Science Tools in BI",
+   "razdel": "10-Analytics and Data Science Tools in Business Intelligence",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise11_validate understanding Emerging Technologies and Applications in Business Intelligence",
+   "razdel": "11 - Emerging Technologies and Applications",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "Exercise12_validate understanding Implementation and Ethical Issues  in BI_",
+   "razdel": "12 - Implementation and Ethical Issues",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Project Application",
+   "razdel": "Project Application",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Drafts 0 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me a"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

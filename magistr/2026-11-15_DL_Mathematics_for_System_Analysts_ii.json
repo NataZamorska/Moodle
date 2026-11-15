@@ -1,0 +1,54 @@
+{
+  "kurs_id": 342,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics: Data Pre-processing, Linear Algebra & Eigenvalues, Taylor Series, Numerical Methods (Interpolation, ODE, Roots, Integration), Partial Differential Equations",
+      "v_kurse": "Sections: LECTURE MATERIALS, EIGENVALUES, TAYLOR SERIES, DATA PRE-PROCESSING",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все темы численных методов и прикладной математики глубоко раскрыты в 19 разделах курса.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Independent problem sets and quizzes across all numerical methods (40 %)",
+      "v_kurse": "27 квизов и 16 расчетных заданий в разделах тем",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Колоссальный массив практических задач охватывает все методы (собственные значения, ряды, интерполяция, ДУ).",
+      "chto_sdelat": "Сгруппировать в категории журнала с суммарным весом 40 %."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Essays and data analysis tasks (20 %)",
+      "v_kurse": "assign: ESSAY-1-MSA, ESSAY-2-MSA, ESSAY-3-MSA, DATA VISUALIZATION",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "3 исследовательских эссе и задание по визуализации данных полностью соответствуют силлабусу.",
+      "chto_sdelat": "Настроить вес 20 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Examination on Mathematics for System Analysts (40 %)",
+      "v_kurse": "quiz: EXAM - MATHEMATICS FOR SYSTEM ANALYSTS & assign: EXAM-TASK-MSA",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Экзамен включает и теоретический тест, и практическое экзаменационное задание.",
+      "chto_sdelat": "Настроить суммарный вес 40 % в журнале оценок."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Cao, L., Yang, Q. Data science and AI in FinTech; Agbinya, J. I. Applied Mathematics",
+      "v_kurse": "LECTURE MATERIALS → списки литературы",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Литература представлена в материалах лекционных разделов.",
+      "chto_sdelat": ""
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс обладает колоссальным объемом учебных и практических материалов: 47 оцениваемых элементов (тесты, численные задачи, 3 эссе и экзаменационные блоки), полностью закрывающих силлабус. Требуется настроить категории и веса в журнале оценок."
+}

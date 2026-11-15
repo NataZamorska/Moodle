@@ -1,0 +1,914 @@
+{
+ "kurs": "DL - Mathematics for System Analysts",
+ "id": 342,
+ "url": "https://moodle.rnu.lv/course/view.php?id=342",
+ "silabus_gde": "файл в курсе «Study Course Description!»",
+ "silabus_tekst": "RNU study course “Mathematics for System Analysts” description Study program Computer Systems Amount 9 CP = 225 ac.h. Author (s) E.Liepa-Hazeleja, Inese Trusina Preliminary knowledge, Related study courses Mathematics, Mathematical methods Aim The purpose of the course is to study the conceptual apparatus of the discipline, the main theoretical provisions and methods, the formation of skills and instilling skills in applying theoretical knowledge to solve applied problems; to acquaint students with the basics of knowledge management and the features of processing various types of data; to provide understanding and skills in the use of appropriate analytical methods and tools to effectively create, extract, maintain, recover and disseminate data and knowledge that is useful for business. Planned Learning Outcomes (PLO) 1. Methods of analysis, pre-processing and statistical description of data 2. Direct and iterative methods for solving systems of linear equations 3. Basic methods for solving nonlinear equations and their systems 4. Numerical methods for solving ordinary differential equations 5. Apply methods of analysis, pre-processing and statistical description of data 6. Apply direct and iterative methods for solving systems of nonlinear equations in solving applied problems 7. Apply methods for solving nonlinear equations in solving applied problems 8. Apply numerical methods for solving ordinary differential equations in solving applied tasks 9. Programming skills of numerical methods in mathematical software packages 10. Analyse socio-economic tasks and processes using the methods of system analysis and mathematical modelling 11. Justify the choice of design solutions for the types of information systems support 12. Apply a systematic approach and mathematical methods in formalizing the solution of applied problems Literature and other sources of information: • Compulsory reading - Cao, L., Yang, Q., Yu, P. S. (2021). \"Data science and AI in FinTech: an overview\". International Journal of Data Science and Analytics, Volume 12, Issue 2, Pages 81-99. - Agbinya, J. I. (2020). \"Applied data analytics - principles and applications\". River Publishers. ISBN 978-877022096-5, 978- 877022095-8, pages 336. - Trad, A., Kalpić, D. (2019). \"Using applied mathematical models for business transformation\". IGI Global. ISBN 978- 179981011-7, 978-179981009-4. - Epperson, J. F. (2021). \"An introduction to numerical methods and analysis\". Wiley publisher. ISBN 978-111960475-4, 978- 111960469-3, pages 650. • Recommended - Trusina, I., Jermolajeva, E., Abramov, V., Gopejenko, V. (2024). \"World development assessment in an invariant coordinate system of energy units: The newly industrialized economies perspectives\". Journal of Infrastructure Policy and Development, 8(3), 3110. - Jermolajeva, E., Trusina, I. (2022). \"Is Sustainable Development Really Sustainable-Theoretical Reflections, Statistics and the Need for Changes\". Journal of Teacher Education for Sustainability, 24(2), pp. 166-179. - Hunt, J. (2019). \"Advanced Guide to Python 3 Programming\". Springer Nature Switzerland. ISSN 1863-7310. - Zaki, M. J., Meira, W. Jr. (2020). \"Data Mining and Machine Learning: Fundamental Concepts and Algorithms\" (2nd Ed.). Online book: https://dataminingbook.info/book_html/ Study course content and schedule of contact hours Week Topic Academic hours 1 Introduction Variables and Basic Data Structures. Functions. Data structure. String. List. Tuple. Set. Arrays. Function basics. Local variables and global variables. Nested functions. Lambda functions. Functions as arguments to functions. Recursive functions. Branching statements. Iteration. Data object and attribute types. Data transformation and data discretization. Normalization. Binning. Histogram analysis. Discretization by cluster, decision tree, and correlation analyses. Metadata 5 2 Statistical description of data Organizing and Producing Data. Displaying Data. Describing Distributions with Numbers. Correlation and Regression. Producing Data. 4 3 Probability. The basics of probability. Conditional probability and 5 independence. Random variables and distribution functions. The expected value. Examples of mass functions and densities. The law of large numbers. The central limit theorem. Estimation Overview of estimation. Method of moments. Unbiased estimation. Maximum likelihood estimation. Interval estimation. Hypothesis testing. Simple hypotheses. Composite hypotheses. Extensions on the likelihood ratio. T procedures. Goodness of fit. Analysis of variance. 4 Data pre-processing. Data quality. Data cleaning. Missing value. Noisy data. Data cleaning as a process. Data integration. Redundancy and correlation analysis. Tuple duplication. Data value conflict detection and resolution. Data reduction. Wavelet transforms. Principal components analysis. Attribute subset selection. Regression and log-linear models. Histograms. Clustering. Sampling. Data cube aggregation. Data classification. Cluster analysis. Outlier detection. 5 5 Linear Algebra and Systems of Linear Equations Basics of linear algebra. Sets. Vector. Matrices. Linear transformations. Systems of linear equations. Solutions to systems of linear equations. Gauss elimination method. Gauss-Jordan elimination method. LU decomposition method. Iterative methods - Gauss-Seidel method. Eigenvalues and Eigenvectors. Problem Statement Eigenvalues and eigenvectors. The motivation behind eigenvalues and eigenvectors. The characteristic equation. The power method. The QR method. 5 6 Regression Least squares regression problem statement. Least squares regression derivation. Linear algebra. Least squares regression derivation. Multivariate calculus. Least squares regression for nonlinear functions. Polynomial regression. Interpolation Interpolation problem statement. Linear interpolation. Lagrange polynomial interpolation. Newton's polynomial interpolation. Taylor Series Expressing functions using a Taylor series. Approximations using Taylor series. Discussion about errors. Truncation errors for Taylor series. Estimating truncation errors. Round-off errors for Taylor series. 5 7 Numerical differentiation. Numerical integration. Root finding. Ordinary differential equations initial value problems. Boundary- value problems for ordinary differential equations. Numerical error and Instability. Fourier transform. 4 8 Data visualization and plotting 4 9 Computer Experiments in the Python environment. Data structure. 4 Tuple. Dictionary. Operators. Arrays. 2D Arrays. 10 Computer Experiments in the Python environment. Statistical description of data 4 11 Computer Experiments in the Python environment. Probability Functions and Empirical Distributions 5 12 Computer Experiments in the Python environment. Data classification. Cluster analysis. Outlier detection. 5 13 Computer Experiments in the Python environment. The Transpose of Vectors and Matrices, the Identity Matrix. Eigenvalues and Eigenvectors. 4 14 Computer Experiments in the Python environment. Taylor series. Interpolation. 4 15 Computer Experiments in the Python environment. Ordinary Differential Equations. 5 16 Computer Experiments in the Python environment. Data visualization. 4 Total: 72 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned Learning Outcomes (PLO) % of final evaluation Students are required to study the indicated compulsory reading, sources, and methodological materials, as they are essential for understanding the fundamental concepts, completing assignments, and successfully mastering the course content. Detailed descriptions of each independent task and the assessment system are provided in the e- learning environment. Data pre-processing algorithms Implement data classification, cluster analysis, and outlier detection algorithms in Python environment. Demonstrates knowledge of data analysis methods (PLO 1, 5) and programming skills in mathematical software packages (PLO 9). 20% Eigenvalues and Eigenvectors Solve eigenvalue and eigenvector problems using direct and iterative methods in Python. Applies direct and iterative methods for solving linear equation systems (PLO 2, 6) with programming implementation (PLO 9). 20% Taylor series implementation Express functions using Taylor series and analyze round-off errors in Python environment. Applies numerical methods for solving applied mathematical problems (PLO 4, 8) and demonstrates systematic approach to error analysis (PLO 12). 20% Data visualization algorithms Develop comprehensive data visualization solutions using Python libraries for various data types. Applies statistical description and analysis methods (PLO 1, 5) to support business intelligence and information systems design decisions (PLO 10, 11). 20% Final test Comprehensive examination covering theoretical foundations and practical applications of mathematical methods for system analysis. Evaluates all course learning outcomes including knowledge (PLO 1, 2, 3, 4, 5, 6), skills (PLO 7, 8, 9), and competencies (PLO 10, 11, 12) in mathematical methods and their application to information systems. 20% Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and 5 – satisfactory 4 –almost satisfactory) inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [
+   "Data science and AI in FinTech: an overview",
+   "Applied data analytics - principles and applications",
+   "Using applied mathematical models for business transformation",
+   "An introduction to numerical methods and analysis"
+  ],
+  "cp": "9"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description!",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information (copy)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "LECTURE MATERIALS",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": []
+  },
+  {
+   "nazvanie": "SELF-STUDIES ASSIGNMENTS QUIZ 2026",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": []
+  },
+  {
+   "nazvanie": "EXAM - MATHEMATICS FOR SYSTEM ANALYSTS",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "quiz",
+     "nazvanie": "EXAM - MATHEMATICS FOR SYSTEM ANALYSTS",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "SELF-STUDIES ASSIGNMENTS",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": []
+  },
+  {
+   "nazvanie": "EXAM MATERIALS",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "StudentList-MSA-4750z-2026s",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "StudentList-MG-4750 4753-4850-2025a-EXAM",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "StudentList-MG-4750 4753-4850-2025a-EXAM",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "StudentList_MG_4750-4753-4850-2025a-1012",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN SECTION",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Mathematics for System Analysts",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "EIGENVALUES AND EIGENVECTORS",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. EIGENVELUE. QR ALGORITHM",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-MATRIX INVERSE-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-EIGENVELUES-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "STURM LIOUVILLE PROBLEM",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "TAYLOR SERIES IMPLAMENTATION",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "quiz",
+     "nazvanie": "ERRORS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS.INTERPOLATION",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. SYSTEM OF NON-LINEAR  EQUATIONS- 2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. SYSTEM OF NON-LINEAR EQUATIONS -1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. SYSTEM OF LINEAR EQUATIONS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. ODE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. NUMERICAL INTEGRATION",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "NUMERICAL METHODS. ROOT OF EQUATION",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "DATA PRE-PROCESSING",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-LIMIT OF A  SEQUANCE-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-INTEGRAL INDEFINIT-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-INTEGRAL-IMPROPER-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-INTEGRAL DEFINIT-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-SERIES-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA- SYSTEM OF LINEAR EQUATIONS-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-LIMIT OF  A FUNCTION - TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA- DERIVATIVE OF A FUNCTION - TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-ODE WITH SEPARABLE VARIABLES",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-ODE.1.ODER.LINEAR NON-HOMOGENOUS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-ODE.2.ORDER.LINEAR WITH CONSTANT COEFFICIENTS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-ELLIPTIC EQUATION. CANONIC FORM",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-HEAT EQUATION. CANONIC FORM",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "quiz",
+     "nazvanie": "MSA-WAVE EQUATION. CANONIC FORM",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "5-FINAL TEST",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "ESSAY-1-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "ESSAY-2-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "ESSAY-3-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "EXAM-TASK-MSA",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "4-DATA VISUALIZATION",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "DATA VISUALIZATION",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "3-TAYLOR SERIES IMPLEMENTATION",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "1-6_TASK-CONVERGENCE OF SERIES-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-7_TASK-T-M-SERIES-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-8_TASK_SERIES-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "2_TASK_ROOT-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "3_TASK_INTERPOL-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "4_TASK_ODE-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "5_TASK_INTEGRATION-MSA",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "2-EIGENVALUE AND EIGENVECTOR",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "1-1_TASK_MATRICES-DET-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-2_TASK_MATRICES-INVERSE-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-3_TASK_SE-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-4_TASK_VECTOR-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-5_TASK_EIGENVALUE-MSA",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "1-DATA PRE-PROCESSING",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "6_TASK_ERRORS-MSA",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1-9_TASK_F-DIF-EXSTREM",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "1_10-TASK-F-DIF-INFLEC",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "DATA VISUALIZATION",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "19-VISUALIZATION SOLUTION PYTHON",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "EIGENVALUE AND EIGENVECTOR",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "EIGENVALUE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "STURM LIOUVILLE PROBLEM FOR PDE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "STURM LIOUVILLE PROBLEM TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "STURM LIOUVILLE PROBLEM",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-EIGENVALUE",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "TAYLOR SERIES IMPLEMENTATION",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-ERRORS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-SYS EQ",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-APPROXIMATION",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-INTEGRATION",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-INTERPOLATION",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-ROOTS-FINDING",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-ODE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA- NUMERICAL METHODS-EIGENVELUE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-PDE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-OTHER METHODS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-NUMERICAL METHODS-TASKS",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "DATA PRE-PROCESSING",
+   "podrazdel": true,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-SLE",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-VECTORS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-DATA PRE PYTHON",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-ODE-1ORD-TASKS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-MATRICIES",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-SERIES",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-COMPLEX VARIABLES",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-ODE-2ORD-1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-ODE-1ORD",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-ODE-2ORD-2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-ODE-2ORD-3",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-RATIONAL FUNCTIONS",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "MSA-PDE-2ORD",
+     "vidno_studentam": true
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "quiz",
+   "nazvanie": "EXAM - MATHEMATICS FOR SYSTEM ANALYSTS",
+   "razdel": "EXAM - MATHEMATICS FOR SYSTEM ANALYSTS",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. EIGENVELUE. QR ALGORITHM",
+   "razdel": "EIGENVALUES AND EIGENVECTORS",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-MATRIX INVERSE-TASKS",
+   "razdel": "EIGENVALUES AND EIGENVECTORS",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-EIGENVELUES-TASKS",
+   "razdel": "EIGENVALUES AND EIGENVECTORS",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "STURM LIOUVILLE PROBLEM",
+   "razdel": "EIGENVALUES AND EIGENVECTORS",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "ERRORS",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS.INTERPOLATION",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. SYSTEM OF NON-LINEAR  EQUATIONS- 2",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. SYSTEM OF NON-LINEAR EQUATIONS -1",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. SYSTEM OF LINEAR EQUATIONS",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. ODE",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. NUMERICAL INTEGRATION",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "NUMERICAL METHODS. ROOT OF EQUATION",
+   "razdel": "TAYLOR SERIES IMPLAMENTATION",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-LIMIT OF A  SEQUANCE-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-INTEGRAL INDEFINIT-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-INTEGRAL-IMPROPER-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-INTEGRAL DEFINIT-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-SERIES-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA- SYSTEM OF LINEAR EQUATIONS-TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-LIMIT OF  A FUNCTION - TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA- DERIVATIVE OF A FUNCTION - TASKS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-ODE WITH SEPARABLE VARIABLES",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-ODE.1.ODER.LINEAR NON-HOMOGENOUS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-ODE.2.ORDER.LINEAR WITH CONSTANT COEFFICIENTS",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-ELLIPTIC EQUATION. CANONIC FORM",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-HEAT EQUATION. CANONIC FORM",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "quiz",
+   "nazvanie": "MSA-WAVE EQUATION. CANONIC FORM",
+   "razdel": "DATA PRE-PROCESSING",
+   "vidno_studentam": true,
+   "opisanie": ""
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "ESSAY-1-MSA",
+   "razdel": "5-FINAL TEST",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "ESSAY-2-MSA",
+   "razdel": "5-FINAL TEST",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "ESSAY-3-MSA",
+   "razdel": "5-FINAL TEST",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "EXAM-TASK-MSA",
+   "razdel": "5-FINAL TEST",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "DATA VISUALIZATION",
+   "razdel": "4-DATA VISUALIZATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-6_TASK-CONVERGENCE OF SERIES-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-7_TASK-T-M-SERIES-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-8_TASK_SERIES-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "2_TASK_ROOT-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "3_TASK_INTERPOL-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "4_TASK_ODE-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "5_TASK_INTEGRATION-MSA",
+   "razdel": "3-TAYLOR SERIES IMPLEMENTATION",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-1_TASK_MATRICES-DET-MSA",
+   "razdel": "2-EIGENVALUE AND EIGENVECTOR",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-2_TASK_MATRICES-INVERSE-MSA",
+   "razdel": "2-EIGENVALUE AND EIGENVECTOR",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-3_TASK_SE-MSA",
+   "razdel": "2-EIGENVALUE AND EIGENVECTOR",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-4_TASK_VECTOR-MSA",
+   "razdel": "2-EIGENVALUE AND EIGENVECTOR",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-5_TASK_EIGENVALUE-MSA",
+   "razdel": "2-EIGENVALUE AND EIGENVECTOR",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "6_TASK_ERRORS-MSA",
+   "razdel": "1-DATA PRE-PROCESSING",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1-9_TASK_F-DIF-EXSTREM",
+   "razdel": "1-DATA PRE-PROCESSING",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "1_10-TASK-F-DIF-INFLEC",
+   "razdel": "1-DATA PRE-PROCESSING",
+   "vidno_studentam": false,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students Yes Participants 1 Submitted 0 Needs grading 0 Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to access later. Delete for me and for e"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}

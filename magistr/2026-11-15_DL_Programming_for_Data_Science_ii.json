@@ -1,0 +1,54 @@
+{
+  "kurs_id": 345,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics: Raw Data & Formats (CSV, JSON), Python & R data structures, NumPy, Pandas, Data Wrangling, Visualization, Statistical Processing, Big Data Tools",
+      "v_kurse": "Welcome to the Study Course! (вводный раздел)",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Тематические разделы по обработке данных в курсе не созданы; все материалы выложены в Welcome.",
+      "chto_sdelat": "Создать тематические разделы по силлабусу (Pandas, NumPy, очистка данных)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Professional Certification Presentation (Python / Data Science) (15 %)",
+      "v_kurse": "assign: Certificate presentation in [Welcome]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание на сертификацию полностью совпадает с силлабусом.",
+      "chto_sdelat": "Задать вес 15 % в журнале оценок."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Data Science Mini Project: Real-world data pipeline and analysis (35 %)",
+      "v_kurse": "assign: mini project in [Welcome]",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Задание mini project полностью соответствует проекту по анализу данных.",
+      "chto_sdelat": "Задать вес 35 % в журнале оценок."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Examination: Theory and Practical Coding Tasks (50 %)",
+      "v_kurse": "assign: Final Exam & Practical exam in [Welcome]",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Экзамен представлен теорией и практикой в виде заданий на сдачу.",
+      "chto_sdelat": "Настроить суммарный вес 50 % в журнале оценок."
+    },
+    {
+      "vid": "литература",
+      "silabus": "VanderPlas, J. Python Data Science Handbook; Agarwal, B. Hands-On Data Structures",
+      "v_kurse": "—",
+      "verdikt": "pohozhe",
+      "uverennost": "низкая",
+      "pochemu": "Проверить список литературы в описании курса.",
+      "chto_sdelat": "Оформить страницу Reading со ссылками на учебники."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс содержит все 4 необходимых элемента оценивания по силлабусу: сертификацию, мини-проект и обе части экзамена (теория и практика). Главная доработка — создать тематические разделы по анализу данных (Pandas, NumPy) и перенести туда задания из Welcome."
+}

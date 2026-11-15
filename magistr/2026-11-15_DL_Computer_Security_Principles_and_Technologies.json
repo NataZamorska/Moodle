@@ -1,0 +1,316 @@
+{
+ "kurs": "DL - Computer Security Principles and Technologies",
+ "id": 348,
+ "url": "https://moodle.rnu.lv/course/view.php?id=348",
+ "silabus_gde": "файл в курсе «Course Description EN»",
+ "silabus_tekst": "RNU study course “Computer Security Principles and Technologies” description Study program Computer Systems ECTS 3 CP = 75 ac.h. Author (s) Aleksandrs Berežnojs Preliminary knowledge, Related study courses IT Systems Architecture, Computer Networks Fundamentals Aim To help in understanding security concepts (security threats, vulnerabilities, security risks). To teach students the approaches to risk assessment. To help in acquiring skills necessary for understanding the protection object and selection of appropriate security controls. To provide an overview of security standards, methodologies and tools. To give an insight into wireless technologies. Planned Learning Outcomes 1. Fundamental concepts of information security, IT systems security and data protection 2. Main concepts of Authentication, Authorization and Access Management 3. Understanding of computer systems related threats and protection controls 4. Ability to identify necessary and required protection level of applied security controls 5. Ability to develop security documentation and review security related processes 6. Ability to conduct security risk assessment 7. Ability to work individually and in a team, applying their knowledge, being able to take responsibility for the results of their performance 8. Ability to identify applicable security requirements based on security standards 9. Ability to detect and analyse signs and consequences of security attacks as well as to provide valid response and work on corrective and preventive measures Literature and other sources of information: Compulsory reading Stewart, J. M. (2021). CompTIA Security+ Review Guide: Exam SY0-601 (5th Edition). Wiley. ISBN: 978- 1-119-73538-0, 576 p. Neil, I. (2020). CompTIA Security+: SY0-601 Certification Guide (2nd Edition). Packt Publishing. ISBN: 978-1-80056-424-4, 550 p. Khan, N. A., Saeed, A., Abdali, F., Jawed, M., & Sheikh, A. (2021). SY0-601: CompTIA Security+ Study Guide with Practice Questions & Labs (3rd Edition). IPSpecialist, 563 p. Nieles, M., Dempsey, K. L., & Pillitteri, V. Y. (2017). An Introduction to Information Security. NIST Special Publication 800-12 Revision 1. Available from: https://doi.org/10.6028/NIST.SP.800-12r1 Whitman, M. E., & Mattord, H. J. (2022). Principles of Information Security (7th Edition). Cengage Learning. ISBN: 978-0-357-50643-1, 752 p. Chapple, M., & Seidl, D. (2023). CompTIA Security+ Study Guide with over 500 Practice Test Questions: Exam SY0-701 (9th Edition). Wiley. ISBN: 978-1-394- 21141-8, 704 p. Recommended Gopejenko, V., & Bobrovskis, S. (2014). \"Robust Security Network Association Adjusted Hybrid Authentication Schema.\" 8th IEEE International Conference on Application of Information and Communication Technologies (AICT 2014) Conference Proceedings. Whitman, M. E., & Mattord, H. J. (2013). Management of Information Security (4th Edition). Cengage Learning, 576 p. Bertino, E., & Takahashi, K. (2011). Identity Management: Concepts, Technologies, and Systems. Artech House. ISBN: 978-1-60807-039-8, 196 p. Snedaker, S. (2013). Business Continuity and Disaster Recovery Planning for IT Professionals (2nd Edition). Syngress, Elsevier. ISBN: 978-0-12-410526-3. Engebretson, P. (2013). The Basics of Hacking and Penetration Testing: Ethical Hacking and Penetration Testing Made Easy (2nd Edition). Syngress, Elsevier. ISBN: 978-0-12-411644-3. Stallings, W. (2013). Cryptography and Network Security: Principles and Practice (6th Edition). Pearson. ISBN: 978-0-13-335601-4, 752 p. Prowell, S., Kraus, R., & Borkin, M. (2010). Seven Deadliest Network Attacks (1st Edition). Syngress, Elsevier. ISBN: 978-1-59749-549-3, 176 p. NIST (2024). Cybersecurity Framework (CSF) 2.0. National Institute of Standards and Technology. Available from: https://www.nist.gov/cyberframework NIST (2020). Security and Privacy Controls for Information Systems and Organizations (SP 800-53, Revision 5). Available from: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final NIST (2025). Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (SP 800-61 Revision 3). Available from: https://csrc.nist.gov/pubs/sp/800/61/r3/final CompTIA. Security+ Certification Exam Objectives and Official Study Resources. Available from: https://www.comptia.org/certifications/security Study course content and schedule of contact hours Week Topic Academic hours Full-time intramural 1 Introduction to Information Security 4 2 Security Threats 4 3 Security Vulnerabilities 4 4 Wireless Security Security Incident Management 6 Security Risk Management 6 5 Business Continuity Management Total: 24 ac.h Description of students’ self-studies organization and assignments Self-study work Description Planned learning outcomes % of final evaluation Security concepts and controls Study the problems of Information Security concepts (e.g. security threats, vulnerabilities, security risks, security controls). Suggest security controls that are required to protect personal data according to security controls classification. Develops fundamental knowledge of information security concepts and data protection (PLO 1, 3), ability to identify protection levels (PLO 4), and skills in selecting appropriate security controls based on standards (PLO 8). 14% Access Controls Models, Security Documentation, Social Engineering Study Access Controls Models and Security Practices. Search for security standards where specific security practices are demanded as part of requirements. Explore examples of \"Implicit deny\" concept practical use cases. Examine Security Documentation and Social Engineering. Develops knowledge of Authentication and Access Management concepts (PLO 2), ability to develop security documentation (PLO 5), and skills in identifying security requirements based on standards (PLO 8). 14% Study virus detection Develops 14% Virus detection, Attacks mitigation controls, Password Attacks, Web-Based Attacks methods, attacks mitigation controls, password attacks, and web-based attacks. understanding of computer systems threats and protection controls (PLO 3), ability to detect and analyse security attack signs (PLO 9), and competence in determining appropriate response measures (PLO 9). Wireless Security, Security Incident Management Study Wi-Fi radio channels - find frequency range(s) and number of channels used for Wi- Fi communication. Explore wireless security tools, security incident management, and digital forensics. Develops understanding of wireless security threats and controls (PLO 3), ability to conduct incident assessment (PLO 6), and competence in providing valid response to security incidents (PLO 9). 14% Business Continuity and Disaster Recovery Provide examples of disasters. Assess risks related to identified disasters. Conduct Business Impact Analysis (BIA). Study security-related processes. Develops ability to conduct security risk assessment (PLO 6), develop security documentation and review processes (PLO 5), and work individually applying knowledge with responsibility (PLO 7). 14% Final test Comprehensive examination covering information security concepts, security threats and vulnerabilities, access control models, risk assessment, wireless security, incident Evaluates comprehensive achievement of all course learning outcomes including knowledge of security concepts (PLO 1, 2, 3), practical skills in risk 30% management, and business continuity planning. assessment and documentation (PLO 4, 5, 6), and competencies in team work and incident response (PLO 7, 8, 9). Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - Knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems. 9 (excellent) - Knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently. High (8 –very good 7 - good) 8 (very good) – The requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems. 7 (good) – The requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – The requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) – The requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected. 5 (satisfactory) – The requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected. 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated. Low (3 – 1 – negative evaluation) 3 (bad) – Knowledge is superficial and incomplete; the student is unable to use it in specific situations, 2 (very bad) – Superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered. 1 (very very bad) – An absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": "3"
+ },
+ "razdely": [
+  {
+   "nazvanie": "Interactions Hub",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": []
+  },
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Course Description EN",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 1",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/g-VkWC5y-lk",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Introduction to Information Security",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 2",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/srsAMjrWiig",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Security Threats",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 3",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/v_sSX41Z9Zc",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Security Vulnerabilities",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 4",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/cq-TshJsXdo",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Access Control",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 5",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/aUjfXJy-TWs",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Wireless Security",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 6",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/Bf7dZ-bBMWw",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Security Incident Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 7",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/lzSBHOO2UK4",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Security Risk Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Topic 8",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "https://youtu.be/BGYdYT1NAD8",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Reading Material_Business Continuity Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Additional Study Materials",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "page",
+     "nazvanie": "Video_01-1. Itroduction to Information Security (Video)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Video_01-2. Information Security Fundamentals (Video)",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Video_02. Computer Security Principles and Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Video_03. Computer Security Principles and Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Video_04. Wireless Security. Security Incident Management. Security Risk Management.",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "page",
+     "nazvanie": "Video_05. Security Risk Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Handout_ISMA Computer Security Principles and Technologies 2020 2021 Lecture1",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Handout_ISMA Computer Security Principles and Technologies 2020_2021_Lecture2",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Handout_ISMA Computer Security Principles and Technologies 2020_2021_Lecture3",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Handout_#ISMA Computer Security Principles and Technologies 2020_2021_Lecture4",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Handout_ISMA Computer Security Principles and Technologies 2020_2021_Lecture5",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Individual Assignments/Practice Time",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "PT1_Security Concepts and Controls",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "PT2_Access Control Models and Security Practices",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "PT3_Malware Detection, Web Security, and Attack Safeguards",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "PT4_Wireless Network Security and Incident Response",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "PT5_Disaster Management, Risk Assessment, and Security Process Evaluation",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Practice Time Report Template",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Final Exam",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Final exam instructions",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "DL_Study Course Description_Computer Security Principles and Technologies",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "DL_Computer Security Principles and Technologies",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "forum",
+     "nazvanie": "DL_News Forum_Computer Security Principles and Technologies",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Requirements to Complete the Study Course",
+     "vidno_studentam": false
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Sources",
+     "vidno_studentam": false
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [],
+ "zhurnal": [],
+ "programma": "magistr"
+}

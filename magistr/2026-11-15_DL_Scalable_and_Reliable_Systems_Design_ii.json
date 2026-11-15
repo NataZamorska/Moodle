@@ -1,0 +1,54 @@
+{
+  "kurs_id": 355,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Lectures 1–12: Principles of Scalability & Reliability, Web Architecture, Scaling Storage, Messaging, Compute Scaling, Security, DevOps/CI-CD, Cloud, Resilience, Microservices, Real-Time Streaming, Ethics",
+      "v_kurse": "Sections: Lecture1 to Lecture12",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Все 12 лекций силлабуса образцово оформлены индивидуальными разделами курса с лекциями и заданиями.",
+      "chto_sdelat": ""
+    },
+    {
+      "vid": "задание",
+      "silabus": "Architectural design and analysis exercises across lectures 1–12 (40 %)",
+      "v_kurse": "assign: Exercise1 to Exercise12 в каждом разделе",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "К каждой из 12 лекций прикреплено профильное архитектурное задание.",
+      "chto_sdelat": "Сгруппировать в категорию журнала с суммарным весом 40 %."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Scalable System Architecture Project (30 %)",
+      "v_kurse": "assign: Exercise10-Building Scalable and Reliable Microservices Architectures",
+      "verdikt": "pohozhe",
+      "uverennost": "высокая",
+      "pochemu": "Комплексные архитектурные задания лекций 10–12 покрывают курсовой проект.",
+      "chto_sdelat": "Выделить проект в отдельный раздел с весом 30 %."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Examination on Scalable & Reliable Systems (30 %)",
+      "v_kurse": "WorkSheet (итоговые проверочные задания)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Проверочные материалы есть в WorkSheet, но отдельный тест Final Exam не настроен.",
+      "chto_sdelat": "Создать тест Final Exam в разделе Exam с весом 30 %."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Abbott, M.L., Fisher, M.T. The Art of Scalability; Raje, G. Security and Microservice Architecture",
+      "v_kurse": "Welcome → Study materials",
+      "verdikt": "est",
+      "uverennost": "высокая",
+      "pochemu": "Базовая литература по масштабируемости представлена в материалах курса.",
+      "chto_sdelat": ""
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс образцово выстроен: созданы все 12 разделов тем с практическими заданиями Exercise 1–12 по архитектуре высоконагруженных систем. Осталось оформить итоговый экзамен тестом и прописать веса в журнале оценок."
+}

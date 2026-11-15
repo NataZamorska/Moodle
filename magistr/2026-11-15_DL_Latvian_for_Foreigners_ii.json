@@ -1,0 +1,54 @@
+{
+  "kurs_id": 362,
+  "data": "2026-11-15",
+  "istochnik": "Antigravity, сверка по смыслу (магистратура)",
+  "sopostavlenie": [
+    {
+      "vid": "тема",
+      "silabus": "Topics 1–8: Iepazīšanās, Profesijas, Valstis, Dzīvesvieta, Pilsēta, Ikdiena, Ēdienreizes, Group work",
+      "v_kurse": "Welcome to the Study Course! (учебные материалы)",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Материалы по изучению языка выложены в Welcome, разделение по темам отсутствует.",
+      "chto_sdelat": "Создать 8 тематических разделов по силлабусу."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Practical language exercises and communication tasks (30 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Элементы Assignment для сдачи языковых заданий отсутствуют.",
+      "chto_sdelat": "Добавить практические задания по темам общения (30 %)."
+    },
+    {
+      "vid": "задание",
+      "silabus": "Independent vocabulary and grammar study (20 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Задания на проверку самостоятельного изучения грамматики отсутствуют.",
+      "chto_sdelat": "Создать тесты самопроверки по грамматике и лексике (20 %)."
+    },
+    {
+      "vid": "экзамен",
+      "silabus": "Final Language Exam (written and oral test) (50 %)",
+      "v_kurse": "—",
+      "verdikt": "net",
+      "uverennost": "высокая",
+      "pochemu": "Итоговый экзамен по языку отсутствует.",
+      "chto_sdelat": "Создать раздел Exam с тестом Final Exam (50 %)."
+    },
+    {
+      "vid": "литература",
+      "silabus": "Auziņa I. et al. Latviešu valoda studentiem; Klēvere-Velpe I. Sāksim!",
+      "v_kurse": "Welcome → Study Course Description",
+      "verdikt": "pohozhe",
+      "uverennost": "средняя",
+      "pochemu": "Учебные пособия названы в описании курса.",
+      "chto_sdelat": "Создать страницу Reading со ссылками на учебники."
+    }
+  ],
+  "lishnee": [],
+  "vyvod": "Курс находится на начальной стадии наполнения: учебные материалы собраны в разделе Welcome, но тематические разделы, интерактивные задания и итоговый экзамен не созданы. Требуется развернуть структуру тем и добавить оцениваемые элементы согласно силлабусу."
+}

@@ -1,0 +1,359 @@
+{
+ "kurs": "DL - Data Engineering",
+ "id": 347,
+ "url": "https://moodle.rnu.lv/course/view.php?id=347",
+ "silabus_gde": "файл в курсе «Study Course Description»",
+ "silabus_tekst": "ISMA Study Course Data Engineering Study programme Computer Systems Amount 3 ECTS=75 ac.hours Author Samir Hamroun Preliminary knowledge, Related study courses Programming Skills,Mathematics and Statistics,Database Knowledge, Understanding of Databases, Operating Systems, Data Structures and Algorithms Aim The purpose of the course is to Covers the basics of programming, algorithms, and data structures. It provides a foundation for more advanced topics in data engineering Planned learning outcomes Knowledge Data Engineering course covers a broad range of topics designed to provide students with knowledge necessary to build, manage, and optimize data infrastructure Roles and Responsibilities of Data Engineers Data Modeling and Databases Big Data Technologies Data Storage Solutions Scalability and Performance Optimization Machine Learning Basics for Data Engineers Software Engineering Practices Skills Data Engineering course is designed to equip students with a variety of technical and analytical skills necessary to effectively manage and process data at scale: Programming Skills Database Management Data Modeling Big Data Technologies Problem-Solving and Analytical Skills Communication and Collaboration Competencies key competencies covered with Data Engineering: Data Modeling and Management Performance Optimization and Scalability Software Engineering Practices Project Management Literature and other sources of information: ● Compulsory reading 1. “Fundamentals of Data Engineering: Plan and Build Robust Data Systems” O'Reilly Media; 1st edition (July 26, 2022) ● Recommended 1. “Designing Data-Intensive Applications” by Martin Kleppmann Released March 2017 Study course content and schedule of contact hours Week Topic Academic hours full-time intramural part-time intramural 1 Introduction to Data Engineering 4 2 2 Programming for Data Engineering 2 2 3 Database Systems - SQL 2 2 4 Database Systems - NoSQL 2 1 5 Data Modeling and Warehousing 2 1 6 Big Data Technologies 2 1 7 Data Storage Solutions 2 2 8 Data Pipelines and Workflow Management 2 1 9 Scalability and Performance Optimization 2 1 10 Security and Compliance 2 1 11 Machine Learning for Data Engineers 2 1 Total 24 ac.h 15 ac.h Description of students’ self-studies organisation and assignments Self-study work Planned learning outcomes Evaluation % Introduction to Data Engineering Understand the fundamentals of data engineering, including key concepts, tools, and the role of a data engineer in data-driven organizations. 10% Data Modeling and Database Design Learn the principles of data modeling and database design, and understand how to create efficient and scalable data models. 20% ETL Processes and Data Integration Gain knowledge of ETL processes and data integration techniques, and learn how to use ETL tools to build data pipelines. 20% Big Data Technologies Understand the architecture and components of big data technologies, and learn how to use these technologies for large-scale data processing. 20% Data Warehousing Understand the principles of data warehousing, including data modeling, ETL processes, and data storage solutions. 20% Capstone Project Apply the knowledge and skills acquired throughout the course to design, implement, and manage a data engineering project from start to finish 10% Total: 100% Study work Knowledge Skills Competences % of final evaluation 1. Home works (Self-study work) + + + 50 2. Exam + + + 50 Evaluation of mastering the study course Level Requirements Very high (10 –with distinction 9 – excellent) 10 (with distinction) - knowledge, skills and competences exceed the requirements of the study course and demonstrate the ability to perform independent research as well as the deep understanding of problems; 9 (excellent) - knowledge, skills and competences fully meet the requirements of the study course, student is able to apply the acquired knowledge independently; High (8 –very good 7 - good) 8 (very good) – the requirements of the study course are fully met, however, there is insufficient understanding of individual issues to use the knowledge independently for the solution of more complex problems; 7 (good) – the requirements of the study course are met in general, however, sometimes the inability to use the acquired knowledge independently is detected; Average (6 – almost good 5 – satisfactory 4 –almost satisfactory) 6 (almost good) –. the requirements of the study course are met in general, however insufficient understanding of some problems and inability to apply the acquired knowledge is detected; 5 (satisfactory) – the requirements of the study course are met for the most part, however insufficient understanding of many problems and inability to apply the acquired knowledge is detected; 4 (almost satisfactory) – the requirements of the study course are met, for the most part, however insufficient understanding of some main concepts is detected as well as considerable difficulties in the practical application of the acquired knowledge are stated Low (3 – 1 – negative evaluation) 3 (bad) – knowledge is superficial and incomplete; the student is unable to use it in specific situations; 2 (very bad) – superficial and incomplete knowledge of only some problems, the most part of the study course is not mastered; 1 (very very bad) – an absence of understanding of the main problems of the subject matter, almost no knowledge of the content of the study course.",
+ "silabus_razobrano": {
+  "temy": [],
+  "zadaniya": [],
+  "ekzamen_proc": null,
+  "literatura": [],
+  "cp": null
+ },
+ "razdely": [
+  {
+   "nazvanie": "Welcome to the Study Course!",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "label",
+     "nazvanie": "Dear Students, Welcome to this Data Engineering co...",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Lecturer Information",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "label",
+     "nazvanie": "Online lecture",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "resource",
+     "nazvanie": "Study Course Description",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture1-Introduction to Data Engineering",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture1-Introduction to Data Engineering",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise1-Introduction to Data Engineering",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture2-Programming for Data Engineering",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture2-Programming for Data Engineering",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise2-Programming for Data Engineering",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture3-Database Systems-SQL",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture3-Database Systems-SQL",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise3-Database Systems-SQL",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture4-Database Systems-NoSQL",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture4-Database Systems-NoSQL",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise4-Database Systems-NoSQL",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture5-Data Modeling and Warehousing",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture5-Data Modeling and Warehousing",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise5-Data Modeling and Warehousing",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture6-Big Data Technologies",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture6-Big Data Technologies",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise6-Big Data Technologies",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture7-Data Storage Solutions",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture7-Data Storage Solutions",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise7-Data Storage Solutions",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture8-Data Pipelines and Workflow Management",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture8-Data Pipelines and Workflow Management",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise8-Data Pipelines and Workflow Management",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture 9 – Scalability and Performance Optimization\" will not be included in this course",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture9-Scalability and Performance Optimization",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise9-Scalability and Performance Optimization",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture10-Security and Compliance",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture10-Security and Compliance",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise10-Security and Compliance",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Lecture11-Machine Learning for Data Engineers",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Lecture11-Machine Learning for Data Engineers",
+     "vidno_studentam": true
+    },
+    {
+     "tip": "assign",
+     "nazvanie": "Exercise11-Machine Learning",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "Data Engineers Project",
+   "podrazdel": false,
+   "vidno_studentam": true,
+   "elementy": [
+    {
+     "tip": "assign",
+     "nazvanie": "Data Engineers Project",
+     "vidno_studentam": true
+    }
+   ]
+  },
+  {
+   "nazvanie": "HIDDEN",
+   "podrazdel": false,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "bigbluebuttonbn",
+     "nazvanie": "Data Engineering",
+     "vidno_studentam": false
+    }
+   ]
+  },
+  {
+   "nazvanie": "WorkSheet",
+   "podrazdel": true,
+   "vidno_studentam": false,
+   "elementy": [
+    {
+     "tip": "resource",
+     "nazvanie": "Data Engineering Attendance",
+     "vidno_studentam": false
+    }
+   ]
+  }
+ ],
+ "ocenivaemye": [
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise1-Introduction to Data Engineering",
+   "razdel": "Lecture1-Introduction to Data Engineering",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise2-Programming for Data Engineering",
+   "razdel": "Lecture2-Programming for Data Engineering",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise3-Database Systems-SQL",
+   "razdel": "Lecture3-Database Systems-SQL",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise4-Database Systems-NoSQL",
+   "razdel": "Lecture4-Database Systems-NoSQL",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise5-Data Modeling and Warehousing",
+   "razdel": "Lecture5-Data Modeling and Warehousing",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise6-Big Data Technologies",
+   "razdel": "Lecture6-Big Data Technologies",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise7-Data Storage Solutions",
+   "razdel": "Lecture7-Data Storage Solutions",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise8-Data Pipelines and Workflow Management",
+   "razdel": "Lecture8-Data Pipelines and Workflow Management",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise9-Scalability and Performance Optimization",
+   "razdel": "Lecture 9 – Scalability and Performance Optimization\" will not be included in this course",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise10-Security and Compliance",
+   "razdel": "Lecture10-Security and Compliance",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Exercise11-Machine Learning",
+   "razdel": "Lecture11-Machine Learning for Data Engineers",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  },
+  {
+   "tip": "assign",
+   "nazvanie": "Data Engineers Project",
+   "razdel": "Data Engineers Project",
+   "vidno_studentam": true,
+   "opisanie": "Grading summary Separate groups All participants expert Hidden from students No Participants 1 Submitted 0 Needs grading 0 Time remaining Assignment is due Documentation for this page You are logged in as Natalia Zamorskaia ( Log out ) Data retention summary Powered by Moodle Messaging Contacts Messages selected: 1 Search people and messages Contacts 2 There are 2 pending contact requests Search people and messages Settings Contacts Requests 2 There are 2 pending contact requests No contacts No contact requests Contact request sent Personal space Save draft messages, links, notes etc. to acces"
+  }
+ ],
+ "zhurnal": [],
+ "programma": "magistr"
+}
