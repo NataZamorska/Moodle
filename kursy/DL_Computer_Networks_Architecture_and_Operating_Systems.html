@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Computer Networks Architecture and Operating Systems — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k338"><div class="chead"><h2>DL - Computer Networks Architecture and Operating Systems</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">53 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=338" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 73 %"><div class="tr"><div class="fl warn" style="width:73%"></div></div><b>73 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 12 %"><div class="tr"><div class="fl crit" style="width:12%"></div></div><b>12 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 50 %"><div class="tr"><div class="fl warn" style="width:50%"></div></div><b>50 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс отлично структурирован: 12 разделов логично группируют все 24 темы силлабуса, а 6 лабораторных работ точно соответствуют 6 практическим заданиям силлабуса. Экзамен разбит на системную и сетевую части; требуется только прописать точные веса в журнале оценок.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>24 Topics: OS Overview, Storage, Security, Process Mgmt, Distributed Systems, NET Overview, Physical, Data-Link, Network, Transport, Routing, Application</td><td>Sections I to XII (OS Overview ... NET Application Layer)</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">12 римских разделов курса систематически и полно покрывают все 24 темы силлабуса по сетям и ОС.</td></tr>
+<tr><td>задание</td><td>1. TCP/IP Protocol Stack Investigation (8 %)</td><td>assign: Upload Folder for LW-01 Report. in [VII. NET Physical Layer &amp; Media.]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 1 по сетям соответствует исследованию уровней сетевого стека. Указать в описании задания соответствие PLO 1, 3, 6 и вес 8 %.</td></tr>
+<tr><td>задание</td><td>2. Operating System Components Understanding (8 %)</td><td>assign: Upload LW-01 Report in [I. OS Overview.]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 1 по ОС соответствует изучению базовых компонентов ОС. Указать в описании соответствие PLO 2, 7 и вес 8 %.</td></tr>
+<tr><td>задание</td><td>3. Network Security Implementation Project (8 %)</td><td>assign: Upload Folder for LW-02 Report. in [IX. NET Network Layer I...]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 2 по сетевому уровню и безопасности покрывает проект по защите сетей. Указать вес 8 % в журнале оценок.</td></tr>
+<tr><td>задание</td><td>4. Operating System Administration Tasks (8 %)</td><td>assign: Upload LW-02 Report in [II. OS Storage Mgmt.]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 2 по хранению данных и администрированию соответствует заданию 4. Указать вес 8 % в журнале оценок.</td></tr>
+<tr><td>задание</td><td>5. Network Configuration Laboratory (8 %)</td><td>assign: Upload Folder for LW-03 Report. in [XI. NET Network Layer II...]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 3 по маршрутизации и конфигурации сетей соответствует лабораторному заданию 5. Указать вес 8 % в журнале оценок.</td></tr>
+<tr><td>задание</td><td>6. System Integration Project (8 %)</td><td>assign: Upload LW-03 Report. in [V. OS Distributed Systems.]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Лабораторная работа 3 по распределенным системам объединяет знания ОС и сетей. Указать вес 8 % в журнале оценок.</td></tr>
+<tr><td>экзамен</td><td>Exam: Theoretical knowledge and practical application of networks and OS (52 %)</td><td>assign: Upload Exam Task 1 Report. (SYS) &amp; Task 2 Report. (NET) in [Exam.]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">В разделе Exam созданы отчеты по двум частям экзамена (системная и сетевая), закрывающие 52 %. Настроить суммарный вес 52 % в журнале оценок (по 26 % на каждое задание).</td></tr>
+<tr><td>литература</td><td>Tanenbaum, A. S. Modern Operating Systems &amp; Computer Networks</td><td>—</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">низкая</span></td><td class="note">Литература включена в состав лекционных материалов разделов; проверить страницу Reading. Оформить единый список литературы на странице Reading в Welcome.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (10)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет экзамена</div>
+<div class="pd">Экзамена (Quiz «Final Exam») в курсе нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Создайте итоговый тест: <b>Add an activity or resource → Quiz</b>, название «Final Exam», вопросы — из банка вопросов курса.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 8</div>
+<div class="pd">«Upload LW-01 Report»: макс. 5, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload LW-02 Report»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload LW-03 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-01 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-02 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-03 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Exam Task 1 Report. (SYS)»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Exam Task 2 Report. (NET)»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Макс. оценка не 10</div>
+<div class="pd">«Upload LW-01 Report»: макс. 5, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade → Maximum grade: 10</b> (шкала RNU 0–10).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 8</div>
+<div class="pd">1. TCP/IP Protocol Stack Investigation (8 %) ≈ «assign: Upload Folder for LW-01 Report. in [VII. NET Physical Layer &amp; Media.]» — Указать в описании задания соответствие PLO 1, 3, 6 и вес 8 %.</div>
+<div class="pd">2. Operating System Components Understanding (8 %) ≈ «assign: Upload LW-01 Report in [I. OS Overview.]» — Указать в описании соответствие PLO 2, 7 и вес 8 %.</div>
+<div class="pd">3. Network Security Implementation Project (8 %) ≈ «assign: Upload Folder for LW-02 Report. in [IX. NET Network Layer I...]» — Указать вес 8 % в журнале оценок.</div>
+<div class="pd">4. Operating System Administration Tasks (8 %) ≈ «assign: Upload LW-02 Report in [II. OS Storage Mgmt.]» — Указать вес 8 % в журнале оценок.</div>
+<div class="pd">5. Network Configuration Laboratory (8 %) ≈ «assign: Upload Folder for LW-03 Report. in [XI. NET Network Layer II...]» — Указать вес 8 % в журнале оценок.</div>
+<div class="pd">6. System Integration Project (8 %) ≈ «assign: Upload LW-03 Report. in [V. OS Distributed Systems.]» — Указать вес 8 % в журнале оценок.</div>
+<div class="pd">Exam: Theoretical knowledge and practical application of networks and OS (52 %) ≈ «assign: Upload Exam Task 1 Report. (SYS) &amp; Task 2 Report. (NET) in [Exam.]» — Настроить суммарный вес 52 % в журнале оценок (по 26 % на каждое задание).</div>
+<div class="pd">Tanenbaum, A. S. Modern Operating Systems &amp; Computer Networks ≈ «—» — Оформить единый список литературы на странице Reading в Welcome.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 8</div>
+<div class="pd">«Upload LW-01 Report»: макс. 5, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload LW-02 Report»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload LW-03 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-01 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-02 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Folder for LW-03 Report.»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Exam Task 1 Report. (SYS)»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Upload Exam Task 2 Report. (NET)»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 3</div>
+<div class="pd">Структура RNU — Welcome / описание курса: нет или неполно</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="pd">Структура RNU — Экзамен (тест) и правила экзамена: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Нерабочие ссылки</div>
+<div class="pd">Ссылки: внешних 112, YouTube 40, нерабочих 10</div>
+<details><summary>подробно: 10</summary><ul class="plain"><li>http://fra.test-ipv6.com/index.html.en_US (не открывается)</li><li>http://permissions-calculator.org/ (не открывается)</li><li>http://sys.academy.lv/labwork/sys_LW-05ENa_bash-variables.pdf (не открывается)</li><li>https://ipv6-test.com/ (не открывается)</li><li>https://managementmania.com/en/data-center-certification-standards-and-compliance (не открывается)</li><li>https://net.academy.lv/labwork/net_LW-02ENb_physical-terminations.pdf (404)</li><li>https://net.academy.lv/labwork/net_LW-06ENb_WiresharkDisplayFilters.pdf (404)</li><li>https://net.academy.lv/labwork/net_LW-09EN_Dijkstra.gif (404)</li><li>https://sys.academy.lv/labwork/sys_LW-08ENa_regexp.pdf (404)</li><li>https://www.adminsub.net/tcp-udp-port-finder (не открывается)</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Откройте каждую ссылку из списка; нерабочую замените рабочей (лучше открытый источник с указанной лицензией) или удалите.</li><li>Заглушки вида <code>[URL-…]</code>, <code>[Publisher]</code> замените настоящими ссылками или уберите.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 7</div>
+<details><summary>подробно: 7</summary><ul class="plain"><li>3. Soft. Unix Permissions Calculator.</li><li>Exam Test 1. (SYS)</li><li>Exam Test 2. (NET)</li><li>Exam Task 1. (SYS)</li><li>Upload Exam Task 1 Report. (SYS)</li><li>Exam Task 2. (NET)</li><li>Upload Exam Task 2 Report. (NET)</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (5)</summary><ul class="plain"><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ Следы и оформление: чисто</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Computer Networks Architecture and Operating Systems.pdf (папка силлабусов); CP 9, PLO 0, тем 24, заданий 0, экзамен 52 %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>GENERAL: label ×4, lti ×8</li><li>I. OS Overview.: assign ×1, folder ×1, lti ×11, url ×5</li><li>II. OS Storage Mgmt.: assign ×1, folder ×4, lti ×8, url ×9</li><li>III. OS Security Mgmt.: folder ×1, lti ×4, url ×5</li><li>IV. OS Process Mgmt.: folder ×2, lti ×2, url ×1</li><li>V. OS Distributed Systems.: assign ×1, folder ×1, lti ×3, url ×4</li><li>VI. NET Overview OSI/RM &amp; TCP/IP.: folder ×2, lti ×5, url ×12</li><li>VII. NET Physical Layer &amp; Media.: assign ×1, folder ×2, lti ×8, url ×6</li><li>VIII. NET Data-Link Layer.: folder ×2, lti ×3, url ×1</li><li>IX. NET Network Layer I. IP, Addressing, Subnetting, ICMP.: assign ×1, folder ×2, lti ×7, url ×6</li><li>X. NET Transport Layer.: folder ×1, lti ×3, url ×3</li><li>XI. NET Network Layer II. Forwarding &amp; Routing.: assign ×1, folder ×5, lti ×6, url ×8</li><li>XII. NET Application Layer. Administration &amp; Security.: url ×2</li><li>Exam.: assign ×2, lti ×4</li><li>HIDDEN SECTION: bigbluebuttonbn ×1</li><li>Файлы: нет</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 0, заданий 8, курс 9 CP</li></ul></details>
+</section></main></body></html>

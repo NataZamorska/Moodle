@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Course project 1 — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k333"><div class="chead"><h2>DL - Course project 1</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">60 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=333" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 89 %"><div class="tr"><div class="fl good" style="width:89%"></div></div><b>89 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 57 %"><div class="tr"><div class="fl warn" style="width:57%"></div></div><b>57 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 25 %"><div class="tr"><div class="fl crit" style="width:25%"></div></div><b>25 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курсовой проект полностью укомплектован всеми необходимыми этапами: подача темы (proposal), промежуточная сдача и итоговая защита работы с презентацией. Поскольку это курсовой проект, отдельный экзамен не требуется. Рекомендуется настроить веса этапов в журнале оценок.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Weeks 1–3: Topic selection, research question, initial proposal</td><td>Uploads section → Upload proposal</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Первый этап работы поддержан элементом загрузки проектного предложения.</td></tr>
+<tr><td>тема</td><td>Weeks 4–8: Literature review and theoretical framework</td><td>Course Handbook, Methodological guidelines</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Методические материалы по обзору литературы доступны в курсе.</td></tr>
+<tr><td>тема</td><td>Weeks 9–14: Practical prototype development / essay revision</td><td>Course Project 1 (Individual) → Your First Arduino Project</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Практическая часть снабжена интерактивным пособием по прототипированию на Arduino.</td></tr>
+<tr><td>тема</td><td>Weeks 15–16: Submission and short presentation</td><td>Uploads section → Upload final &amp; Project Submisson</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Для сдачи итогового отчета и презентации есть соответствующие области загрузки.</td></tr>
+<tr><td>задание</td><td>Topic Selection and Research Question (10 %)</td><td>assign: Upload proposal in [Uploads section]</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Задание на загрузку пропозала соответствует выбору темы и постановке исследовательской задачи. Установить вес 10 % в журнале оценок.</td></tr>
+<tr><td>задание</td><td>Literature Review &amp; Academic Essay Draft (50 %)</td><td>assign: Project Submisson in [Course Project 1 (Individual)]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Промежуточная сдача проекта покрывает подготовку обзора литературы и черновика отчета. Установить вес в журнале оценок.</td></tr>
+<tr><td>задание</td><td>Final Submission and Presentation (40 %)</td><td>assign: Upload final in [Uploads section]</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Финальная загрузка работы и презентации полностью соответствует этапу защиты курсового проекта. Установить вес 40 % в журнале оценок.</td></tr>
+<tr><td>литература</td><td>Elaboration and defence of Course papers and projects: Methodological guidelines</td><td>ELABORATION AND DEFENCE OF COURSE PAPERS AND PROJECTS (url)</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Методические указания прикреплены прямой ссылкой в разделе курсового проекта.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (8)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 3</div>
+<div class="pd">«Course Project 1 (Individual) → Project Submisson»: макс. 10, метод (default), рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Uploads section → Upload proposal»: макс. 10, метод (default), рубрика НЕ готова, срок есть</div>
+<div class="pd">«Uploads section → Upload final»: макс. 10, метод (default), рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 3</div>
+<div class="pd">Weeks 4–8: Literature review and theoretical framework ≈ «Course Handbook, Methodological guidelines»</div>
+<div class="pd">Weeks 9–14: Practical prototype development / essay revision ≈ «Course Project 1 (Individual) → Your First Arduino Project»</div>
+<div class="pd">Literature Review &amp; Academic Essay Draft (50 %) ≈ «assign: Project Submisson in [Course Project 1 (Individual)]» — Установить вес в журнале оценок.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 2</div>
+<div class="pd">«Course Project 1 (Individual) → Project Submisson»: макс. 10, метод (default), рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Uploads section → Upload final»: макс. 10, метод (default), рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 2</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Нерабочие ссылки</div>
+<div class="pd">Ссылки: внешних 8, YouTube 0, нерабочих 2</div>
+<details><summary>подробно: 2</summary><ul class="plain"><li>https://wokwi.com/projects/328451800839488084 (404)</li><li>https://wokwi.com/projects/new/arduino-uno (404)</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Откройте каждую ссылку из списка; нерабочую замените рабочей (лучше открытый источник с указанной лицензией) или удалите.</li><li>Заглушки вида <code>[URL-…]</code>, <code>[Publisher]</code> замените настоящими ссылками или уберите.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Следы и заглушки</div>
+<div class="pd">Следы и оформление: 2 замечаний</div>
+<details><summary>подробно: 2</summary><ul class="plain"><li>book «Course Handbook»: упоминания инструментов chatgpt</li><li>book «Your First Arduino Project: From AI-Assisted Simulation to a Real Circuit»: заглушки [actual behavior], [behavior]</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Откройте элемент из списка → <b>Settings</b> (или Edit) и уберите: заглушки в квадратных скобках, упоминания инструментов, обрывки тегов, зачёркнутый текст.</li><li>Весь текст для студентов — на английском.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 6</div>
+<details><summary>подробно: 5</summary><ul class="plain"><li>Uploads section</li><li>Upload proposal</li><li>Upload final</li><li>ELABORATION AND DEFENCE OF COURSE PAPERS AND PROJECTS</li><li>Study Course Description, https://wokwi.com/projects/328451800839488084 http...</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (8)</summary><ul class="plain"><li>✓ Темы силлабуса в курсе: 0 из 0</li><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Структура RNU — Welcome / описание курса: есть</li><li>✓ Структура RNU — Задания с описанием и критериями: есть</li><li>✓ Welcome: контакт преподавателя — есть</li><li>✓ Welcome: правила оценивания — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Course Project 1.pdf (папка силлабусов); CP 3, PLO 0, тем 0, заданий 0, экзамен None %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>Course Project 1 (Individual): assign ×1, book ×2, resource ×1</li><li>Uploads section: assign ×2, label ×1, resource ×1, url ×1</li><li>Файлы: 2</li><li>Объём: книги 4640 слов (~23 мин чтения), тестов 0, заданий 3, курс 3 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«Lab inventory» — 5-101%20-%20Robotika.pdf, 5997 КБ; автор: —; создан: —; изменён: —</li><li>«Study Course Description» — 40_Course_Project_1.pdf, 56 КБ; автор: Irenas Macbook; создан: 30.03.2026; изменён: 30.03.2026</li></ul></details>
+</section></main></body></html>

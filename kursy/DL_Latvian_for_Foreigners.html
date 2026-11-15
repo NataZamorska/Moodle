@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Latvian for Foreigners — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k323"><div class="chead"><h2>DL - Latvian for Foreigners</h2><div><span class="st crit"><i>✗</i>Критично</span> <b style="font-size:20px;margin-left:6px">46 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=323" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 28 %"><div class="tr"><div class="fl crit" style="width:28%"></div></div><b>28 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 25 %"><div class="tr"><div class="fl crit" style="width:25%"></div></div><b>25 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс находится на начальной стадии разработки: содержит файлы и аудиоматериалы в разделе Welcome, однако разделы тем, интерактивные задания и итоговый экзамен ещё не созданы. Необходимо развернуть 8 тематических разделов и добавить оцениваемые задания с экзаменом согласно силлабусу.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Topics 1–8: Iepazīšanās, Profesijas, Valstis, Dzīvesvieta, Pilsēta, Ikdiena, Ēdienreizes, Group work</td><td>Welcome to the Study Course! (аудио, тексты, учебные файлы)</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">средняя</span></td><td class="note">Вводные учебные материалы по лексике и темам выложены файлами в Welcome, но курс не разделен на тематические разделы. Создать 8 разделов по темам силлабуса и разложить материалы.</td></tr>
+<tr><td>задание</td><td>Classwork and practical language assignments (30 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td class="note">В курсе нет элементов Assignment для сдачи языковых заданий. Добавить практические задания по темам повседневного общения (30 %).</td></tr>
+<tr><td>задание</td><td>Independent vocabulary and grammar study (20 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td class="note">Задания на проверку самостоятельного изучения грамматики и словаря отсутствуют. Создать тесты самопроверки по грамматике и лексике (20 %).</td></tr>
+<tr><td>экзамен</td><td>Final Language Exam (written and oral test) (50 %)</td><td>—</td><td><span class="st crit"><i>✗</i>нет</span> <span class="note">высокая</span></td><td class="note">Итоговый экзаменационный тест или область сдачи в курсе отсутствуют. Создать раздел Exam с тестом Final Exam (50 %).</td></tr>
+<tr><td>литература</td><td>Auziņa I. et al. Latviešu valoda studentiem; Klēvere-Velpe I. Sāksim!</td><td>Welcome → Study Course Description</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">средняя</span></td><td class="note">Учебные пособия упомянуты в описании курса, отдельная страница Reading отсутствует. Создать страницу Reading со ссылками на учебники латышского языка.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (6)</h3>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Нет в курсе (по смыслу) · 3</div>
+<div class="pd">Classwork and practical language assignments (30 %) ≈ «—» — Добавить практические задания по темам повседневного общения (30 %).</div>
+<div class="pd">Independent vocabulary and grammar study (20 %) ≈ «—» — Создать тесты самопроверки по грамматике и лексике (20 %).</div>
+<div class="pd">Final Language Exam (written and oral test) (50 %) ≈ «—» — Создать раздел Exam с тестом Final Exam (50 %).</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Этого пункта силлабуса в курсе нет даже под другим названием. Добавьте его: тема — раздел с лекцией и тестом самопроверки; задание — <b>Assignment</b> с описанием и рубрикой; экзамен — <b>Quiz</b>.</li><li>Или, если курс ведётся по другой (новой) версии силлабуса, обновите силлабус в Welcome.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет экзамена</div>
+<div class="pd">Экзамена (Quiz «Final Exam») в курсе нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Создайте итоговый тест: <b>Add an activity or resource → Quiz</b>, название «Final Exam», вопросы — из банка вопросов курса.</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 2</div>
+<div class="pd">Topics 1–8: Iepazīšanās, Profesijas, Valstis, Dzīvesvieta, Pilsēta, Ikdiena, Ēdienreizes, Group work ≈ «Welcome to the Study Course! (аудио, тексты, учебные файлы)» — Создать 8 разделов по темам силлабуса и разложить материалы.</div>
+<div class="pd">Auziņa I. et al. Latviešu valoda studentiem; Klēvere-Velpe I. Sāksim! ≈ «Welcome → Study Course Description» — Создать страницу Reading со ссылками на учебники латышского языка.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 2</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="pd">Структура RNU — Экзамен (тест) и правила экзамена: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<details><summary>В порядке (7)</summary><ul class="plain"><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ Ссылки: внешних 3, YouTube 0, нерабочих 0</li><li>✓ Следы и оформление: чисто</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Структура RNU — Welcome / описание курса: есть</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Latvian for Foreigners.pdf (папка силлабусов); CP 6, PLO 0, тем 1, заданий 0, экзамен None %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>Welcome to the Study Course!: label ×2, resource ×13, url ×1</li><li>HIDDEN SECTION: bigbluebuttonbn ×1</li><li>Файлы: 13</li><li>Скрытые элементы: 0</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 0, заданий 0, курс 6 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«Study Course Description» — 09_Latvian_for_Foreigners.pdf, 158 КБ; автор: Irenas Macbook; создан: 07.04.2026; изменён: 07.04.2026</li><li>«LV 1.modulis. Kā tevi sauc? Kas tu esi?» — LV_1.modulis.pptx, 2688 КБ</li><li>«1a modulis_Where are you from?_No kurienes tu esi?» — 1a%20modulis_No-kurienes-tu-esi-Where-are-you-from.pptx, 1359 КБ</li><li>«1.b modulis. Where jou to live?_Kur tu dzīvo?» — 1b%20modulis_Where%20you%20to%20live_Cilv%C4%93ka-identit%C4%81te.pptx, 1530 КБ</li><li>«2.a modulis What do you see in the city? Ko tu redzi pilsētā?» — 2.a%20modulis_Ko%20tu%20redzi%20pils%C4%93t%C4%81%20What%20do%20%20you%20%20see%20in%20the%20city_Pils%C4%93tas-objekti.pptx, 2041 КБ</li><li>«2.b modulis_Ko tu redzi pilsētā (past and future tense)» — 2.b%20modulis_Ko%20tu%20redzi%20pils%C4%93t%C4%81%20%28past%20un%20future%20tense%29.pdf, 688 КБ; автор: janab; создан: 10.04.2026; изменён: 10.04.2026</li><li>«3. modulis. Daba un lauki_Nature and country» — 3.%20modulis_Nature%20and%20Farm_colors_sing_pl.pdf, 1269 КБ; автор: janab; создан: 25.03.2026; изменён: 25.03.2026</li><li>«3.a modulis_Where are you going? Uz kurieni tu ej?» — 3.a%20modulis_Where%20are%20you%20going_Uz-kurieni-tu-ej.pdf, 496 КБ; автор: janab; создан: 01.04.2026; изменён: 01.04.2026</li><li>«4. modulis. Houses and flats_ordinal numbers» — 4.%20modulis_Houses%20and%20flats_ordinal%20numbers.pdf, 1220 КБ; автор: janab; создан: 08.04.2026; изменён: 08.04.2026</li><li>«4. modulis_The furniture and home appliances» — 4.a%20modulis_The%20furniture%20%20and%20home%20appliances.pdf, 615 КБ; автор: janab; создан: 15.04.2026; изменён: 15.04.2026</li><li>«5. modulis_My family_age» — 5.%20modulis_My%20family_age.pdf, 3353 КБ; автор: janab; создан: 22.04.2026; изменён: 22.04.2026</li><li>«6. modulis_Draving_flying by_Ar ko tu brauc?» — 6.%20modulis_Draving_flying%20by_Ar%20ko%20tu%20brauc%20vai%20lido_Numbers.pdf, 1987 КБ; автор: janab; создан: 29.04.2026; изменён: 29.04.2026</li><li>«7. modulis_Mana diena_Ikdienas darbi» — 7.%20modulis_Mana-diena_Ikdienas%20darbi.pdf, 778 КБ; автор: janab; создан: 06.05.2026; изменён: 06.05.2026</li></ul></details>
+</section></main></body></html>

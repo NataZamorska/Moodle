@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Mathematical and Numerical Methods — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k335"><div class="chead"><h2>DL - Mathematical and Numerical Methods</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">60 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=335" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 85 %"><div class="tr"><div class="fl good" style="width:85%"></div></div><b>85 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 25 %"><div class="tr"><div class="fl crit" style="width:25%"></div></div><b>25 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 75 %"><div class="tr"><div class="fl warn" style="width:75%"></div></div><b>75 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс всесторонне обеспечен практическими расчетными работами: 34 задания и итоговый экзаменационный тест охватывают весь спектр тем силлабуса. Рекомендуется распределить 34 задания по тематическим разделам и настроить журнал оценок (48 % задания + 52 % экзамен).</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Topics 1–16: Limits, Derivatives, Indefinite/Definite Integrals, Multivariable Functions, Numerical Methods, Differential Equations, Complex Numbers, Laplace Transform</td><td>SELF-STUDIES ASSIGNMENTS → 34 задания, покрывающих темы 1–16</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Все темы силлабуса представлены подробными практическими расчетными заданиями (1-LIMIT, 2-DERIVATIVES, 3-INTEGRALS, 4-2VAR и т.д.), но сгружены в один раздел. Сгруппировать 34 задания по разделам тем силлабуса.</td></tr>
+<tr><td>задание</td><td>Independent problem sets and numerical analysis tasks (48 %)</td><td>assign: 34 задания в [SELF-STUDIES ASSIGNMENTS]</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">34 индивидуальных расчетных задания полностью покрывают самостоятельную работу по математическим методам. Настроить суммарный вес 48 % в журнале оценок.</td></tr>
+<tr><td>экзамен</td><td>Exam on Mathematical and Numerical Methods (52 %)</td><td>quiz: EXAM-MATHEMATICAL AND NUMERICAL METHODS</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Итоговый экзаменационный тест создан в специальном экзаменационном разделе. Настроить вес 52 % в журнале оценок.</td></tr>
+<tr><td>литература</td><td>Advanced Engineering Mathematics and Analysis; Complex Analysis &amp; Laplace Transform</td><td>Study Course Description</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">средняя</span></td><td class="note">Литература приведена в описании курса, отдельная страница Reading отсутствует. Создать страницу Reading в Welcome и добавить учебники.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (10)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 34</div>
+<div class="pd">«1-LIMIT OF SEQUENCE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2-LIMIT OF FUNCTION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3-DERIVATIVES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4-INDEFINITE INTEGRAL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5-DEFINITE INTEGRAL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6-L&#x27;HOPITAL RULE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7-FUNCTION WITH TWO VARIABLES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8-SERIES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9-MATRICES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10-1-SE-CRAMER-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10-2-SE-GAUSS-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11-VECTORS-2D-MNM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12-EIGENVALUE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«13-ODE SEPARATED VARIABLE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«14-ODE NON-HOMOGENEOUS  CAUCHI PROBLEM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«15-ODE NON-HOMOGENEOUS LINEAR-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«16-ODE LINEAR BERNULLI-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«17-ODE CHARACTERISTIC EQUATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«18-PDE CANONICAL FORM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«19-LAPLACE TRANSFORMATION F-IM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«20-LAPLACE TRANSFORMATION IM-F-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«21-LAPLACE TRANSFORMATION  DIFFERENTIATIO-2D-MNMN»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«22-LAPLACE TRANSFORMATION  INTEGRATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«23-LAPLACE TRANSFORMATION  ODE LINEAR NON-HOMOGENEOUS-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«24-LAPLACE TRANSFORMATION  ODE CHARACTERISTIC EQUATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«25-LAPLACE TRANSFORMATION ODE DUHAMEL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«26-LAPLACE TRANSFORMATION. SYSTEM OF EQUATIONS.-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«27-NUMERICAL METHODS. ROOTS FUNDING-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«28-NUMERICAL METHODS. INTERPOLATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_ESSAY_1D-MM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_ESSAY-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«EXAM_1D-MM-2025-spring»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«EXAM-TASK-2D-2025a»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«LECTURE ACTIVITIES MNM 2D»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен без допуска</div>
+<div class="pd">Экзамен «EXAM-MATHEMATICAL AND NUMERICAL METHODS»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Restrict access → Add restriction → Grade</b>: допуск по оценкам за задания — по правилам оценивания курса (например, каждое задание не ниже 40 %).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен без пароля</div>
+<div class="pd">Экзамен «EXAM-MATHEMATICAL AND NUMERICAL METHODS»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Extra restrictions on attempts → Require password</b>.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен: лимит/попытки</div>
+<div class="pd">Экзамен «EXAM-MATHEMATICAL AND NUMERICAL METHODS»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Timing → Time limit</b> и <b>Grade → Attempts allowed: 1</b> — как в правилах экзамена.</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 2</div>
+<div class="pd">Topics 1–16: Limits, Derivatives, Indefinite/Definite Integrals, Multivariable Functions, Numerical Methods, Differential Equations, Complex Numbers, Laplace Transform ≈ «SELF-STUDIES ASSIGNMENTS → 34 задания, покрывающих темы 1–16» — Сгруппировать 34 задания по разделам тем силлабуса.</div>
+<div class="pd">Advanced Engineering Mathematics and Analysis; Complex Analysis &amp; Laplace Transform ≈ «Study Course Description» — Создать страницу Reading в Welcome и добавить учебники.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 33</div>
+<div class="pd">«1-LIMIT OF SEQUENCE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2-LIMIT OF FUNCTION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3-DERIVATIVES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4-INDEFINITE INTEGRAL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5-DEFINITE INTEGRAL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6-L&#x27;HOPITAL RULE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7-FUNCTION WITH TWO VARIABLES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8-SERIES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9-MATRICES-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10-1-SE-CRAMER-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10-2-SE-GAUSS-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11-VECTORS-2D-MNM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12-EIGENVALUE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«13-ODE SEPARATED VARIABLE-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«14-ODE NON-HOMOGENEOUS  CAUCHI PROBLEM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«15-ODE NON-HOMOGENEOUS LINEAR-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«16-ODE LINEAR BERNULLI-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«17-ODE CHARACTERISTIC EQUATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«18-PDE CANONICAL FORM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«19-LAPLACE TRANSFORMATION F-IM-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«20-LAPLACE TRANSFORMATION IM-F-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«21-LAPLACE TRANSFORMATION  DIFFERENTIATIO-2D-MNMN»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«22-LAPLACE TRANSFORMATION  INTEGRATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«23-LAPLACE TRANSFORMATION  ODE LINEAR NON-HOMOGENEOUS-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«24-LAPLACE TRANSFORMATION  ODE CHARACTERISTIC EQUATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«25-LAPLACE TRANSFORMATION ODE DUHAMEL-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«26-LAPLACE TRANSFORMATION. SYSTEM OF EQUATIONS.-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«27-NUMERICAL METHODS. ROOTS FUNDING-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«28-NUMERICAL METHODS. INTERPOLATION-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_ESSAY_1D-MM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_ESSAY-2D-MNM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«EXAM_1D-MM-2025-spring»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«LECTURE ACTIVITIES MNM 2D»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 2</div>
+<div class="pd">Структура RNU — Welcome / описание курса: нет или неполно</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 41</div>
+<details><summary>подробно: 8</summary><ul class="plain"><li>1-LIMIT OF SEQUENCE-2D-MNM</li><li>2-LIMIT OF FUNCTION-2D-MNM</li><li>3-DERIVATIVES-2D-MNM</li><li>4-INDEFINITE INTEGRAL-2D-MNM</li><li>5-DEFINITE INTEGRAL-2D-MNM</li><li>6-L&#x27;HOPITAL RULE-2D-MNM</li><li>7-FUNCTION WITH TWO VARIABLES-2D-MNM</li><li>8-SERIES-2D-MNM</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (7)</summary><ul class="plain"><li>✓ Темы силлабуса в курсе: 0 из 0</li><li>✓ Пустые темы: 0</li><li>✓ Ссылки: внешних 12, YouTube 8, нерабочих 0</li><li>✓ Следы и оформление: чисто</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Структура RNU — Экзамен (тест) и правила экзамена: есть</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Mathematical and Numerical Methods.pdf (папка силлабусов); CP 6, PLO 0, тем 0, заданий 0, экзамен 52 %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>GENERAL: label ×2</li><li>EXAM-MATHEMATICAL AND NUMERICAL METHODS: quiz ×1</li><li>HIDDEN: bigbluebuttonbn ×1</li><li>SELF-STUDIES ASSIGNMENTS: assign ×34</li><li>CONTROL MATERIALS: resource ×7</li><li>NUMERICAL METHODS: quiz ×5</li><li>OPERATIONAL CALCULUS: quiz ×9</li><li>MATHEMATICAL METHODS: quiz ×9</li><li>VIDEO LECTURE: page ×1</li><li>INTRODUCTION: resource ×6</li><li>NUMERICAL METHODS: resource ×6</li><li>OPERATIONAL CALCULUS: resource ×3</li><li>MATHEMATICAL METHODS: resource ×13</li><li>Файлы: 35</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 24, заданий 34, курс 6 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«StudetList-2D-MNM-4240z-2026s» — StudentList-2D-MNM-4240z-2026s.pdf, 346 КБ; автор: Unknown Creator; создан: 08.04.2026; изменён: 08.04.2026</li><li>«StudentList-2D-4240-2025a-EXAM» — StudentList-2D-4240-2025a-EXAM.pdf, 23 КБ; автор: Mārīte Āboltiņa; создан: 30.12.2025; изменён: 30.12.2025</li><li>«StudentList-2D-4240-2025a-1911» — StudentList-2D-4240-2025a-1911.pdf, 132 КБ; автор: Mārīte Āboltiņa; создан: 19.11.2025; изменён: 19.11.2025</li><li>«StudentList-1D-MM-2025-spring-1» — StudentList-1D-MM-2025-spring-1.pdf, 141 КБ; автор: Mārīte Āboltiņa; создан: 08.05.2025; изменён: 08.05.2025</li><li>«StudentList-1D-MM-2025-spring-EXAM» — StudentList-1D-MM-2025-spring-EXAM.pdf, 177 КБ; автор: Mārīte Āboltiņa; создан: 05.06.2025; изменён: 05.06.2025</li><li>«StudentList-1D-MM-2025-spring-3» — StudentList-1D-MM-2025-spring-3.pdf, 58 КБ; автор: Mārīte Āboltiņa; создан: 15.05.2025; изменён: 15.05.2025</li><li>«StudentList-1D-MM-2025-spring-2» — StudentList-1D-MM-2025-spring-2.pdf, 138 КБ; автор: Mārīte Āboltiņa; создан: 08.05.2025; изменён: 08.05.2025</li><li>«DIF-FUNCTION-2VAR» — DIF_FUNCTION_2VAR-EN.pdf, 2542 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«ODE 2ORD-1» — ODE_2ORD-1-EN.pdf, 1234 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ODE 1ORD» — ODE-1ORD-EN.pdf, 928 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«ODE 1ORD TASKS» — ODE-1ORD-Tasks-EN.pdf, 607 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«ODE 2ORD-2» — ODE_2ORD-2-EN.pdf, 1074 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ODE 2ORD-3» — ODE_2ORD-3-EN.pdf, 2110 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ERRORS SOURCES AND CLASSIFICATION» — MNM-ERROR-EN.pdf, 1436 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«ROOT FINDING» — MNM-ROOTS-EN.pdf, 1154 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«APPROXIMATION» — MNM-APPROX-EN.pdf, 1304 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«INTERPOLATION» — MNM-INTERPOL-EN.pdf, 1210 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«ORDINARY DIFFERENTIAL EQUATION» — MNM-ODE-EN.pdf, 1112 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«INTEGRATION» — MNM-INTEGRAL-EN.pdf, 952 КБ; автор: PptxGenJS; создан: 22.10.2026; изменён: 22.10.2026</li><li>«LAPLACE TRANSFORM -1 PART» — LAPLACE-Part1-EN.pdf, 2010 КБ; автор: PptxGenJS; создан: 20.10.2026; изменён: 20.10.2026</li><li>«LAPLACE TRANSFORM -2 PART» — LAPLACE-Part2-EN.pdf, 1157 КБ; автор: PptxGenJS; создан: 20.10.2026; изменён: 20.10.2026</li><li>«RATIONAL FUNCTION» — Polynomial-Division-and-Partial-Fractions-EN.pdf, 362 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«PARTIAL DIFFERENTIAL EQUATIONS 2.ORDER» — PDE-2ORD-EN.pdf, 1437 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«WAVE EQUATION DALEMBERT» — MNM-2D-Wave-Equation-DAlembert-Formula-EN.pdf, 471 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«HEAT EQUATION_ GREEN FUNCTION» — MNM-2D-Heat%20Equation-Green-Function-EN.pdf, 430 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«HEAT EQUATION  _ GENERAL» — MNM-2D-Heat-Equation-General-and-Task-EN.pdf, 487 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«LAPLACE EQUATION _ SPHERICAL» — MNM-2D-Laplace-Cylindrical-Spherical-EN.pdf, 1079 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«LAPLACE EQUATION _ GENERAL» — MNM-2D-Laplace-Equation-General-and-Task-EN.pdf, 548 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«LAPLACE _  POISSON EQTUATION» — MNM-2D-Laplace-Poisson-and-Green-EN.pdf, 598 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«PDE _ TO_ ODE _ TRANSFORMATION» — MNM-2D-PDE-to-ODE-EN.pdf, 352 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«STURM_LIOUVILLE_PROBLEM_ PDE» — MNM-2D-SLP-PDE-EN.pdf, 446 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«STURM_LIOUVILLE PROBLEM» — MNM-2D-Sturm-Liouville-Problem-EN.pdf, 492 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«STURM_LIOUVILLE_PROBLEM_TASKS» — MNM-2D-Sturm-Liouville-Task-EN.pdf, 447 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«WAVE EQUATION_ EXAMPLE» — MNM-2D-Wave-Equation-Worked-Example-EN.pdf, 437 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li><li>«WAVE _EQUATION_TASKS» — MNM-Wave-Equation-Task-EN.pdf, 404 КБ; автор: PptxGenJS; создан: 12.10.2026; изменён: 12.10.2026</li></ul></details>
+</section></main></body></html>

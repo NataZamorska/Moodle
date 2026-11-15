@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Mathematical Foundations for Software Engineering — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k322"><div class="chead"><h2>DL - Mathematical Foundations for Software Engineering</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">65 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=322" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 97 %"><div class="tr"><div class="fl good" style="width:97%"></div></div><b>97 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 38 %"><div class="tr"><div class="fl crit" style="width:38%"></div></div><b>38 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 75 %"><div class="tr"><div class="fl warn" style="width:75%"></div></div><b>75 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс обладает колоссальным наполнением: более 80 оцениваемых задач и тестов, закрывающих абсолютно все разделы высшей математики силлабуса (линейная алгебра, анализ, ряды, ДУ). Экзамен сдан в двух частях. Основная задача — структурировать журнал оценок по категориям (модули 48 % + экзамен 52 %).</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Module 1: Linear Algebra (Matrices, Systems of Linear Equations, Eigenvalues)</td><td>LINEAR ALGEBRA. VECTOR ALGEBRA... &amp; LECTURE MATERIALS I PART</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Тема детально представлена конспектами лекций, серией заданий и тестов.</td></tr>
+<tr><td>тема</td><td>Module 2: Vector Algebra and Analytical Geometry</td><td>LECTURE MATERIALS I PART → ANALYTIC GEOMETRY, VECTORS</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Тема аналитической геометрии и векторов полностью покрыта материалами и заданиями.</td></tr>
+<tr><td>тема</td><td>Module 3: Calculus of One Variable (Limits, Derivatives, Integrals, L&#x27;Hopital)</td><td>INTRODUCTION TO MATHEMATICAL ANALYSIS &amp; LECTURE MATERIALS I</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Математический анализ глубоко проработан лекциями и 10 практическими заданиями.</td></tr>
+<tr><td>тема</td><td>Module 4: Functions of Two Variables and Differential Calculus</td><td>LECTURE MATERIALS I PART → FUNCTIONS OF 2VAR &amp; 7_TASK_0D-FUNCTION-2VAR</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Функции нескольких переменных и полный дифференциал поддержаны лекцией и заданиями.</td></tr>
+<tr><td>тема</td><td>Module 5: Number Series and Function Series</td><td>NUMBER SERIES. FUNCTION SERIES. → 8_TASK_0D-SERIES</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Тема числовых и функциональных рядов выделена в отдельный раздел с заданием.</td></tr>
+<tr><td>тема</td><td>Module 6: Ordinary Differential Equations (1st, 2nd order, Systems of ODEs)</td><td>Sections: ODE.1.ORD., ODE.2.ORD., SYSTEMS OF ODE (17 заданий)</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Дифференциальные уравнения исчерпывающе представлены тремя разделами и 17 практическими заданиями.</td></tr>
+<tr><td>задание</td><td>Self-study practice assignments and quizzes across all modules (48 %)</td><td>SELF-STUDIES ASSIGNMENTS I PART &amp; II PART (22 теста, 33 задания)</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Громадный банк практических задач и тестов (более 50 элементов) полностью покрывает самостоятельную работу. Сгруппировать задания в категории журнала с весом 48 %.</td></tr>
+<tr><td>экзамен</td><td>Final Examination (Part I and Part II) (52 %)</td><td>quiz: EXAM - MATHEMATICAL FOUNDATIONS I &amp; II PART</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Экзамен разбит на две части (I и II), по одной на каждый семестровый блок математики. Задать веса экзаменов в журнале оценок (суммарно 52 %).</td></tr>
+<tr><td>литература</td><td>Advanced Engineering Mathematics / Calculus textbooks</td><td>Study Course Description &amp; лекционные конспекты</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">средняя</span></td><td class="note">Литература интегрирована в лекционные материалы каждого раздела. Оформить страницу Reading со сводным списком литературы.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (10)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 39</div>
+<div class="pd">«EXAM_TASK_OD-2025a»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«1_TASK-1D-ODE-SEPARATE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2_TASK-1D-ODE-LINEAR-NH-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3_TASK-1D-ODE-NH-CAUCHY-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4_TASK-1D-ODE-L-NH-BERNULLI-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5_TASK-1D-FULL-EX-DIFFERENTIAL-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_TASK-1D-ODE-CREATION-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7_TASK-1D-ODE-PARAMETER-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8_TASK-1D-ODE-ORDER-DEG»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_TASK-1D-CARACTER-2RD0214754859624»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_TASK-1D-VARIABLE-2ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11_TASK-1D-PARTICULAR-SOLUTION-2ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12_TASK-1D-EULER»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«13_TASK-1D-BVP»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«14_TASK-1D-SE-ODE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«15_TASK-1D-SE-ODE-NORM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«16_TASK-1D-SE-ODE-VECTOR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«17_TASK-1D-SE-ODE-SINGULAR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8_TASK_0D-SERIES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_1-TASK-0D-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_2-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_3-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_4-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_TASK-OD-LIM-SEQ»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2-TASK-0D-LIM-FUNCTION»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3_TASK_OD-DERIVATIVES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4_TASK_0D-INTEGRAL-INDEF»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5_TASK_0D-INTEGRAL-DEF»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_1 TASK_0D-L-HOPITAL»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_2 TASK FUNCTION DIF EXTREM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7_TASK_0D-FUNCTION-2VAR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_1_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_2_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_3_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_4_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_1_TASK_0D-SE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_2_TASK_0D-SE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11_TASK_0D-VECTORS»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12_TASK_0D-EIGENVALUE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен без допуска · 2</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS I»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS II»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Restrict access → Add restriction → Grade</b>: допуск по оценкам за задания — по правилам оценивания курса (например, каждое задание не ниже 40 %).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен без пароля · 2</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS I»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS II»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Extra restrictions on attempts → Require password</b>.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Экзамен: лимит/попытки · 2</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS I»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="pd">Экзамен «EXAM - MATHEMATICAL FOUNDATIONS II»: попыток 1, лимит 0 мин, пароль НЕТ, условие допуска по оценкам: 0, вопросов/слотов 10</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Тест экзамена → <b>Settings → Timing → Time limit</b> и <b>Grade → Attempts allowed: 1</b> — как в правилах экзамена.</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе</div>
+<div class="pd">Advanced Engineering Mathematics / Calculus textbooks ≈ «Study Course Description &amp; лекционные конспекты» — Оформить страницу Reading со сводным списком литературы.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 38</div>
+<div class="pd">«1_TASK-1D-ODE-SEPARATE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2_TASK-1D-ODE-LINEAR-NH-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3_TASK-1D-ODE-NH-CAUCHY-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4_TASK-1D-ODE-L-NH-BERNULLI-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5_TASK-1D-FULL-EX-DIFFERENTIAL-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_TASK-1D-ODE-CREATION-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7_TASK-1D-ODE-PARAMETER-1ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8_TASK-1D-ODE-ORDER-DEG»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_TASK-1D-CARACTER-2RD0214754859624»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_TASK-1D-VARIABLE-2ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11_TASK-1D-PARTICULAR-SOLUTION-2ORD»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12_TASK-1D-EULER»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«13_TASK-1D-BVP»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«14_TASK-1D-SE-ODE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«15_TASK-1D-SE-ODE-NORM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«16_TASK-1D-SE-ODE-VECTOR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«17_TASK-1D-SE-ODE-SINGULAR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«8_TASK_0D-SERIES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_1-TASK-0D-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_2-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_3-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«0_4-TASK-LINE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«1_TASK-OD-LIM-SEQ»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«2-TASK-0D-LIM-FUNCTION»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«3_TASK_OD-DERIVATIVES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«4_TASK_0D-INTEGRAL-INDEF»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«5_TASK_0D-INTEGRAL-DEF»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_1 TASK_0D-L-HOPITAL»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«6_2 TASK FUNCTION DIF EXTREM»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«7_TASK_0D-FUNCTION-2VAR»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_1_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_2_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_3_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«9_4_TASK_0D-MATRICES»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_1_TASK_0D-SE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«10_2_TASK_0D-SE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11_TASK_0D-VECTORS»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«12_TASK_0D-EIGENVALUE»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 46</div>
+<details><summary>подробно: 8</summary><ul class="plain"><li>StudentList-0D-4250-4253-2025a-0501</li><li>StudentList-4250-1D-2026s</li><li>StudentList-0D-4250-4253-2025a-0501-EXAMc</li><li>StudentList-0D-4250z-2026s</li><li>1_TASK-1D-ODE-SEPARATE</li><li>2_TASK-1D-ODE-LINEAR-NH-1ORD</li><li>3_TASK-1D-ODE-NH-CAUCHY-1ORD</li><li>4_TASK-1D-ODE-L-NH-BERNULLI-1ORD</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (8)</summary><ul class="plain"><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ Ссылки: внешних 3, YouTube 0, нерабочих 0</li><li>✓ Следы и оформление: чисто</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Структура RNU — Welcome / описание курса: есть</li><li>✓ Структура RNU — Экзамен (тест) и правила экзамена: есть</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Mathematical Foundations for Software Engineering.pdf (папка силлабусов); CP 9, PLO 0, тем 6, заданий 0, экзамен 52 %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>GENERAL: label ×2, resource ×2</li><li>LECTURE MATERIALS I PART: resource ×17</li><li>SELF-STUDIES ASSIGNMENTS QUIZ 2026 - I PART: quiz ×22</li><li>EXAM - MATHEMATICAL FOUNDATIONS I PART: quiz ×1</li><li>SELF-STUDIES ASSIGNMENTS QUIZ 2026- II PART: assign ×1</li><li>EXAM - MATHEMATICAL FOUNDATIONS II PART: quiz ×1</li><li>HIDDEN SECTION: bigbluebuttonbn ×1</li><li>CONTROL MATERIALS: resource ×4</li><li>SELF-STUDIES ASSIGNMENTS II PART: assign ×17</li><li>NUMBER SERIES. FUNCTION SERIES.: assign ×1</li><li>INTRODUCTION TO MATHEMATICAL ANALYSIS: assign ×12</li><li>LINEAR ALGEBRA. VECTOR ALGEBRA. ANALYTICAL GEOMETRY. COMPLEX: assign ×8</li><li>SYSTEMS OF ODE: quiz ×2</li><li>ODE.2.ORD.: quiz ×6</li><li>ODE.1.ORD.: quiz ×4</li><li>INTRODUCTION: quiz ×6</li><li>ODE.2.ORDER: resource ×3</li><li>ODE.1.ORDER: resource ×2</li><li>INTRODUCTION: resource ×6</li><li>Файлы: 34</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 42, заданий 39, курс 9 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«Study Course Description» — 09_Mathematical_Foundations_for_Software_Engineering.pdf, 73 КБ; автор: Irenas Macbook; создан: 26.03.2026; изменён: 26.03.2026</li><li>«Study Course Description» — 09_Mathematical_Foundations_for_Software_Engineering.pdf, 73 КБ; автор: Irenas Macbook; создан: 26.03.2026; изменён: 26.03.2026</li><li>«DEFINIT INTEGRAL» — MM-0D-DEFINITE%20INTEGRAL-EN.pdf, 723 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«ANALYTIC GEOMETRY» — POINT-LINE-PLAIN-EN.pdf, 1670 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«LIMITS OF SEQUENCES» — LIMIT_SEQ-EN.pdf, 1160 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«LIMITS OF FUNCTIONS» — LIMIT_FUNC-EN.pdf, 2162 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«FUNCTIONS OF 2VAR» — DIF_FUNCTION_2VAR-EN.pdf, 2542 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«EIGENVALUE» — EIGENVALUE-EN.pdf, 1274 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«INDEFINIT INTEGRAL» — MM-0D-INDEFINIT%20INTEGRAL-EN.pdf, 625 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«IMPROPER INTEGRAL» — MM-0D-IMPROPER%20INTEGRAL-EN.pdf, 684 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«DERIVATIVE» — MM-0D-DERIVATIVE-EN.pdf, 602 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«FUNCTION ANALISYS» — MM-0D-FUNCTION-ANALISYS-EN.pdf, 4601 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«SERIES» — SERIES-EN.pdf, 4416 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«MATRICES» — MATRICES-EN.pdf, 4485 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«FRACTIONAL FUNCTION» — Polynomial-Division-and-Partial-Fractions-EN.pdf, 362 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«COMPLEX VARIABLE» — COMPLEX-EN-%D0%90.pdf, 2451 КБ; автор: PptxGenJS; создан: 01.11.2026; изменён: 01.11.2026</li><li>«SYSTEM OF LINEAR EQUATIONS» — SLE-EN.pdf, 4436 КБ; автор: PptxGenJS; создан: 21.10.2026; изменён: 21.10.2026</li><li>«VECTORS» — VECTOR-EN-A.pdf, 1730 КБ; автор: —; создан: 11.11.2026; изменён: 11.11.2026</li><li>«LHOPITAL RULE» — LHOPITAL%20RULE-EN.pdf, 486 КБ; автор: PptxGenJS; создан: 01.11.2026; изменён: 01.11.2026</li><li>«StudentList-0D-4250-4253-2025a-0501» — StudentList-0D-4250_4253-2025a-0501.pdf, 163 КБ; автор: Mārīte Āboltiņa; создан: 06.01.2026; изменён: 06.01.2026</li><li>«StudentList-4250-1D-2026s» — StudentList-4250-M2-1D-2026s.pdf, 231 КБ; автор: Unknown Creator; создан: 26.04.2026; изменён: 26.04.2026</li><li>«StudentList-0D-4250-4253-2025a-0501-EXAMc» — StudentList-0D-4250_4253-2025a-0501-EXAMc.pdf, 37 КБ; автор: Mārīte Āboltiņa; создан: 06.01.2026; изменён: 06.01.2026</li><li>«StudentList-0D-4250z-2026s» — StudentList-M1-0D-4250z-2026s.pdf, 402 КБ; автор: Unknown Creator; создан: 06.04.2026; изменён: 06.04.2026</li><li>«ODE.2.ORDER.-1» — MM-1D-ODE_2ORD-1-EN.pdf, 1234 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ODE.2.ORDER.-2» — MM-1D-ODE_2ORD-2-EN.pdf, 1074 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ODE.2.ORDER.-3» — MM-1D-ODE_2ORD-3-EN.pdf, 2110 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«ODE.1.ORDER» — MM-1D-ODE-1ORD-EN.pdf, 928 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«ODE.1.ORDER. TASKS» — MM-1D-ODE-1ORD-Tasks-EN.pdf, 607 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«INDEFINIT INTEGRAL» — MM-1D-INDEFINIT%20INTEGRAL-EN.pdf, 625 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«DEFINIT INTEGRAL» — MM-1D-DEFINITE%20INTEGRAL-EN.pdf, 723 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«IMPROPER INTEGRAL» — MM-1D-IMPROPER%20INTEGRAL-EN.pdf, 684 КБ; автор: PptxGenJS; создан: 11.10.2026; изменён: 11.10.2026</li><li>«DERIVATIVE» — MM-0D-DERIVATIVE-EN.pdf, 602 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«FUNCTION ANALISYS» — MM-0D-FUNCTION-ANALISYS-EN.pdf, 4601 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li><li>«RATIONAL FUNCTIONS» — Polynomial-Division-and-Partial-Fractions-EN.pdf, 362 КБ; автор: PptxGenJS; создан: 19.10.2026; изменён: 19.10.2026</li></ul></details>
+</section></main></body></html>

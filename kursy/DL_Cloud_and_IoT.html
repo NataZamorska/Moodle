@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - Cloud and IoT — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k330"><div class="chead"><h2>DL - Cloud and IoT</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">60 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=330" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 90 %"><div class="tr"><div class="fl good" style="width:90%"></div></div><b>90 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 25 %"><div class="tr"><div class="fl crit" style="width:25%"></div></div><b>25 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 50 %"><div class="tr"><div class="fl warn" style="width:50%"></div></div><b>50 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс чрезвычайно богат практическим содержанием: присутствуют задания по проекту Smart Home, 6 практических заданий, работа с Arduino и отчеты по лаборатории. Необходимо перенести задания в раздел Assignments, навести порядок в структуре тем и оформить Final Exam тестом.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Weeks 1–16: IoT architecture, sensors, Arduino/ESP32, Cloud platforms (AWS), MQTT, Edge computing</td><td>Lessons, Practice, Self Practice, Lab 101</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Тематика IoT и облачных сервисов подробно раскрыта в практических разделах, но не разделена по 16 неделям. Упорядочить учебные материалы по темам силлабуса.</td></tr>
+<tr><td>задание</td><td>IoT Smart Home Automation Project (20 %)</td><td>assign: Design and Development of an IoT-Based Automation System for Smart Home in [Reading]</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Название и содержание проекта «Smart Home Automation» полностью совпадают с силлабусом. Перенести задание из раздела Reading в раздел Assignments с весом 20 %.</td></tr>
+<tr><td>задание</td><td>Laboratory assignments: Cloud Computing &amp; Networking (20 %)</td><td>assign: Cloud Computing and Networking Laboratory Assignments &amp; Practice 1–6</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Серия лабораторных заданий и практик в курсе покрывает лабораторный практикум силлабуса. Объединить лабораторные работы в категорию с весом 20 %.</td></tr>
+<tr><td>задание</td><td>Arduino Interfacing and Hardware Lab Reports (10 %)</td><td>assign: Team work. Arduino interfacing &amp; Lab 101 Reports (Cable, Arduino, Lab 3, 4)</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Практические отчеты по Arduino и лабораторным работам соответствуют практическому блоку. Настроить вес 10 % в журнале оценок.</td></tr>
+<tr><td>экзамен</td><td>Final Exam on Cloud &amp; IoT (50 %)</td><td>assign: Exam Tickets in [Retake Final Exam 2026]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">средняя</span></td><td class="note">Экзаменационные билеты выложены в виде задания в разделе пересдач, а не регулярного теста Final Exam. Создать тест Final Exam в разделе Exam с ограничением времени и весом 50 %.</td></tr>
+<tr><td>литература</td><td>Internet of Things from Scratch: Build IoT solutions with ESP32, Raspberry Pi, and AWS</td><td>Reading → материалы</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Раздел Reading присутствует в курсе и содержит профильные материалы.</td></tr>
+<tr><td>лишнее</td><td>—</td><td>AWS Training written report 1 in [Self Practice]</td><td><span class="st warn"><i>!</i>нет в силлабусе</span></td><td class="note">Дополнительный отчет по тренингу AWS, полезен для практики, но не выделен в отдельный вес силлабуса.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (9)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет экзамена</div>
+<div class="pd">Экзамена (Quiz «Final Exam») в курсе нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Создайте итоговый тест: <b>Add an activity or resource → Quiz</b>, название «Final Exam», вопросы — из банка вопросов курса.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 18</div>
+<div class="pd">«Retake Final Exam 2026 → Exam Tickets»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Reading → Design and Development of an Internet of Things (IOT) - Based Automati»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Cloud Computing and Networking Laboratory Assignments»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 1»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 2»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 3»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 4»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 5»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice 6 IPv6»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice → Netwoking»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice → Answers for Exam questions»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Self Practice → Team work. Arduino interfacing.»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Reading Week 1-4 To Do»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«AWS Training written report 1»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice in Lab 101 Reports → Cable connection»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Practice in Lab 101 Reports → Arduino»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Lab 3»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«Lab 4»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 2</div>
+<div class="pd">Weeks 1–16: IoT architecture, sensors, Arduino/ESP32, Cloud platforms (AWS), MQTT, Edge computing ≈ «Lessons, Practice, Self Practice, Lab 101» — Упорядочить учебные материалы по темам силлабуса.</div>
+<div class="pd">Final Exam on Cloud &amp; IoT (50 %) ≈ «assign: Exam Tickets in [Retake Final Exam 2026]» — Создать тест Final Exam в разделе Exam с ограничением времени и весом 50 %.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Оценивается, но нет в силлабусе</div>
+<div class="pd">«AWS Training written report 1 in [Self Practice]» — Дополнительный отчет по тренингу AWS, полезен для практики, но не выделен в отдельный вес силлабуса.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Оцениваемый элемент есть в курсе, но в силлабусе его нет. Либо уберите его из журнала оценок (или сделайте неоцениваемым), либо внесите в силлабус.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 2</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 3</div>
+<div class="pd">Структура RNU — Welcome / описание курса: нет или неполно</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="pd">Структура RNU — Экзамен (тест) и правила экзамена: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Видна дата изменения</div>
+<div class="pd">«Display last modified date» на страницах: ВКЛЮЧЁН на 1: Cloud Computing and Networking Laboratory Assignments</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Каждая страница из списка → <b>Settings → Appearance</b> → снимите <b>Display last modified date</b> → Save.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 21</div>
+<details><summary>подробно: 8</summary><ul class="plain"><li>Exam Tickets</li><li>Practice 2</li><li>Practice 3</li><li>Practice 4</li><li>Practice 5</li><li>Packet tracer</li><li>Practice 6 IPv6</li><li>Netwoking</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (6)</summary><ul class="plain"><li>✓ Темы силлабуса в курсе: 0 из 0</li><li>✓ Пустые темы: 0</li><li>✓ Ссылки: внешних 10, YouTube 3, нерабочих 0</li><li>✓ Следы и оформление: чисто</li><li>✓ Welcome: контакт преподавателя — есть</li><li>✓ Welcome: правила оценивания — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл Cloud and IoT.pdf (папка силлабусов); CP 3, PLO 0, тем 0, заданий 0, экзамен 50 %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>GENERAL: label ×3, resource ×1</li><li>Retake Final Exam 2026: assign ×1</li><li>Lessons: resource ×6</li><li>Reading: assign ×1</li><li>Practice: assign ×9, page ×1, resource ×13, url ×1</li><li>Self Practice: assign ×3</li><li>Practice in Lab 101 Reports: assign ×4</li><li>HIDDEN SECTION: bigbluebuttonbn ×1</li><li>Файлы: 20</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 0, заданий 18, курс 3 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«Syllabus» — IoT_Cloud_Computing_Syllabus.docx, 20 КБ</li><li>«Lesson 1» — IoT%20Introduction.pdf, 812 КБ; автор: Microsoft Office User; создан: 08.09.2025; изменён: 08.09.2025</li><li>«Lesson 1. Cont. 1» — Lesson%201%20Cont.1.pdf, 1771 КБ; автор: RNU; создан: 28.09.2026; изменён: 28.09.2026</li><li>«Lesson 1 Cont.2» — Lesson%201%20Cont.%20Sensing_Sensors%20and%20Transducers_%20Sensor%20Classes_%20Sensor%20Types.pdf, 1509 КБ; автор: RNU; создан: 28.09.2026; изменён: 28.09.2026</li><li>«Lesson 2» — IP%20adress.pdf, 210 КБ; автор: Jelena Caiko; создан: 13.10.2025; изменён: 13.10.2025</li><li>«Lesson 2. Cont. 1» — Lesson%202%20Cont.1.pdf, 1652 КБ; автор: RNU; создан: 28.09.2026; изменён: 28.09.2026</li><li>«Lesson 3 Introduction to Cloud» — Introduction%20to%20Cloud.pptx, 337 КБ</li><li>«4.6.5 Packet Tracer - Connect a Wired and Wireless LAN» — 4.6.5%20Packet%20Tracer%20-%20Connect%20a%20Wired%20and%20Wireless%20LAN.pka, 526 КБ</li><li>«12.6.6 Packet Tracer - Configure IPv6 Addressing» — 12.6.6%20Packet%20Tracer%20-%20Configure%20IPv6%20Addressing%20%281%29.pka, 739 КБ</li><li>«1.5.5 Network representation» — 1.5.7%20Packet%20Tracer%20-%20Network%20Representation.pka, 1231 КБ</li><li>«2.3.7 Packet Tracer - Navigate the IOS» — 2.3.7%20Packet%20Tracer%20-%20Navigate%20the%20IOS.pka, 153 КБ</li><li>«2.5.5 Packet Tracer - Configure Initial Switch Settings» — 2.5.5%20Packet%20Tracer%20-%20Configure%20Initial%20Switch%20Settings.pka, 191 КБ</li><li>«2.7.6 Packet Tracer - Implement Basic Connectivity» — 2.7.6%20Packet%20Tracer%20-%20Implement%20Basic%20Connectivity.pka, 521 КБ</li><li>«2.9.1 Packet Tracer - Basic Switch and End Device Configuration» — 2.9.1%20Packet%20Tracer%20-%20Basic%20Switch%20and%20End%20Device%20Configuration.pka, 193 КБ</li><li>«3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action» — 3.5.5%20Packet%20Tracer%20-%20Investigate%20the%20TCP-IP%20and%20OSI%20Models%20in%20Action.pka, 598 КБ</li><li>«4.6.5 Packet Tracer - Connect a Wired and Wireless LAN» — 4.6.5%20Packet%20Tracer%20-%20Connect%20a%20Wired%20and%20Wireless%20LAN.pka, 550 КБ</li><li>«4.7.1 Packet Tracer - Connect the Physical Layer» — 4.7.1%20Packet%20Tracer%20-%20Connect%20the%20Physical%20Layer.pka, 535 КБ</li><li>«9.1.3 Packet Tracer - Identify MAC and IP Addresses» — 9.1.3%20Packet%20Tracer%20-%20Identify%20MAC%20and%20IP%20Addresses.pka, 669 КБ</li><li>«9.2.9 Packet Tracer - Examine the ARP Table» — 9.2.9%20Packet%20Tracer%20-%20Examine%20the%20ARP%20Table.pka, 688 КБ</li><li>«Final exam» — Final%20exam%20for%20the%20course%20Internet%20of%20Things%20and%20Cloud.docx, 19 КБ</li></ul></details>
+</section></main></body></html>

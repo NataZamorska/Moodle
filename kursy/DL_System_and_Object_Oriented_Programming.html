@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DL - System and Object-Oriented Programming — проверка</title><style>
+:root{--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--base:#c3c2b7;
+--ring:rgba(11,11,11,.10);--bar:#2a78d6;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root{--page:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+--base:#383835;--ring:rgba(255,255,255,.10);--bar:#3987e5;--chip:#262624}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 12px}
+h3{font-size:16px;margin:18px 0 8px}.sub{color:var(--ink2);margin:0 0 20px}a{color:var(--bar)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.tile .n{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--ink2);font-size:13px}
+.st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.st i{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;font-size:10px;color:#fff}
+.st.good{background:color-mix(in srgb,var(--good) 16%,transparent)}.st.good i{background:var(--good)}
+.st.warn{background:color-mix(in srgb,var(--warn) 22%,transparent)}.st.warn i{background:var(--warn);color:#0b0b0b}
+.st.crit{background:color-mix(in srgb,var(--crit) 16%,transparent)}.st.crit i{background:var(--crit)}
+.st.none{background:var(--chip)}.st.none i{background:var(--muted)}
+.meter{display:flex;align-items:center;gap:8px;min-width:120px}.meter .tr{flex:1;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter .fl{height:100%;border-radius:4px}.meter b{font-variant-numeric:tabular-nums;font-weight:600;min-width:38px;text-align:right;font-size:13px}
+.fl.good{background:var(--good)}.fl.warn{background:var(--warn)}.fl.crit{background:var(--crit)}
+.bars{display:grid;grid-template-columns:minmax(150px,240px) 1fr 40px;gap:6px 12px;align-items:center}
+.bars .bt{height:14px;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}.bars .bn{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.bars .bl{font-size:14px}.bars .row{display:contents}.bars .row:hover .bl{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+th:hover{color:var(--ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}tr:hover td{background:color-mix(in srgb,var(--bar) 5%,transparent)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 10px}input,select{font:inherit;padding:6px 10px;border:1px solid var(--base);border-radius:8px;background:var(--surface);color:var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 22px;margin:10px 0}.areas .an{font-size:13px;color:var(--ink2)}
+.prob{border-left:3px solid var(--crit);padding:8px 12px;margin:10px 0;background:color-mix(in srgb,var(--crit) 4%,transparent);border-radius:0 8px 8px 0}
+.prob.a-frm,.prob.a-wel{border-left-color:var(--warn);background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.prob .pt{font-weight:600}.prob .pd{color:var(--ink2);font-size:13px;margin:3px 0;overflow-wrap:anywhere}.prob ol{margin:6px 0 0;padding-left:20px}
+.prob .ar{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details{margin:8px 0}summary{cursor:pointer;color:var(--ink2)}ul.plain{margin:6px 0;padding-left:20px;font-size:13px;color:var(--ink2)}
+.course{margin-top:26px}.course h2{margin:0}.chead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.note{font-size:13px;color:var(--ink2)}code{background:var(--chip);padding:0 4px;border-radius:4px}
+@media print{th{position:static}.tools{display:none}details{display:block}}
+</style></head><body><main><p class="note"><a href="../index.html">← сводка по всем курсам</a></p>
+<p class="sub">Результат проверки курса «как комиссия» и что исправить — по порядку важности. Только чтение: в курсе ничего не менялось.</p>
+<section class="course card" id="k331"><div class="chead"><h2>DL - System and Object-Oriented Programming</h2><div><span class="st warn"><i>!</i>Доработать</span> <b style="font-size:20px;margin-left:6px">55 %</b></div></div>
+<p class="note">Проверка 15.11.2026 20:36 · <a href="https://moodle.rnu.lv/course/view.php?id=331" target="_blank" rel="noopener">открыть курс в Moodle</a></p>
+<div class="areas"><div><div class="an">Соответствие силлабусу</div><div class="meter" title="Соответствие силлабусу: 80 %"><div class="tr"><div class="fl good" style="width:80%"></div></div><b>80 %</b></div></div><div><div class="an">Наполнение тем</div><div class="meter" title="Наполнение тем: 100 %"><div class="tr"><div class="fl good" style="width:100%"></div></div><b>100 %</b></div></div><div><div class="an">Оценивание</div><div class="meter" title="Оценивание: 0 %"><div class="tr"><div class="fl crit" style="width:0%"></div></div><b>0 %</b></div></div><div><div class="an">Welcome и структура RNU</div><div class="meter" title="Welcome и структура RNU: 12 %"><div class="tr"><div class="fl crit" style="width:12%"></div></div><b>12 %</b></div></div><div><div class="an">Оформление и ссылки</div><div class="meter" title="Оформление и ссылки: 50 %"><div class="tr"><div class="fl warn" style="width:50%"></div></div><b>50 %</b></div></div></div>
+<h3>Сверка с силлабусом по смыслу</h3><p class="note">Названия в курсе и в силлабусе могут отличаться («Test» вместо «Assignment»). Здесь сравнивали по смыслу: название, раздел, описание. Это предложение, а не решение — проверьте. Курс обладает богатейшей практической базой: представлены 5 заданий по C++, сертификация, презентация проекта и экзаменационные блоки (теория и практика). Необходимо разбить единый массив из 26 лекций по темам силлабуса и настроить веса в журнале оценок.</p>
+<div style="overflow:auto"><table><thead><tr><th>Что</th><th>В силлабусе</th><th>В курсе</th><th>Итог</th><th>Почему / что сделать</th></tr></thead><tbody>
+<tr><td>тема</td><td>Topics 1–12: System Programming, C++ Fundamentals, Classes &amp; Objects, Inheritance, Polymorphism, Exceptions, Templates, Memory, File I/O, Advanced C++</td><td>System and Object-Oriented Programming (26 учебных презентаций)</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">26 презентаций исчерпывающе покрывают темы системного и объектно-ориентированного программирования, но выложены в общем разделе. Разделить курс на разделы по темам силлабуса.</td></tr>
+<tr><td>задание</td><td>System programming and OOP programming exercises in C++ (25 %)</td><td>assign: Assignment : 1, Assignment 2, Assignment 3, Assignment 4, Assignment 1 to 5</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Серия из 5 практических заданий полностью закрывает упражнения по системному программированию и C++. Объединить задания в категорию с весом 25 % в журнале.</td></tr>
+<tr><td>задание</td><td>Certification presentation (C++ / OOP certification) (10 %)</td><td>assign: Certification presentation in [System and OOP]</td><td><span class="st good"><i>✓</i>есть</span> <span class="note">высокая</span></td><td class="note">Задание на сертификацию полностью совпадает с силлабусом. Задать вес 10 % в журнале оценок.</td></tr>
+<tr><td>задание</td><td>Mini project: Team-based interactive C++ application and presentation (15 %)</td><td>assign: Course Presentation in [System and OOP]</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Задание Course Presentation по смыслу является защитой проекта по программированию. Переименовать в «Mini Project: C++ Interactive Application and Demo» (15 %).</td></tr>
+<tr><td>экзамен</td><td>Final Exam on System and OOP in C++ (50 %)</td><td>assign: Final Exam, Practical exam, Exam: for those who are not in Latvia</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">высокая</span></td><td class="note">Экзамен представлен теорией и практикой в виде заданий на сдачу. Настроить суммарный вес экзамена 50 % в журнале оценок.</td></tr>
+<tr><td>литература</td><td>The C++ Standard Library (Rainer Grimm); Mastering OOP in Modern C++ (Ayman Alheraki)</td><td>—</td><td><span class="st warn"><i>≈</i>похоже</span> <span class="note">низкая</span></td><td class="note">Проверить список литературы на вводной странице курса. Создать страницу Reading в Welcome со списком учебников по C++.</td></tr>
+<tr><td>лишнее</td><td>—</td><td>11.12.2025 programming test in [System and OOP]</td><td><span class="st warn"><i>!</i>нет в силлабусе</span></td><td class="note">Промежуточный тест по программированию; полезен для текущего контроля, но не выделен в отдельный вес силлабуса.</td></tr>
+</tbody></table></div>
+<h3>Что исправить — по порядку (10)</h3>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет экзамена</div>
+<div class="pd">Экзамена (Quiz «Final Exam») в курсе нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Создайте итоговый тест: <b>Add an activity or resource → Quiz</b>, название «Final Exam», вопросы — из банка вопросов курса.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Рубрика не готова · 11</div>
+<div class="pd">«Assignment : 1 - 14-09-2023 Classwork»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 2»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Practical exam»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 3»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 4»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 1 to 5»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Exam: for those who are not in Latvia»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Final Exam»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Certification presentation»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="pd">«System and Object-Oriented Programming → Course Presentation»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«11.12.2025 programming test»: макс. 10, метод ?, рубрика НЕ готова, срок есть</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Grade</b>: Type <b>Point</b>, Maximum grade <b>10</b>, Grading method <b>Rubric</b> → Save and display.</li><li>Затем <b>More → Advanced grading → Define new grading form from scratch</b>: критерии и уровни, внизу <b>Save rubric and make it ready</b> (статус должен стать «Ready for use»).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Похоже, но названо иначе · 4</div>
+<div class="pd">Topics 1–12: System Programming, C++ Fundamentals, Classes &amp; Objects, Inheritance, Polymorphism, Exceptions, Templates, Memory, File I/O, Advanced C++ ≈ «System and Object-Oriented Programming (26 учебных презентаций)» — Разделить курс на разделы по темам силлабуса.</div>
+<div class="pd">Mini project: Team-based interactive C++ application and presentation (15 %) ≈ «assign: Course Presentation in [System and OOP]» — Переименовать в «Mini Project: C++ Interactive Application and Demo» (15 %).</div>
+<div class="pd">Final Exam on System and OOP in C++ (50 %) ≈ «assign: Final Exam, Practical exam, Exam: for those who are not in Latvia» — Настроить суммарный вес экзамена 50 % в журнале оценок.</div>
+<div class="pd">The C++ Standard Library (Rainer Grimm); Mastering OOP in Modern C++ (Ayman Alheraki) ≈ «—» — Создать страницу Reading в Welcome со списком учебников по C++.</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Элемент по смыслу соответствует силлабусу, но назван иначе. Переименуйте его как в силлабусе: элемент → <b>Settings → Name</b> (раздел — <b>Edit → Edit settings → Section name</b>).</li><li>Если элемент только частично покрывает пункт силлабуса — допишите в описание недостающее (цель, что сдать, критерии, PLO).</li></ol></div>
+<div class="prob a-syl"><div class="ar">Соответствие силлабусу</div><div class="pt">Оценивается, но нет в силлабусе</div>
+<div class="pd">«11.12.2025 programming test in [System and OOP]»</div>
+<details><summary>подробно: 2</summary><ul class="plain"><li>Промежуточный тест по программированию</li><li>полезен для текущего контроля, но не выделен в отдельный вес силлабуса.</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Оцениваемый элемент есть в курсе, но в силлабусе его нет. Либо уберите его из журнала оценок (или сделайте неоцениваемым), либо внесите в силлабус.</li></ol></div>
+<div class="prob a-ass"><div class="ar">Оценивание</div><div class="pt">Нет срока сдачи · 9</div>
+<div class="pd">«Assignment : 1 - 14-09-2023 Classwork»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 2»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Practical exam»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 3»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 4»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«Assignment 1 to 5»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Exam: for those who are not in Latvia»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Final Exam»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="pd">«System and Object-Oriented Programming → Course Presentation»: макс. 10, метод ?, рубрика НЕ готова, срок не задан</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Задание → <b>Settings → Availability → Due date: Enable</b> и укажите срок сдачи.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Неполный Welcome · 3</div>
+<div class="pd">Welcome: правила оценивания — нет</div>
+<div class="pd">Welcome: академическая честность — нет</div>
+<div class="pd">Welcome: правила по ИИ — нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>В разделе Welcome должны быть: описание курса, контакт преподавателя, правила оценивания, академическая честность, правила использования ИИ — отдельными страницами (<b>Page</b>).</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет части структуры RNU · 3</div>
+<div class="pd">Структура RNU — Welcome / описание курса: нет или неполно</div>
+<div class="pd">Структура RNU — Задания с описанием и критериями: нет или неполно</div>
+<div class="pd">Структура RNU — Экзамен (тест) и правила экзамена: нет или неполно</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Структура курса RNU: Welcome (описание и правила) → темы по силлабусу с материалами → задания с описанием и критериями → экзамен с правилами. Добавьте недостающую часть.</li></ol></div>
+<div class="prob a-wel"><div class="ar">Welcome и структура RNU</div><div class="pt">Нет Announcements</div>
+<div class="pd">Announcements: нет</div>
+<div class="note"><b>Как исправить:</b></div><ol><li><b>Course → Settings → Appearance → Number of announcements</b>: 5 — Moodle создаст форум <b>Announcements</b>; опубликуйте в нём приветствие.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Следы и заглушки</div>
+<div class="pd">Следы и оформление: 1 замечаний — course page: заглушки [endif], [if !supportLists]</div>
+<div class="note"><b>Как исправить:</b></div><ol><li>Откройте элемент из списка → <b>Settings</b> (или Edit) и уберите: заглушки в квадратных скобках, упоминания инструментов, обрывки тегов, зачёркнутый текст.</li><li>Весь текст для студентов — на английском.</li></ol></div>
+<div class="prob a-frm"><div class="ar">Оформление и ссылки</div><div class="pt">Скрытые элементы</div>
+<div class="pd">Скрытые элементы: 6</div>
+<details><summary>подробно: 6</summary><ul class="plain"><li>Assignment : 1 - 14-09-2023 Classwork</li><li>Assignment 2</li><li>Lecture 14 : sys oops CH14</li><li>Assignment 3</li><li>Assignment 4</li><li>Exam: for those who are not in Latvia</li></ul></details>
+<div class="note"><b>Как исправить:</b></div><ol><li>Скрытые элементы либо покажите студентам (<b>⋮ → Show</b>), либо удалите, если они больше не нужны.</li></ol></div>
+<details><summary>В порядке (5)</summary><ul class="plain"><li>✓ Пустые темы: 0</li><li>✓ Обязательная литература на страницах курса: 0 из 0</li><li>✓ Ссылки: внешних 7, YouTube 0, нерабочих 0</li><li>✓ «Display last modified date» на страницах: выключен везде</li><li>✓ Welcome: контакт преподавателя — есть</li></ul></details>
+<details><summary>Что сейчас есть в курсе</summary><ul class="plain"><li>Силлабус: файл System and Object-Oriented Programming.pdf (папка силлабусов); CP 6, PLO 0, тем 7, заданий 0, экзамен None %</li><li>Журнал оценок: агрегация «?»; веса: нет элементов</li><li>GENERAL: label ×4, resource ×1</li><li>System and Object-Oriented Programming: assign ×11, resource ×15</li><li>HIDDEN SECTION: bigbluebuttonbn ×1</li><li>Файлы: 16</li><li>Объём: книги 0 слов (~0 мин чтения), тестов 0, заданий 11, курс 6 CP</li></ul></details>
+<details><summary>Файлы курса (метаданные)</summary><ul class="plain"><li>«System and Object Oriented Programming EN  23-24» — 07_System%20and%20Object_Oriented%20Programming_EN%20_23-24.pdf, 255 КБ; автор: Jelena Caiko; создан: 11.09.2023; изменён: 11.09.2023</li><li>«Instructions for DEBT Students.» — System%20and%20Object-Oriented%20Programming.pdf, 246 КБ; автор: Shivank Dubey; создан: 24.04.2024; изменён: 24.04.2024</li><li>«Instructions for part-time/DL Students» — System%20and%20Object-Oriented%20Programming.pdf, 246 КБ; автор: Shivank Dubey; создан: 28.04.2024; изменён: 28.04.2024</li><li>«Lecture 1 sys oops intro CH01» — sys_oops_intro_CH01.pdf, 1196 КБ; автор: Microsoft Office User; создан: 11.09.2023; изменён: 11.09.2023</li><li>«Lecture 2 sys oops CH02» — sys_oops_CH02.pdf, 1131 КБ; автор: Microsoft Office User; создан: 14.09.2023; изменён: 14.09.2023</li><li>«Lecture 3 sys oops  CH03» — sys_oops_CH03.pdf, 905 КБ; автор: Microsoft Office User; создан: 21.09.2023; изменён: 21.09.2023</li><li>«Lecture 4 : sys oops CH04» — sys_oops_CH04.pdf, 997 КБ; автор: Microsoft Office User; создан: 28.09.2023; изменён: 28.09.2023</li><li>«Lecture 5 : sys oops CH05» — sys_oops_CH05.pdf, 1220 КБ; автор: Microsoft Office User; создан: 04.11.2023; изменён: 04.11.2023</li><li>«Lecture 6 : sys oops CH06» — sys_oops_CH06.pdf, 650 КБ; автор: Microsoft Office User; создан: 04.11.2023; изменён: 04.11.2023</li><li>«Lecture 7_8 : sys oops CH07_08» — sys_oops_CH07_8.pdf, 412 КБ; автор: Microsoft Office User; создан: 04.11.2023; изменён: 04.11.2023</li><li>«Lecture 9 : sys oops CH09» — sys_oops_CH09.pdf, 827 КБ; автор: Microsoft Office User; создан: 04.11.2023; изменён: 04.11.2023</li><li>«Lecture 10 : sys oops CH10» — sys_oops_CH10.pdf, 687 КБ; автор: Microsoft Office User; создан: 13.11.2023; изменён: 13.11.2023</li><li>«Lecture 11 : sys oops CH11» — sys_oops_CH11.pdf, 701 КБ; автор: Microsoft Office User; создан: 07.01.2024; изменён: 07.01.2024</li><li>«Lecture 12 : sys oops CH12» — sys_oops_CH12.pdf, 497 КБ; автор: Microsoft Office User; создан: 07.01.2024; изменён: 07.01.2024</li><li>«Lecture 13 : sys oops CH13» — sys_oops_CH13.pdf, 326 КБ; автор: Microsoft Office User; создан: 07.01.2024; изменён: 07.01.2024</li><li>«Lecture 14 : sys oops CH14» — sys_oops_CH14.pdf, 321 КБ; автор: Microsoft Office User; создан: 07.01.2024; изменён: 07.01.2024</li></ul></details>
+</section></main></body></html>
